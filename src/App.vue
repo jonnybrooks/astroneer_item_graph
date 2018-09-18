@@ -3,9 +3,14 @@
 </template>
 
 <script>
+    import {result} from "./dist/graph";
+
     export default {
         name: 'App',
-        components: {}
+        mounted() {
+            console.log(result);
+        },
+        components: {},
     }
 </script>
 
