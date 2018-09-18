@@ -1,98 +1,125 @@
-type EdgeMatrix = number[][];
-type ItemCatalogue = Array<{name: string, rank: number, reqs: {[item_name: string]: number} }>;
-type DependencyTable = Array<Array<{}>>
+import graphConfig from "./graph_config";
 
-function createEmptyEdgeMatrix(vertexCount: number): EdgeMatrix {
-    let arr = [];
-    for (let i = 0; i < vertexCount; i++) {
-        arr[i] = new Array(vertexCount);
+/*
+* Data object for vertex
+* */
+class Item {
+    public readonly name: string;
+    public readonly rank: number;
+    constructor(name: string, rank: number) {
+        this.name = name;
+        this.rank = rank;
     }
-    return arr;
 }
 
-function populateEdgeMatrix(matrix: EdgeMatrix, catalogue: ItemCatalogue) {
-    // Create a hash map of the item indices in the catalogue
-    const itemIndices = catalogue.reduce((acc, curr, i) =>
-        Object.assign(acc, {[curr.name]: i}), {});
+/*
+* Represents a node in the dependency tree
+* */
+class Vertex {
+    public readonly index: number;
+    public data: Item;
+    constructor(index: number, data?: Item) {
+        this.index = index;
+        this.data = data;
+    }
+    // withData(data: Item): Vertex {
+    //     this.data = data;
+    //     return this;
+    // }
+}
 
-    // Add the edges to the matrix
-    catalogue.forEach(({reqs}, x) => {
-        for(const r in reqs) {
-            const y = itemIndices[r];
-            matrix[x][y] = reqs[r];
+/*
+* Represents a single dependency, directional dependency between two vertices (items)
+* */
+class Edge {
+    private from: Vertex;
+    private to: Vertex;
+    public readonly amount: number;
+    constructor(from: Vertex, to: Vertex, amount: number) {
+        this.from = from;
+        this.to = to;
+        this.amount = amount;
+    }
+}
+
+/*
+* Minimal adjacency matrix representation
+* */
+class SparseMatrix {
+    private rows: number[] = [];
+    private cols: number[] = [];
+    private vals: Edge[] = [];
+
+    addEdge(edge) {
+        this.rows.push(edge.to.index);
+        this.cols.push(edge.from.index);
+        this.vals.push(edge);
+    }
+
+    getEdge(to: number, from: number): Edge | undefined {
+        for(let i = 0; i < this.rows.length; i++) {
+            if(this.rows[i] === to && this.cols[i] === from)
+                return this.vals[i];
         }
-    });
-
-    return matrix;
-}
-
-function getFacilitationGraph(itemName: string, catalogue: ItemCatalogue, matrix: EdgeMatrix) {
-    const itemIndex = catalogue.findIndex(item => item.name == itemName);
-    for(let i = 0; i < matrix.length; i++) {
-        console.log(catalogue[i].name, matrix[i][itemIndex]);
     }
 }
 
-function buildDependencyTable(
-    v: number, catalogue: ItemCatalogue, matrix: EdgeMatrix, localPath = [], allPaths = []) {
-
-    // Get this vertex's row
-    let row = matrix[v];
-
-    // If we're at a level 0 item, add the path to the list
-    if(!row.some(val => val > 0)) {
-        return allPaths.push(localPath);
+/*
+* Graph class
+* */
+class Graph {
+    public edges: SparseMatrix;
+    private readonly vertices: Vertex[];
+    constructor(edges: SparseMatrix, vertices: Vertex[] = []) {
+        this.edges = edges;
+        this.vertices = vertices;
     }
 
-    // Else recurse over the dependencies and save the paths from the recursive calls
-    row.forEach((val, next) => {
-        if(val <= 0) return;
-        const scopedPath = localPath.slice(0);
-        scopedPath.push({ name: catalogue[next].name, amt: val });
-        buildDependencyTable(next, catalogue, matrix, scopedPath, allPaths);
-    });
+    // reserveVertex(): Vertex {
+    //     const index = this.vertices.length;
+    //     const v = new Vertex(index);
+    //     this.vertices.push(v);
+    //     return v;
+    // }
 
-    return allPaths;
+    addVertex(v: Vertex) {
+        this.vertices[v.index] = v;
+        return;
+    }
+
+    getVertex(index: number): Vertex {
+        return this.vertices[index];
+    }
 }
 
-const catalogue: ItemCatalogue = [
-    // Level 0 requirements
-    { name: "bytes", rank: 0, reqs: {} },
-    { name: "compound", rank: 0, reqs: {} },
-    { name: "resin", rank: 0, reqs: {} },
-    { name: "laterite", rank: 0, reqs: {} },
+/*
+* Graph utility functions
+* */
+namespace Graph {
 
-    // level 1 requirements
-    { name: "medium_platform_a", rank: 1, reqs: { resin: 1 }},
-    { name: "large_platform_a", rank: 1, reqs: { resin: 2 }},
+    type VertexConfig = {index: number, data: { name: string, rank: number }};
+    type EdgeConfig = {from: number, to: number, amount: number};
+    type GraphConfig = { vertices: VertexConfig[], edges: EdgeConfig[] };
 
-    // level 2 requirements
-    { name: "medium_fabricator", rank: 2, reqs: { compound: 2, medium_platform_a: 1 }},
-    { name: "smelting_furnace", rank: 2, reqs: { compound: 2, large_platform_a: 1, bytes: 500 }},
-    { name: "vehicle_bay", rank: 2, reqs: { compound: 3, large_platform_a: 1, bytes: 250 }},
+    export function loadGraphConfig(config: GraphConfig) {
+        const graph = new Graph(new SparseMatrix());
 
-    // level 3 requirements
-    { name: "aluminum", rank: 3, reqs: { laterite: 1, smelting_furnace: 1 }},
+        for(let v of config.vertices) {
+            const data = new Item(v.data.name, v.data.rank);
+            graph.addVertex(new Vertex(v.index, data));
+        }
 
-    // level 4 requirements
-    { name: "buggy", rank: 4, reqs: { compound: 1, aluminum: 1, vehicle_bay: 1, bytes: 1500 }}
-];
+        for(let e of config.edges) {
+            const to = graph.getVertex(e.to);
+            const from = graph.getVertex(e.from);
+            if(!to || !from) throw new Error("Error loading config: vertices not found on graph");
+            graph.edges.addEdge(new Edge(to, from, 2));
+        }
 
-// Sort the catalogue alphabetically
-catalogue.sort((a, b) =>
-    a.name < b.name ? -1 : a.name > b.name ? 1 : 0);
-
-// Create a V x V matrix where V is number of vertices in the item graph
-let numVertices = catalogue.length;
-let matrix = createEmptyEdgeMatrix(numVertices);
-
-// Populate the matrix with edges
-populateEdgeMatrix(matrix, catalogue);
-
-// Get the dependency table
-export function getDependencyTable(itemName: string) {
-    const vertex = catalogue.findIndex(item => item.name == itemName);
-    const paths = buildDependencyTable(vertex, catalogue, matrix) as DependencyTable;
-    // paths.sort((a, b) => a.length - b.length);
-    return paths;
+        return graph;
+    }
 }
+
+// const g = Graph.loadGraphConfig(graphConfig);
+// console.log(g.edges.getEdge(0, 1));
+// console.log(g.edges.getEdge(1, 0));
