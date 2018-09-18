@@ -1,5 +1,6 @@
 type EdgeMatrix = number[][];
 type ItemCatalogue = Array<{name: string, rank: number, reqs: {[item_name: string]: number} }>;
+type DependencyTable = Array<Array<{}>>
 
 function createEmptyEdgeMatrix(vertexCount: number): EdgeMatrix {
     let arr = [];
@@ -32,7 +33,9 @@ function getFacilitationGraph(itemName: string, catalogue: ItemCatalogue, matrix
     }
 }
 
-function getDependencyTable(v: number, catalogue: ItemCatalogue, matrix: EdgeMatrix, localPath = [], allPaths = []) {
+function buildDependencyTable(
+    v: number, catalogue: ItemCatalogue, matrix: EdgeMatrix, localPath = [], allPaths = []) {
+
     // Get this vertex's row
     let row = matrix[v];
 
@@ -45,8 +48,8 @@ function getDependencyTable(v: number, catalogue: ItemCatalogue, matrix: EdgeMat
     row.forEach((val, next) => {
         if(val <= 0) return;
         const scopedPath = localPath.slice(0);
-        scopedPath.push({ item: catalogue[next].name, amt: val });
-        getDependencyTable(next, catalogue, matrix, scopedPath, allPaths);
+        scopedPath.push({ name: catalogue[next].name, amt: val });
+        buildDependencyTable(next, catalogue, matrix, scopedPath, allPaths);
     });
 
     return allPaths;
@@ -87,5 +90,9 @@ let matrix = createEmptyEdgeMatrix(numVertices);
 populateEdgeMatrix(matrix, catalogue);
 
 // Get the dependency table
-const vertex = catalogue.findIndex(item => item.name == "buggy");
-export const result = getDependencyTable(vertex, catalogue, matrix);
+export function getDependencyTable(itemName: string) {
+    const vertex = catalogue.findIndex(item => item.name == itemName);
+    const paths = buildDependencyTable(vertex, catalogue, matrix) as DependencyTable;
+    // paths.sort((a, b) => a.length - b.length);
+    return paths;
+}

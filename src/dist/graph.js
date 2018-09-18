@@ -23,7 +23,7 @@ function getFacilitationGraph(itemName, catalogue, matrix) {
         console.log(catalogue[i].name, matrix[i][itemIndex]);
     }
 }
-function getDependencyTable(v, catalogue, matrix, localPath = [], allPaths = []) {
+function buildDependencyTable(v, catalogue, matrix, localPath = [], allPaths = []) {
     // Get this vertex's row
     let row = matrix[v];
     // If we're at a level 0 item, add the path to the list
@@ -35,8 +35,8 @@ function getDependencyTable(v, catalogue, matrix, localPath = [], allPaths = [])
         if (val <= 0)
             return;
         const scopedPath = localPath.slice(0);
-        scopedPath.push({ item: catalogue[next].name, amt: val });
-        getDependencyTable(next, catalogue, matrix, scopedPath, allPaths);
+        scopedPath.push({ name: catalogue[next].name, amt: val });
+        buildDependencyTable(next, catalogue, matrix, scopedPath, allPaths);
     });
     return allPaths;
 }
@@ -66,6 +66,10 @@ let matrix = createEmptyEdgeMatrix(numVertices);
 // Populate the matrix with edges
 populateEdgeMatrix(matrix, catalogue);
 // Get the dependency table
-const vertex = catalogue.findIndex(item => item.name == "buggy");
-export const result = getDependencyTable(vertex, catalogue, matrix);
+export function getDependencyTable(itemName) {
+    const vertex = catalogue.findIndex(item => item.name == itemName);
+    const paths = buildDependencyTable(vertex, catalogue, matrix);
+    // paths.sort((a, b) => a.length - b.length);
+    return paths;
+}
 //# sourceMappingURL=graph.js.map
