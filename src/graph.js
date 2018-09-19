@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 * Data object for vertex
 * */
@@ -92,7 +90,4 @@ class Graph {
     }
     Graph.loadGraphConfig = loadGraphConfig;
 })(Graph || (Graph = {}));
-// const g = Graph.loadGraphConfig(graphConfig);
-// console.log(g.edges.getEdge(0, 1));
-// console.log(g.edges.getEdge(1, 0));
 //# sourceMappingURL=graph.js.map

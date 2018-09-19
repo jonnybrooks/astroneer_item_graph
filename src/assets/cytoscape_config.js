@@ -1,4 +1,4 @@
-[
+export default [
   {
     "position": {
       "x": 0,
@@ -12,7 +12,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Bytes",
+      "id": "n0",
       "weight": 0,
       "label": "Bytes"
     }
@@ -30,7 +30,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Compound",
+      "id": "n1",
       "weight": 0,
       "label": "Compound"
     }
@@ -48,7 +48,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Resin",
+      "id": "n2",
       "weight": 0,
       "label": "Resin"
     }
@@ -66,7 +66,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Lithium",
+      "id": "n3",
       "weight": 0,
       "label": "Lithium"
     }
@@ -84,7 +84,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Quartz",
+      "id": "n4",
       "weight": 0,
       "label": "Quartz"
     }
@@ -102,7 +102,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Malachite",
+      "id": "n5",
       "weight": 0,
       "label": "Malachite"
     }
@@ -120,7 +120,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Wolframite",
+      "id": "n6",
       "weight": 0,
       "label": "Wolframite"
     }
@@ -138,7 +138,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Sphalerite",
+      "id": "n7",
       "weight": 0,
       "label": "Sphalerite"
     }
@@ -156,7 +156,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Hematite",
+      "id": "n8",
       "weight": 0,
       "label": "Hematite"
     }
@@ -174,7 +174,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Titanite",
+      "id": "n9",
       "weight": 0,
       "label": "Titanite"
     }
@@ -192,7 +192,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Clay",
+      "id": "n10",
       "weight": 0,
       "label": "Clay"
     }
@@ -210,7 +210,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Ammonium",
+      "id": "n11",
       "weight": 0,
       "label": "Ammonium"
     }
@@ -228,7 +228,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Graphite",
+      "id": "n12",
       "weight": 0,
       "label": "Graphite"
     }
@@ -246,7 +246,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Laterite",
+      "id": "n13",
       "weight": 0,
       "label": "Laterite"
     }
@@ -264,7 +264,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Organic",
+      "id": "n14",
       "weight": 0,
       "label": "Organic"
     }
@@ -282,7 +282,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Aluminum",
+      "id": "n15",
       "weight": 0,
       "label": "Aluminum"
     }
@@ -300,7 +300,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Iron",
+      "id": "n16",
       "weight": 0,
       "label": "Iron"
     }
@@ -318,7 +318,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Copper",
+      "id": "n17",
       "weight": 0,
       "label": "Copper"
     }
@@ -336,7 +336,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Zinc",
+      "id": "n18",
       "weight": 0,
       "label": "Zinc"
     }
@@ -354,7 +354,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Titanium",
+      "id": "n19",
       "weight": 0,
       "label": "Titanium"
     }
@@ -372,7 +372,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Tungsten",
+      "id": "n20",
       "weight": 0,
       "label": "Tungsten"
     }
@@ -390,7 +390,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Glass",
+      "id": "n21",
       "weight": 0,
       "label": "Glass"
     }
@@ -408,7 +408,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Ceramic",
+      "id": "n22",
       "weight": 0,
       "label": "Ceramic"
     }
@@ -426,7 +426,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Carbon",
+      "id": "n23",
       "weight": 0,
       "label": "Carbon"
     }
@@ -444,7 +444,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Argon",
+      "id": "n24",
       "weight": 0,
       "label": "Argon"
     }
@@ -462,7 +462,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Helium",
+      "id": "n25",
       "weight": 0,
       "label": "Helium"
     }
@@ -480,7 +480,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Hydrogen",
+      "id": "n26",
       "weight": 0,
       "label": "Hydrogen"
     }
@@ -498,7 +498,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Methane",
+      "id": "n27",
       "weight": 0,
       "label": "Methane"
     }
@@ -516,7 +516,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Nitrogen",
+      "id": "n28",
       "weight": 0,
       "label": "Nitrogen"
     }
@@ -534,7 +534,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Sulfur",
+      "id": "n29",
       "weight": 0,
       "label": "Sulfur"
     }
@@ -552,7 +552,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Aluminum Alloy",
+      "id": "n30",
       "weight": 0,
       "label": "Aluminum Alloy"
     }
@@ -570,7 +570,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Diamond",
+      "id": "n31",
       "weight": 0,
       "label": "Diamond"
     }
@@ -588,7 +588,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Explosive Powder",
+      "id": "n32",
       "weight": 0,
       "label": "Explosive Powder"
     }
@@ -606,7 +606,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Graphene",
+      "id": "n33",
       "weight": 0,
       "label": "Graphene"
     }
@@ -624,7 +624,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Nanocarbon Alloy",
+      "id": "n34",
       "weight": 0,
       "label": "Nanocarbon Alloy"
     }
@@ -642,7 +642,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Plastic",
+      "id": "n35",
       "weight": 0,
       "label": "Plastic"
     }
@@ -660,7 +660,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Rubber",
+      "id": "n36",
       "weight": 0,
       "label": "Rubber"
     }
@@ -678,7 +678,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Silicone",
+      "id": "n37",
       "weight": 0,
       "label": "Silicone"
     }
@@ -696,7 +696,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Steel",
+      "id": "n38",
       "weight": 0,
       "label": "Steel"
     }
@@ -714,7 +714,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Titanium Alloy",
+      "id": "n39",
       "weight": 0,
       "label": "Titanium Alloy"
     }
@@ -732,7 +732,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Tungsten Carbide",
+      "id": "n40",
       "weight": 0,
       "label": "Tungsten Carbide"
     }
@@ -750,7 +750,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Hydrazine",
+      "id": "n41",
       "weight": 0,
       "label": "Hydrazine"
     }
@@ -768,7 +768,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Tethers",
+      "id": "n42",
       "weight": 0,
       "label": "Tethers"
     }
@@ -786,7 +786,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Canister",
+      "id": "n43",
       "weight": 0,
       "label": "Canister"
     }
@@ -804,7 +804,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Beacon",
+      "id": "n44",
       "weight": 0,
       "label": "Beacon"
     }
@@ -822,7 +822,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Work Light",
+      "id": "n45",
       "weight": 0,
       "label": "Work Light"
     }
@@ -840,7 +840,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Oxygen Filters",
+      "id": "n46",
       "weight": 0,
       "label": "Oxygen Filters"
     }
@@ -858,7 +858,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Small Oxygen Tank",
+      "id": "n47",
       "weight": 0,
       "label": "Small Oxygen Tank"
     }
@@ -876,7 +876,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Small Generator",
+      "id": "n48",
       "weight": 0,
       "label": "Small Generator"
     }
@@ -894,7 +894,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Power Cells",
+      "id": "n49",
       "weight": 0,
       "label": "Power Cells"
     }
@@ -912,7 +912,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Small Battery",
+      "id": "n50",
       "weight": 0,
       "label": "Small Battery"
     }
@@ -930,7 +930,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Wide Mod",
+      "id": "n51",
       "weight": 0,
       "label": "Wide Mod"
     }
@@ -948,7 +948,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Small Solar",
+      "id": "n52",
       "weight": 0,
       "label": "Small Solar"
     }
@@ -966,7 +966,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Small Wind Turbine",
+      "id": "n53",
       "weight": 0,
       "label": "Small Wind Turbine"
     }
@@ -984,7 +984,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Alignment Mod",
+      "id": "n54",
       "weight": 0,
       "label": "Alignment Mod"
     }
@@ -1002,7 +1002,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Inhibitor Mod",
+      "id": "n55",
       "weight": 0,
       "label": "Inhibitor Mod"
     }
@@ -1020,7 +1020,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Boost Mod",
+      "id": "n56",
       "weight": 0,
       "label": "Boost Mod"
     }
@@ -1038,7 +1038,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Narrow Mod",
+      "id": "n57",
       "weight": 0,
       "label": "Narrow Mod"
     }
@@ -1056,7 +1056,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Terrain Analyzer",
+      "id": "n58",
       "weight": 0,
       "label": "Terrain Analyzer"
     }
@@ -1074,7 +1074,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Extenders",
+      "id": "n59",
       "weight": 0,
       "label": "Extenders"
     }
@@ -1092,7 +1092,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Dynamite",
+      "id": "n60",
       "weight": 0,
       "label": "Dynamite"
     }
@@ -1110,7 +1110,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Fireworks",
+      "id": "n61",
       "weight": 0,
       "label": "Fireworks"
     }
@@ -1128,7 +1128,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Small Printer",
+      "id": "n62",
       "weight": 0,
       "label": "Small Printer"
     }
@@ -1146,7 +1146,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Generator",
+      "id": "n63",
       "weight": 0,
       "label": "Medium Generator"
     }
@@ -1164,7 +1164,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Solar",
+      "id": "n64",
       "weight": 0,
       "label": "Medium Solar"
     }
@@ -1182,7 +1182,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Wind Turbine",
+      "id": "n65",
       "weight": 0,
       "label": "Medium Wind Turbine"
     }
@@ -1200,7 +1200,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Battery",
+      "id": "n66",
       "weight": 0,
       "label": "Medium Battery"
     }
@@ -1218,7 +1218,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Storage",
+      "id": "n67",
       "weight": 0,
       "label": "Medium Storage"
     }
@@ -1236,7 +1236,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Platform A",
+      "id": "n68",
       "weight": 0,
       "label": "Medium Platform A"
     }
@@ -1254,7 +1254,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Platform B",
+      "id": "n69",
       "weight": 0,
       "label": "Medium Platform B"
     }
@@ -1272,7 +1272,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Shredder",
+      "id": "n70",
       "weight": 0,
       "label": "Medium Shredder"
     }
@@ -1290,7 +1290,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Dropship",
+      "id": "n71",
       "weight": 0,
       "label": "Dropship"
     }
@@ -1308,7 +1308,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Splitter",
+      "id": "n72",
       "weight": 0,
       "label": "Splitter"
     }
@@ -1326,7 +1326,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Drill Head",
+      "id": "n73",
       "weight": 0,
       "label": "Drill Head"
     }
@@ -1344,7 +1344,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Solid Fuel Thruster",
+      "id": "n74",
       "weight": 0,
       "label": "Solid Fuel Thruster"
     }
@@ -1362,7 +1362,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Hydrazine Thruster",
+      "id": "n75",
       "weight": 0,
       "label": "Hydrazine Thruster"
     }
@@ -1380,7 +1380,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Winch",
+      "id": "n76",
       "weight": 0,
       "label": "Winch"
     }
@@ -1398,7 +1398,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Rover Seat",
+      "id": "n77",
       "weight": 0,
       "label": "Rover Seat"
     }
@@ -1416,7 +1416,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Shuttle Seat",
+      "id": "n78",
       "weight": 0,
       "label": "Shuttle Seat"
     }
@@ -1434,7 +1434,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Printer",
+      "id": "n79",
       "weight": 0,
       "label": "Medium Printer"
     }
@@ -1452,7 +1452,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Platform A",
+      "id": "n80",
       "weight": 0,
       "label": "Large Platform A"
     }
@@ -1470,7 +1470,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Platform B",
+      "id": "n81",
       "weight": 0,
       "label": "Large Platform B"
     }
@@ -1488,7 +1488,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Platform C",
+      "id": "n82",
       "weight": 0,
       "label": "Large Platform C"
     }
@@ -1506,7 +1506,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Research Chamber",
+      "id": "n83",
       "weight": 0,
       "label": "Research Chamber"
     }
@@ -1524,7 +1524,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Smelting Furnace",
+      "id": "n84",
       "weight": 0,
       "label": "Smelting Furnace"
     }
@@ -1542,7 +1542,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Soil Centrifuge",
+      "id": "n85",
       "weight": 0,
       "label": "Soil Centrifuge"
     }
@@ -1560,7 +1560,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Chemistry Lab",
+      "id": "n86",
       "weight": 0,
       "label": "Chemistry Lab"
     }
@@ -1578,7 +1578,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Atmospheric Condenser",
+      "id": "n87",
       "weight": 0,
       "label": "Atmospheric Condenser"
     }
@@ -1596,7 +1596,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Trade Platform",
+      "id": "n88",
       "weight": 0,
       "label": "Trade Platform"
     }
@@ -1614,7 +1614,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Shredder",
+      "id": "n89",
       "weight": 0,
       "label": "Large Shredder"
     }
@@ -1632,7 +1632,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Vehicle Bay",
+      "id": "n90",
       "weight": 0,
       "label": "Vehicle Bay"
     }
@@ -1650,7 +1650,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Buggy",
+      "id": "n91",
       "weight": 0,
       "label": "Buggy"
     }
@@ -1668,7 +1668,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Rover",
+      "id": "n92",
       "weight": 0,
       "label": "Medium Rover"
     }
@@ -1686,7 +1686,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Rover",
+      "id": "n93",
       "weight": 0,
       "label": "Large Rover"
     }
@@ -1704,7 +1704,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Small Shuttle",
+      "id": "n94",
       "weight": 0,
       "label": "Small Shuttle"
     }
@@ -1722,7 +1722,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Medium Shuttle",
+      "id": "n95",
       "weight": 0,
       "label": "Medium Shuttle"
     }
@@ -1740,7 +1740,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Shuttle",
+      "id": "n96",
       "weight": 0,
       "label": "Large Shuttle"
     }
@@ -1758,7 +1758,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Storage",
+      "id": "n97",
       "weight": 0,
       "label": "Large Storage"
     }
@@ -1776,7 +1776,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Extra Large Storage",
+      "id": "n98",
       "weight": 0,
       "label": "Extra Large Storage"
     }
@@ -1794,7 +1794,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Extra Large Platform A",
+      "id": "n99",
       "weight": 0,
       "label": "Extra Large Platform A"
     }
@@ -1812,7 +1812,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Extra Large Platform B",
+      "id": "n100",
       "weight": 0,
       "label": "Extra Large Platform B"
     }
@@ -1830,7 +1830,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Crane",
+      "id": "n101",
       "weight": 0,
       "label": "Crane"
     }
@@ -1848,7 +1848,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Rover Seat",
+      "id": "n102",
       "weight": 0,
       "label": "Large Rover Seat"
     }
@@ -1866,7 +1866,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Large Shuttle Seat",
+      "id": "n103",
       "weight": 0,
       "label": "Large Shuttle Seat"
     }
@@ -1884,7 +1884,7 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "Minimal Rocket",
+      "id": "n104",
       "weight": 0,
       "label": "Minimal Rocket"
     }
@@ -1899,10 +1899,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e15",
+      "id": "e150",
       "weight": 1,
-      "source": "Aluminum",
-      "target": "Laterite",
+      "source": "n15",
+      "sourceLabel": "Aluminum",
+      "target": "n13",
+      "targetLabel": "Laterite",
       "label": "1"
     }
   },
@@ -1916,10 +1918,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e15",
+      "id": "e151",
       "weight": 1,
-      "source": "Aluminum",
-      "target": "Smelting Furnace",
+      "source": "n15",
+      "sourceLabel": "Aluminum",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -1933,10 +1937,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e16",
+      "id": "e160",
       "weight": 1,
-      "source": "Iron",
-      "target": "Hematite",
+      "source": "n16",
+      "sourceLabel": "Iron",
+      "target": "n8",
+      "targetLabel": "Hematite",
       "label": "1"
     }
   },
@@ -1950,10 +1956,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e16",
+      "id": "e161",
       "weight": 1,
-      "source": "Iron",
-      "target": "Smelting Furnace",
+      "source": "n16",
+      "sourceLabel": "Iron",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -1967,10 +1975,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e17",
+      "id": "e170",
       "weight": 1,
-      "source": "Copper",
-      "target": "Malachite",
+      "source": "n17",
+      "sourceLabel": "Copper",
+      "target": "n5",
+      "targetLabel": "Malachite",
       "label": "1"
     }
   },
@@ -1984,10 +1994,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e17",
+      "id": "e171",
       "weight": 1,
-      "source": "Copper",
-      "target": "Smelting Furnace",
+      "source": "n17",
+      "sourceLabel": "Copper",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -2001,10 +2013,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e18",
+      "id": "e180",
       "weight": 1,
-      "source": "Zinc",
-      "target": "Sphalerite",
+      "source": "n18",
+      "sourceLabel": "Zinc",
+      "target": "n7",
+      "targetLabel": "Sphalerite",
       "label": "1"
     }
   },
@@ -2018,10 +2032,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e18",
+      "id": "e181",
       "weight": 1,
-      "source": "Zinc",
-      "target": "Smelting Furnace",
+      "source": "n18",
+      "sourceLabel": "Zinc",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -2035,10 +2051,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e19",
+      "id": "e190",
       "weight": 1,
-      "source": "Titanium",
-      "target": "Titanite",
+      "source": "n19",
+      "sourceLabel": "Titanium",
+      "target": "n9",
+      "targetLabel": "Titanite",
       "label": "1"
     }
   },
@@ -2052,10 +2070,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e19",
+      "id": "e191",
       "weight": 1,
-      "source": "Titanium",
-      "target": "Smelting Furnace",
+      "source": "n19",
+      "sourceLabel": "Titanium",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -2069,10 +2089,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e20",
+      "id": "e200",
       "weight": 1,
-      "source": "Tungsten",
-      "target": "Wolframite",
+      "source": "n20",
+      "sourceLabel": "Tungsten",
+      "target": "n6",
+      "targetLabel": "Wolframite",
       "label": "1"
     }
   },
@@ -2086,10 +2108,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e20",
+      "id": "e201",
       "weight": 1,
-      "source": "Tungsten",
-      "target": "Smelting Furnace",
+      "source": "n20",
+      "sourceLabel": "Tungsten",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -2103,10 +2127,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e21",
+      "id": "e210",
       "weight": 1,
-      "source": "Glass",
-      "target": "Quartz",
+      "source": "n21",
+      "sourceLabel": "Glass",
+      "target": "n4",
+      "targetLabel": "Quartz",
       "label": "1"
     }
   },
@@ -2120,10 +2146,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e21",
+      "id": "e211",
       "weight": 1,
-      "source": "Glass",
-      "target": "Smelting Furnace",
+      "source": "n21",
+      "sourceLabel": "Glass",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -2137,10 +2165,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e22",
+      "id": "e220",
       "weight": 1,
-      "source": "Ceramic",
-      "target": "Clay",
+      "source": "n22",
+      "sourceLabel": "Ceramic",
+      "target": "n10",
+      "targetLabel": "Clay",
       "label": "1"
     }
   },
@@ -2154,10 +2184,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e22",
+      "id": "e221",
       "weight": 1,
-      "source": "Ceramic",
-      "target": "Smelting Furnace",
+      "source": "n22",
+      "sourceLabel": "Ceramic",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -2171,10 +2203,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e23",
+      "id": "e230",
       "weight": 1,
-      "source": "Carbon",
-      "target": "Organic",
+      "source": "n23",
+      "sourceLabel": "Carbon",
+      "target": "n14",
+      "targetLabel": "Organic",
       "label": "1"
     }
   },
@@ -2188,10 +2222,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e23",
+      "id": "e231",
       "weight": 1,
-      "source": "Carbon",
-      "target": "Smelting Furnace",
+      "source": "n23",
+      "sourceLabel": "Carbon",
+      "target": "n84",
+      "targetLabel": "Smelting Furnace",
       "label": "1"
     }
   },
@@ -2205,10 +2241,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e24",
+      "id": "e240",
       "weight": 1,
-      "source": "Argon",
-      "target": "Atmospheric Condenser",
+      "source": "n24",
+      "sourceLabel": "Argon",
+      "target": "n87",
+      "targetLabel": "Atmospheric Condenser",
       "label": "1"
     }
   },
@@ -2222,10 +2260,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e25",
+      "id": "e250",
       "weight": 1,
-      "source": "Helium",
-      "target": "Atmospheric Condenser",
+      "source": "n25",
+      "sourceLabel": "Helium",
+      "target": "n87",
+      "targetLabel": "Atmospheric Condenser",
       "label": "1"
     }
   },
@@ -2239,10 +2279,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e25",
+      "id": "e251",
       "weight": 1,
-      "source": "Helium",
-      "target": "Minimal Rocket",
+      "source": "n25",
+      "sourceLabel": "Helium",
+      "target": "n104",
+      "targetLabel": "Minimal Rocket",
       "label": "1"
     }
   },
@@ -2256,10 +2298,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e26",
+      "id": "e260",
       "weight": 1,
-      "source": "Hydrogen",
-      "target": "Atmospheric Condenser",
+      "source": "n26",
+      "sourceLabel": "Hydrogen",
+      "target": "n87",
+      "targetLabel": "Atmospheric Condenser",
       "label": "1"
     }
   },
@@ -2273,10 +2317,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e27",
+      "id": "e270",
       "weight": 1,
-      "source": "Methane",
-      "target": "Atmospheric Condenser",
+      "source": "n27",
+      "sourceLabel": "Methane",
+      "target": "n87",
+      "targetLabel": "Atmospheric Condenser",
       "label": "1"
     }
   },
@@ -2290,10 +2336,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e27",
+      "id": "e271",
       "weight": 1,
-      "source": "Methane",
-      "target": "Minimal Rocket",
+      "source": "n27",
+      "sourceLabel": "Methane",
+      "target": "n104",
+      "targetLabel": "Minimal Rocket",
       "label": "1"
     }
   },
@@ -2307,10 +2355,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e28",
+      "id": "e280",
       "weight": 1,
-      "source": "Nitrogen",
-      "target": "Atmospheric Condenser",
+      "source": "n28",
+      "sourceLabel": "Nitrogen",
+      "target": "n87",
+      "targetLabel": "Atmospheric Condenser",
       "label": "1"
     }
   },
@@ -2324,10 +2374,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e29",
+      "id": "e290",
       "weight": 1,
-      "source": "Sulfur",
-      "target": "Atmospheric Condenser",
+      "source": "n29",
+      "sourceLabel": "Sulfur",
+      "target": "n87",
+      "targetLabel": "Atmospheric Condenser",
       "label": "1"
     }
   },
@@ -2341,10 +2393,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e29",
+      "id": "e291",
       "weight": 1,
-      "source": "Sulfur",
-      "target": "Minimal Rocket",
+      "source": "n29",
+      "sourceLabel": "Sulfur",
+      "target": "n104",
+      "targetLabel": "Minimal Rocket",
       "label": "1"
     }
   },
@@ -2358,10 +2412,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e30",
+      "id": "e300",
       "weight": 1,
-      "source": "Aluminum Alloy",
-      "target": "Aluminum",
+      "source": "n30",
+      "sourceLabel": "Aluminum Alloy",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "1"
     }
   },
@@ -2375,10 +2431,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e30",
+      "id": "e301",
       "weight": 1,
-      "source": "Aluminum Alloy",
-      "target": "Copper",
+      "source": "n30",
+      "sourceLabel": "Aluminum Alloy",
+      "target": "n17",
+      "targetLabel": "Copper",
       "label": "1"
     }
   },
@@ -2392,10 +2450,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e30",
+      "id": "e303",
       "weight": 1,
-      "source": "Aluminum Alloy",
-      "target": "Chemistry Lab",
+      "source": "n30",
+      "sourceLabel": "Aluminum Alloy",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2409,10 +2469,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e31",
+      "id": "e310",
       "weight": 2,
-      "source": "Diamond",
-      "target": "Graphene",
+      "source": "n31",
+      "sourceLabel": "Diamond",
+      "target": "n33",
+      "targetLabel": "Graphene",
       "label": "2"
     }
   },
@@ -2426,10 +2488,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e31",
+      "id": "e311",
       "weight": 1,
-      "source": "Diamond",
-      "target": "Atmospheric Condenser",
+      "source": "n31",
+      "sourceLabel": "Diamond",
+      "target": "n87",
+      "targetLabel": "Atmospheric Condenser",
       "label": "1"
     }
   },
@@ -2443,10 +2507,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e31",
+      "id": "e313",
       "weight": 1,
-      "source": "Diamond",
-      "target": "Chemistry Lab",
+      "source": "n31",
+      "sourceLabel": "Diamond",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2460,10 +2526,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e32",
+      "id": "e320",
       "weight": 2,
-      "source": "Explosive Powder",
-      "target": "Carbon",
+      "source": "n32",
+      "sourceLabel": "Explosive Powder",
+      "target": "n23",
+      "targetLabel": "Carbon",
       "label": "2"
     }
   },
@@ -2477,10 +2545,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e32",
+      "id": "e321",
       "weight": 1,
-      "source": "Explosive Powder",
-      "target": "Sulfur",
+      "source": "n32",
+      "sourceLabel": "Explosive Powder",
+      "target": "n29",
+      "targetLabel": "Sulfur",
       "label": "1"
     }
   },
@@ -2494,10 +2564,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e32",
+      "id": "e323",
       "weight": 1,
-      "source": "Explosive Powder",
-      "target": "Chemistry Lab",
+      "source": "n32",
+      "sourceLabel": "Explosive Powder",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2511,10 +2583,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e33",
+      "id": "e330",
       "weight": 1,
-      "source": "Graphene",
-      "target": "Graphite",
+      "source": "n33",
+      "sourceLabel": "Graphene",
+      "target": "n12",
+      "targetLabel": "Graphite",
       "label": "1"
     }
   },
@@ -2528,10 +2602,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e33",
+      "id": "e331",
       "weight": 1,
-      "source": "Graphene",
-      "target": "Hydrazine",
+      "source": "n33",
+      "sourceLabel": "Graphene",
+      "target": "n41",
+      "targetLabel": "Hydrazine",
       "label": "1"
     }
   },
@@ -2545,10 +2621,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e33",
+      "id": "e333",
       "weight": 1,
-      "source": "Graphene",
-      "target": "Chemistry Lab",
+      "source": "n33",
+      "sourceLabel": "Graphene",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2562,10 +2640,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e34",
+      "id": "e340",
       "weight": 1,
-      "source": "Nanocarbon Alloy",
-      "target": "Steel",
+      "source": "n34",
+      "sourceLabel": "Nanocarbon Alloy",
+      "target": "n38",
+      "targetLabel": "Steel",
       "label": "1"
     }
   },
@@ -2579,10 +2659,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e34",
+      "id": "e341",
       "weight": 1,
-      "source": "Nanocarbon Alloy",
-      "target": "Titanium Alloy",
+      "source": "n34",
+      "sourceLabel": "Nanocarbon Alloy",
+      "target": "n39",
+      "targetLabel": "Titanium Alloy",
       "label": "1"
     }
   },
@@ -2596,10 +2678,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e34",
+      "id": "e342",
       "weight": 1,
-      "source": "Nanocarbon Alloy",
-      "target": "Helium",
+      "source": "n34",
+      "sourceLabel": "Nanocarbon Alloy",
+      "target": "n25",
+      "targetLabel": "Helium",
       "label": "1"
     }
   },
@@ -2613,10 +2697,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e34",
+      "id": "e343",
       "weight": 1,
-      "source": "Nanocarbon Alloy",
-      "target": "Chemistry Lab",
+      "source": "n34",
+      "sourceLabel": "Nanocarbon Alloy",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2630,10 +2716,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e35",
+      "id": "e350",
       "weight": 1,
-      "source": "Plastic",
-      "target": "Compound",
+      "source": "n35",
+      "sourceLabel": "Plastic",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -2647,10 +2735,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e35",
+      "id": "e351",
       "weight": 1,
-      "source": "Plastic",
-      "target": "Carbon",
+      "source": "n35",
+      "sourceLabel": "Plastic",
+      "target": "n23",
+      "targetLabel": "Carbon",
       "label": "1"
     }
   },
@@ -2664,10 +2754,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e35",
+      "id": "e353",
       "weight": 1,
-      "source": "Plastic",
-      "target": "Chemistry Lab",
+      "source": "n35",
+      "sourceLabel": "Plastic",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2681,10 +2773,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e36",
+      "id": "e360",
       "weight": 1,
-      "source": "Rubber",
-      "target": "Organic",
+      "source": "n36",
+      "sourceLabel": "Rubber",
+      "target": "n14",
+      "targetLabel": "Organic",
       "label": "1"
     }
   },
@@ -2698,10 +2792,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e36",
+      "id": "e361",
       "weight": 1,
-      "source": "Rubber",
-      "target": "Resin",
+      "source": "n36",
+      "sourceLabel": "Rubber",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "1"
     }
   },
@@ -2715,10 +2811,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e36",
+      "id": "e363",
       "weight": 1,
-      "source": "Rubber",
-      "target": "Chemistry Lab",
+      "source": "n36",
+      "sourceLabel": "Rubber",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2732,10 +2830,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e37",
+      "id": "e370",
       "weight": 1,
-      "source": "Silicone",
-      "target": "Resin",
+      "source": "n37",
+      "sourceLabel": "Silicone",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "1"
     }
   },
@@ -2749,10 +2849,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e37",
+      "id": "e371",
       "weight": 1,
-      "source": "Silicone",
-      "target": "Quartz",
+      "source": "n37",
+      "sourceLabel": "Silicone",
+      "target": "n4",
+      "targetLabel": "Quartz",
       "label": "1"
     }
   },
@@ -2766,10 +2868,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e37",
+      "id": "e372",
       "weight": 1,
-      "source": "Silicone",
-      "target": "Methane",
+      "source": "n37",
+      "sourceLabel": "Silicone",
+      "target": "n27",
+      "targetLabel": "Methane",
       "label": "1"
     }
   },
@@ -2783,10 +2887,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e37",
+      "id": "e373",
       "weight": 1,
-      "source": "Silicone",
-      "target": "Chemistry Lab",
+      "source": "n37",
+      "sourceLabel": "Silicone",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2800,10 +2906,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e38",
+      "id": "e380",
       "weight": 1,
-      "source": "Steel",
-      "target": "Carbon",
+      "source": "n38",
+      "sourceLabel": "Steel",
+      "target": "n23",
+      "targetLabel": "Carbon",
       "label": "1"
     }
   },
@@ -2817,10 +2925,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e38",
+      "id": "e381",
       "weight": 1,
-      "source": "Steel",
-      "target": "Iron",
+      "source": "n38",
+      "sourceLabel": "Steel",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "1"
     }
   },
@@ -2834,10 +2944,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e38",
+      "id": "e382",
       "weight": 1,
-      "source": "Steel",
-      "target": "Argon",
+      "source": "n38",
+      "sourceLabel": "Steel",
+      "target": "n24",
+      "targetLabel": "Argon",
       "label": "1"
     }
   },
@@ -2851,10 +2963,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e38",
+      "id": "e383",
       "weight": 1,
-      "source": "Steel",
-      "target": "Chemistry Lab",
+      "source": "n38",
+      "sourceLabel": "Steel",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2868,10 +2982,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e39",
+      "id": "e390",
       "weight": 1,
-      "source": "Titanium Alloy",
-      "target": "Titanium",
+      "source": "n39",
+      "sourceLabel": "Titanium Alloy",
+      "target": "n19",
+      "targetLabel": "Titanium",
       "label": "1"
     }
   },
@@ -2885,10 +3001,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e39",
+      "id": "e391",
       "weight": 1,
-      "source": "Titanium Alloy",
-      "target": "Graphene",
+      "source": "n39",
+      "sourceLabel": "Titanium Alloy",
+      "target": "n33",
+      "targetLabel": "Graphene",
       "label": "1"
     }
   },
@@ -2902,10 +3020,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e39",
+      "id": "e392",
       "weight": 1,
-      "source": "Titanium Alloy",
-      "target": "Nitrogen",
+      "source": "n39",
+      "sourceLabel": "Titanium Alloy",
+      "target": "n28",
+      "targetLabel": "Nitrogen",
       "label": "1"
     }
   },
@@ -2919,10 +3039,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e39",
+      "id": "e393",
       "weight": 1,
-      "source": "Titanium Alloy",
-      "target": "Chemistry Lab",
+      "source": "n39",
+      "sourceLabel": "Titanium Alloy",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2936,10 +3058,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e40",
+      "id": "e400",
       "weight": 1,
-      "source": "Tungsten Carbide",
-      "target": "Carbon",
+      "source": "n40",
+      "sourceLabel": "Tungsten Carbide",
+      "target": "n23",
+      "targetLabel": "Carbon",
       "label": "1"
     }
   },
@@ -2953,10 +3077,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e40",
+      "id": "e401",
       "weight": 1,
-      "source": "Tungsten Carbide",
-      "target": "Tungsten",
+      "source": "n40",
+      "sourceLabel": "Tungsten Carbide",
+      "target": "n20",
+      "targetLabel": "Tungsten",
       "label": "1"
     }
   },
@@ -2970,10 +3096,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e40",
+      "id": "e403",
       "weight": 1,
-      "source": "Tungsten Carbide",
-      "target": "Chemistry Lab",
+      "source": "n40",
+      "sourceLabel": "Tungsten Carbide",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -2987,10 +3115,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e41",
+      "id": "e410",
       "weight": 2,
-      "source": "Hydrazine",
-      "target": "Ammonium",
+      "source": "n41",
+      "sourceLabel": "Hydrazine",
+      "target": "n11",
+      "targetLabel": "Ammonium",
       "label": "2"
     }
   },
@@ -3004,10 +3134,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e41",
+      "id": "e411",
       "weight": 1,
-      "source": "Hydrazine",
-      "target": "Hydrogen",
+      "source": "n41",
+      "sourceLabel": "Hydrazine",
+      "target": "n26",
+      "targetLabel": "Hydrogen",
       "label": "1"
     }
   },
@@ -3021,10 +3153,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e41",
+      "id": "e413",
       "weight": 1,
-      "source": "Hydrazine",
-      "target": "Chemistry Lab",
+      "source": "n41",
+      "sourceLabel": "Hydrazine",
+      "target": "n86",
+      "targetLabel": "Chemistry Lab",
       "label": "1"
     }
   },
@@ -3038,10 +3172,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e42",
+      "id": "e420",
       "weight": 1,
-      "source": "Tethers",
-      "target": "Compound",
+      "source": "n42",
+      "sourceLabel": "Tethers",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -3055,10 +3191,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e43",
+      "id": "e430",
       "weight": 1,
-      "source": "Canister",
-      "target": "Resin",
+      "source": "n43",
+      "sourceLabel": "Canister",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "1"
     }
   },
@@ -3072,10 +3210,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e44",
+      "id": "e440",
       "weight": 1,
-      "source": "Beacon",
-      "target": "Quartz",
+      "source": "n44",
+      "sourceLabel": "Beacon",
+      "target": "n4",
+      "targetLabel": "Quartz",
       "label": "1"
     }
   },
@@ -3089,10 +3229,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e44",
+      "id": "e441",
       "weight": 250,
-      "source": "Beacon",
-      "target": "Bytes",
+      "source": "n44",
+      "sourceLabel": "Beacon",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "250"
     }
   },
@@ -3106,10 +3248,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e45",
+      "id": "e450",
       "weight": 1,
-      "source": "Work Light",
-      "target": "Copper",
+      "source": "n45",
+      "sourceLabel": "Work Light",
+      "target": "n17",
+      "targetLabel": "Copper",
       "label": "1"
     }
   },
@@ -3123,10 +3267,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e45",
+      "id": "e451",
       "weight": 500,
-      "source": "Work Light",
-      "target": "Bytes",
+      "source": "n45",
+      "sourceLabel": "Work Light",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "500"
     }
   },
@@ -3140,10 +3286,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e46",
+      "id": "e460",
       "weight": 1,
-      "source": "Oxygen Filters",
-      "target": "Resin",
+      "source": "n46",
+      "sourceLabel": "Oxygen Filters",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "1"
     }
   },
@@ -3157,10 +3305,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e47",
+      "id": "e470",
       "weight": 1,
-      "source": "Small Oxygen Tank",
-      "target": "Glass",
+      "source": "n47",
+      "sourceLabel": "Small Oxygen Tank",
+      "target": "n21",
+      "targetLabel": "Glass",
       "label": "1"
     }
   },
@@ -3174,10 +3324,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e47",
+      "id": "e471",
       "weight": 1600,
-      "source": "Small Oxygen Tank",
-      "target": "Bytes",
+      "source": "n47",
+      "sourceLabel": "Small Oxygen Tank",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1600"
     }
   },
@@ -3191,10 +3343,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e48",
+      "id": "e480",
       "weight": 1,
-      "source": "Small Generator",
-      "target": "Compound",
+      "source": "n48",
+      "sourceLabel": "Small Generator",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -3208,10 +3362,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e49",
+      "id": "e490",
       "weight": 1,
-      "source": "Power Cells",
-      "target": "Zinc",
+      "source": "n49",
+      "sourceLabel": "Power Cells",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3225,10 +3381,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e49",
+      "id": "e491",
       "weight": 800,
-      "source": "Power Cells",
-      "target": "Bytes",
+      "source": "n49",
+      "sourceLabel": "Power Cells",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "800"
     }
   },
@@ -3242,10 +3400,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e50",
+      "id": "e500",
       "weight": 1,
-      "source": "Small Battery",
-      "target": "Lithium",
+      "source": "n50",
+      "sourceLabel": "Small Battery",
+      "target": "n3",
+      "targetLabel": "Lithium",
       "label": "1"
     }
   },
@@ -3259,10 +3419,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e50",
+      "id": "e501",
       "weight": 1500,
-      "source": "Small Battery",
-      "target": "Bytes",
+      "source": "n50",
+      "sourceLabel": "Small Battery",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1500"
     }
   },
@@ -3276,10 +3438,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e51",
+      "id": "e510",
       "weight": 1,
-      "source": "Wide Mod",
-      "target": "Zinc",
+      "source": "n51",
+      "sourceLabel": "Wide Mod",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3293,10 +3457,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e51",
+      "id": "e511",
       "weight": 800,
-      "source": "Wide Mod",
-      "target": "Bytes",
+      "source": "n51",
+      "sourceLabel": "Wide Mod",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "800"
     }
   },
@@ -3310,10 +3476,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e52",
+      "id": "e520",
       "weight": 1,
-      "source": "Small Solar",
-      "target": "Copper",
+      "source": "n52",
+      "sourceLabel": "Small Solar",
+      "target": "n17",
+      "targetLabel": "Copper",
       "label": "1"
     }
   },
@@ -3327,10 +3495,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e52",
+      "id": "e521",
       "weight": 500,
-      "source": "Small Solar",
-      "target": "Bytes",
+      "source": "n52",
+      "sourceLabel": "Small Solar",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "500"
     }
   },
@@ -3344,10 +3514,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e53",
+      "id": "e530",
       "weight": 1,
-      "source": "Small Wind Turbine",
-      "target": "Glass",
+      "source": "n53",
+      "sourceLabel": "Small Wind Turbine",
+      "target": "n21",
+      "targetLabel": "Glass",
       "label": "1"
     }
   },
@@ -3361,10 +3533,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e53",
+      "id": "e531",
       "weight": 500,
-      "source": "Small Wind Turbine",
-      "target": "Bytes",
+      "source": "n53",
+      "sourceLabel": "Small Wind Turbine",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "500"
     }
   },
@@ -3378,10 +3552,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e54",
+      "id": "e540",
       "weight": 1,
-      "source": "Alignment Mod",
-      "target": "Zinc",
+      "source": "n54",
+      "sourceLabel": "Alignment Mod",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3395,10 +3571,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e54",
+      "id": "e541",
       "weight": 800,
-      "source": "Alignment Mod",
-      "target": "Bytes",
+      "source": "n54",
+      "sourceLabel": "Alignment Mod",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "800"
     }
   },
@@ -3412,10 +3590,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e55",
+      "id": "e550",
       "weight": 1,
-      "source": "Inhibitor Mod",
-      "target": "Zinc",
+      "source": "n55",
+      "sourceLabel": "Inhibitor Mod",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3429,10 +3609,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e55",
+      "id": "e551",
       "weight": 800,
-      "source": "Inhibitor Mod",
-      "target": "Bytes",
+      "source": "n55",
+      "sourceLabel": "Inhibitor Mod",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "800"
     }
   },
@@ -3446,10 +3628,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e56",
+      "id": "e560",
       "weight": 1,
-      "source": "Boost Mod",
-      "target": "Zinc",
+      "source": "n56",
+      "sourceLabel": "Boost Mod",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3463,10 +3647,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e56",
+      "id": "e561",
       "weight": 800,
-      "source": "Boost Mod",
-      "target": "Bytes",
+      "source": "n56",
+      "sourceLabel": "Boost Mod",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "800"
     }
   },
@@ -3480,10 +3666,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e57",
+      "id": "e570",
       "weight": 1,
-      "source": "Narrow Mod",
-      "target": "Zinc",
+      "source": "n57",
+      "sourceLabel": "Narrow Mod",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3497,10 +3685,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e57",
+      "id": "e571",
       "weight": 800,
-      "source": "Narrow Mod",
-      "target": "Bytes",
+      "source": "n57",
+      "sourceLabel": "Narrow Mod",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "800"
     }
   },
@@ -3514,10 +3704,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e58",
+      "id": "e580",
       "weight": 1,
-      "source": "Terrain Analyzer",
-      "target": "Zinc",
+      "source": "n58",
+      "sourceLabel": "Terrain Analyzer",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3531,10 +3723,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e58",
+      "id": "e581",
       "weight": 1600,
-      "source": "Terrain Analyzer",
-      "target": "Bytes",
+      "source": "n58",
+      "sourceLabel": "Terrain Analyzer",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1600"
     }
   },
@@ -3548,10 +3742,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e59",
+      "id": "e590",
       "weight": 1,
-      "source": "Extenders",
-      "target": "Copper",
+      "source": "n59",
+      "sourceLabel": "Extenders",
+      "target": "n17",
+      "targetLabel": "Copper",
       "label": "1"
     }
   },
@@ -3565,10 +3761,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e59",
+      "id": "e591",
       "weight": 500,
-      "source": "Extenders",
-      "target": "Bytes",
+      "source": "n59",
+      "sourceLabel": "Extenders",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "500"
     }
   },
@@ -3582,10 +3780,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e60",
+      "id": "e600",
       "weight": 1,
-      "source": "Dynamite",
-      "target": "Explosive Powder",
+      "source": "n60",
+      "sourceLabel": "Dynamite",
+      "target": "n32",
+      "targetLabel": "Explosive Powder",
       "label": "1"
     }
   },
@@ -3599,10 +3799,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e60",
+      "id": "e601",
       "weight": 3000,
-      "source": "Dynamite",
-      "target": "Bytes",
+      "source": "n60",
+      "sourceLabel": "Dynamite",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -3616,10 +3818,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e61",
+      "id": "e610",
       "weight": 1,
-      "source": "Fireworks",
-      "target": "Explosive Powder",
+      "source": "n61",
+      "sourceLabel": "Fireworks",
+      "target": "n32",
+      "targetLabel": "Explosive Powder",
       "label": "1"
     }
   },
@@ -3633,10 +3837,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e61",
+      "id": "e611",
       "weight": 3000,
-      "source": "Fireworks",
-      "target": "Bytes",
+      "source": "n61",
+      "sourceLabel": "Fireworks",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -3650,10 +3856,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e62",
+      "id": "e620",
       "weight": 1,
-      "source": "Small Printer",
-      "target": "Compound",
+      "source": "n62",
+      "sourceLabel": "Small Printer",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -3667,10 +3875,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e63",
+      "id": "e630",
       "weight": 1,
-      "source": "Medium Generator",
-      "target": "Aluminum",
+      "source": "n63",
+      "sourceLabel": "Medium Generator",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "1"
     }
   },
@@ -3684,10 +3894,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e63",
+      "id": "e631",
       "weight": 1,
-      "source": "Medium Generator",
-      "target": "Tungsten",
+      "source": "n63",
+      "sourceLabel": "Medium Generator",
+      "target": "n20",
+      "targetLabel": "Tungsten",
       "label": "1"
     }
   },
@@ -3701,10 +3913,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e63",
+      "id": "e632",
       "weight": 3000,
-      "source": "Medium Generator",
-      "target": "Bytes",
+      "source": "n63",
+      "sourceLabel": "Medium Generator",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -3718,10 +3932,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e63",
+      "id": "e634",
       "weight": 1,
-      "source": "Medium Generator",
-      "target": "Small Printer",
+      "source": "n63",
+      "sourceLabel": "Medium Generator",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -3735,10 +3951,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e64",
+      "id": "e640",
       "weight": 1,
-      "source": "Medium Solar",
-      "target": "Copper",
+      "source": "n64",
+      "sourceLabel": "Medium Solar",
+      "target": "n17",
+      "targetLabel": "Copper",
       "label": "1"
     }
   },
@@ -3752,10 +3970,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e64",
+      "id": "e641",
       "weight": 1,
-      "source": "Medium Solar",
-      "target": "Glass",
+      "source": "n64",
+      "sourceLabel": "Medium Solar",
+      "target": "n21",
+      "targetLabel": "Glass",
       "label": "1"
     }
   },
@@ -3769,10 +3989,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e64",
+      "id": "e642",
       "weight": 3000,
-      "source": "Medium Solar",
-      "target": "Bytes",
+      "source": "n64",
+      "sourceLabel": "Medium Solar",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -3786,10 +4008,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e64",
+      "id": "e644",
       "weight": 1,
-      "source": "Medium Solar",
-      "target": "Small Printer",
+      "source": "n64",
+      "sourceLabel": "Medium Solar",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -3803,10 +4027,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e65",
+      "id": "e650",
       "weight": 1,
-      "source": "Medium Wind Turbine",
-      "target": "Ceramic",
+      "source": "n65",
+      "sourceLabel": "Medium Wind Turbine",
+      "target": "n22",
+      "targetLabel": "Ceramic",
       "label": "1"
     }
   },
@@ -3820,10 +4046,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e65",
+      "id": "e651",
       "weight": 1,
-      "source": "Medium Wind Turbine",
-      "target": "Glass",
+      "source": "n65",
+      "sourceLabel": "Medium Wind Turbine",
+      "target": "n21",
+      "targetLabel": "Glass",
       "label": "1"
     }
   },
@@ -3837,10 +4065,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e65",
+      "id": "e652",
       "weight": 2000,
-      "source": "Medium Wind Turbine",
-      "target": "Bytes",
+      "source": "n65",
+      "sourceLabel": "Medium Wind Turbine",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -3854,10 +4084,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e65",
+      "id": "e654",
       "weight": 1,
-      "source": "Medium Wind Turbine",
-      "target": "Small Printer",
+      "source": "n65",
+      "sourceLabel": "Medium Wind Turbine",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -3871,10 +4103,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e66",
+      "id": "e660",
       "weight": 1,
-      "source": "Medium Battery",
-      "target": "Lithium",
+      "source": "n66",
+      "sourceLabel": "Medium Battery",
+      "target": "n3",
+      "targetLabel": "Lithium",
       "label": "1"
     }
   },
@@ -3888,10 +4122,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e66",
+      "id": "e661",
       "weight": 1,
-      "source": "Medium Battery",
-      "target": "Zinc",
+      "source": "n66",
+      "sourceLabel": "Medium Battery",
+      "target": "n18",
+      "targetLabel": "Zinc",
       "label": "1"
     }
   },
@@ -3905,10 +4141,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e66",
+      "id": "e662",
       "weight": 3000,
-      "source": "Medium Battery",
-      "target": "Bytes",
+      "source": "n66",
+      "sourceLabel": "Medium Battery",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -3922,10 +4160,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e66",
+      "id": "e664",
       "weight": 1,
-      "source": "Medium Battery",
-      "target": "Small Printer",
+      "source": "n66",
+      "sourceLabel": "Medium Battery",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -3939,10 +4179,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e67",
+      "id": "e670",
       "weight": 2,
-      "source": "Medium Storage",
-      "target": "Resin",
+      "source": "n67",
+      "sourceLabel": "Medium Storage",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "2"
     }
   },
@@ -3956,10 +4198,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e67",
+      "id": "e674",
       "weight": 1,
-      "source": "Medium Storage",
-      "target": "Small Printer",
+      "source": "n67",
+      "sourceLabel": "Medium Storage",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -3973,10 +4217,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e68",
+      "id": "e680",
       "weight": 1,
-      "source": "Medium Platform A",
-      "target": "Resin",
+      "source": "n68",
+      "sourceLabel": "Medium Platform A",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "1"
     }
   },
@@ -3990,10 +4236,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e68",
+      "id": "e684",
       "weight": 1,
-      "source": "Medium Platform A",
-      "target": "Small Printer",
+      "source": "n68",
+      "sourceLabel": "Medium Platform A",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4007,10 +4255,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e69",
+      "id": "e690",
       "weight": 2,
-      "source": "Medium Platform B",
-      "target": "Resin",
+      "source": "n69",
+      "sourceLabel": "Medium Platform B",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "2"
     }
   },
@@ -4024,10 +4274,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e69",
+      "id": "e691",
       "weight": 250,
-      "source": "Medium Platform B",
-      "target": "Bytes",
+      "source": "n69",
+      "sourceLabel": "Medium Platform B",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "250"
     }
   },
@@ -4041,10 +4293,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e69",
+      "id": "e694",
       "weight": 1,
-      "source": "Medium Platform B",
-      "target": "Small Printer",
+      "source": "n69",
+      "sourceLabel": "Medium Platform B",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4058,10 +4312,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e70",
+      "id": "e700",
       "weight": 2,
-      "source": "Medium Shredder",
-      "target": "Iron",
+      "source": "n70",
+      "sourceLabel": "Medium Shredder",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "2"
     }
   },
@@ -4075,10 +4331,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e70",
+      "id": "e701",
       "weight": 1000,
-      "source": "Medium Shredder",
-      "target": "Bytes",
+      "source": "n70",
+      "sourceLabel": "Medium Shredder",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1000"
     }
   },
@@ -4092,10 +4350,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e70",
+      "id": "e704",
       "weight": 1,
-      "source": "Medium Shredder",
-      "target": "Small Printer",
+      "source": "n70",
+      "sourceLabel": "Medium Shredder",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4109,10 +4369,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e71",
+      "id": "e710",
       "weight": 1,
-      "source": "Dropship",
-      "target": "Titanium Alloy",
+      "source": "n71",
+      "sourceLabel": "Dropship",
+      "target": "n39",
+      "targetLabel": "Titanium Alloy",
       "label": "1"
     }
   },
@@ -4126,10 +4388,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e71",
+      "id": "e711",
       "weight": 1,
-      "source": "Dropship",
-      "target": "Graphene",
+      "source": "n71",
+      "sourceLabel": "Dropship",
+      "target": "n33",
+      "targetLabel": "Graphene",
       "label": "1"
     }
   },
@@ -4143,10 +4407,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e71",
+      "id": "e712",
       "weight": 4000,
-      "source": "Dropship",
-      "target": "Bytes",
+      "source": "n71",
+      "sourceLabel": "Dropship",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "4000"
     }
   },
@@ -4160,10 +4426,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e71",
+      "id": "e714",
       "weight": 1,
-      "source": "Dropship",
-      "target": "Small Printer",
+      "source": "n71",
+      "sourceLabel": "Dropship",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4177,10 +4445,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e72",
+      "id": "e720",
       "weight": 1,
-      "source": "Splitter",
-      "target": "Copper",
+      "source": "n72",
+      "sourceLabel": "Splitter",
+      "target": "n17",
+      "targetLabel": "Copper",
       "label": "1"
     }
   },
@@ -4194,10 +4464,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e72",
+      "id": "e721",
       "weight": 1,
-      "source": "Splitter",
-      "target": "Graphite",
+      "source": "n72",
+      "sourceLabel": "Splitter",
+      "target": "n12",
+      "targetLabel": "Graphite",
       "label": "1"
     }
   },
@@ -4211,10 +4483,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e72",
+      "id": "e722",
       "weight": 1000,
-      "source": "Splitter",
-      "target": "Bytes",
+      "source": "n72",
+      "sourceLabel": "Splitter",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1000"
     }
   },
@@ -4228,10 +4502,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e72",
+      "id": "e724",
       "weight": 1,
-      "source": "Splitter",
-      "target": "Small Printer",
+      "source": "n72",
+      "sourceLabel": "Splitter",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4245,10 +4521,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e73",
+      "id": "e730",
       "weight": 1,
-      "source": "Drill Head",
-      "target": "Tungsten Carbide",
+      "source": "n73",
+      "sourceLabel": "Drill Head",
+      "target": "n40",
+      "targetLabel": "Tungsten Carbide",
       "label": "1"
     }
   },
@@ -4262,10 +4540,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e73",
+      "id": "e731",
       "weight": 1,
-      "source": "Drill Head",
-      "target": "Ceramic",
+      "source": "n73",
+      "sourceLabel": "Drill Head",
+      "target": "n22",
+      "targetLabel": "Ceramic",
       "label": "1"
     }
   },
@@ -4279,10 +4559,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e73",
+      "id": "e732",
       "weight": 3500,
-      "source": "Drill Head",
-      "target": "Bytes",
+      "source": "n73",
+      "sourceLabel": "Drill Head",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3500"
     }
   },
@@ -4296,10 +4578,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e73",
+      "id": "e734",
       "weight": 1,
-      "source": "Drill Head",
-      "target": "Small Printer",
+      "source": "n73",
+      "sourceLabel": "Drill Head",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4313,10 +4597,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e74",
+      "id": "e740",
       "weight": 1,
-      "source": "Solid Fuel Thruster",
-      "target": "Aluminum",
+      "source": "n74",
+      "sourceLabel": "Solid Fuel Thruster",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "1"
     }
   },
@@ -4330,10 +4616,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e74",
+      "id": "e741",
       "weight": 1,
-      "source": "Solid Fuel Thruster",
-      "target": "Ammonium",
+      "source": "n74",
+      "sourceLabel": "Solid Fuel Thruster",
+      "target": "n11",
+      "targetLabel": "Ammonium",
       "label": "1"
     }
   },
@@ -4347,10 +4635,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e74",
+      "id": "e742",
       "weight": 500,
-      "source": "Solid Fuel Thruster",
-      "target": "Bytes",
+      "source": "n74",
+      "sourceLabel": "Solid Fuel Thruster",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "500"
     }
   },
@@ -4364,10 +4654,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e74",
+      "id": "e744",
       "weight": 1,
-      "source": "Solid Fuel Thruster",
-      "target": "Small Printer",
+      "source": "n74",
+      "sourceLabel": "Solid Fuel Thruster",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4381,10 +4673,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e75",
+      "id": "e750",
       "weight": 1,
-      "source": "Hydrazine Thruster",
-      "target": "Tungsten",
+      "source": "n75",
+      "sourceLabel": "Hydrazine Thruster",
+      "target": "n20",
+      "targetLabel": "Tungsten",
       "label": "1"
     }
   },
@@ -4398,10 +4692,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e75",
+      "id": "e751",
       "weight": 1,
-      "source": "Hydrazine Thruster",
-      "target": "Titanium Alloy",
+      "source": "n75",
+      "sourceLabel": "Hydrazine Thruster",
+      "target": "n39",
+      "targetLabel": "Titanium Alloy",
       "label": "1"
     }
   },
@@ -4415,10 +4711,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e75",
+      "id": "e752",
       "weight": 3000,
-      "source": "Hydrazine Thruster",
-      "target": "Bytes",
+      "source": "n75",
+      "sourceLabel": "Hydrazine Thruster",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -4432,10 +4730,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e75",
+      "id": "e754",
       "weight": 1,
-      "source": "Hydrazine Thruster",
-      "target": "Small Printer",
+      "source": "n75",
+      "sourceLabel": "Hydrazine Thruster",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4449,10 +4749,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e76",
+      "id": "e760",
       "weight": 1,
-      "source": "Winch",
-      "target": "Tungsten",
+      "source": "n76",
+      "sourceLabel": "Winch",
+      "target": "n20",
+      "targetLabel": "Tungsten",
       "label": "1"
     }
   },
@@ -4466,10 +4768,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e76",
+      "id": "e761",
       "weight": 1,
-      "source": "Winch",
-      "target": "Rubber",
+      "source": "n76",
+      "sourceLabel": "Winch",
+      "target": "n36",
+      "targetLabel": "Rubber",
       "label": "1"
     }
   },
@@ -4483,10 +4787,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e76",
+      "id": "e762",
       "weight": 3000,
-      "source": "Winch",
-      "target": "Bytes",
+      "source": "n76",
+      "sourceLabel": "Winch",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -4500,10 +4806,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e76",
+      "id": "e764",
       "weight": 1,
-      "source": "Winch",
-      "target": "Small Printer",
+      "source": "n76",
+      "sourceLabel": "Winch",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4517,10 +4825,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e77",
+      "id": "e770",
       "weight": 2,
-      "source": "Rover Seat",
-      "target": "Compound",
+      "source": "n77",
+      "sourceLabel": "Rover Seat",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "2"
     }
   },
@@ -4534,10 +4844,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e77",
+      "id": "e774",
       "weight": 1,
-      "source": "Rover Seat",
-      "target": "Small Printer",
+      "source": "n77",
+      "sourceLabel": "Rover Seat",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4551,10 +4863,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e78",
+      "id": "e780",
       "weight": 2,
-      "source": "Shuttle Seat",
-      "target": "Aluminum",
+      "source": "n78",
+      "sourceLabel": "Shuttle Seat",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "2"
     }
   },
@@ -4568,10 +4882,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e78",
+      "id": "e781",
       "weight": 1000,
-      "source": "Shuttle Seat",
-      "target": "Bytes",
+      "source": "n78",
+      "sourceLabel": "Shuttle Seat",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1000"
     }
   },
@@ -4585,10 +4901,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e78",
+      "id": "e784",
       "weight": 1,
-      "source": "Shuttle Seat",
-      "target": "Small Printer",
+      "source": "n78",
+      "sourceLabel": "Shuttle Seat",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4602,10 +4920,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e79",
+      "id": "e790",
       "weight": 2,
-      "source": "Medium Printer",
-      "target": "Compound",
+      "source": "n79",
+      "sourceLabel": "Medium Printer",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "2"
     }
   },
@@ -4619,10 +4939,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e79",
+      "id": "e794",
       "weight": 1,
-      "source": "Medium Printer",
-      "target": "Small Printer",
+      "source": "n79",
+      "sourceLabel": "Medium Printer",
+      "target": "n62",
+      "targetLabel": "Small Printer",
       "label": "1"
     }
   },
@@ -4636,10 +4958,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e80",
+      "id": "e800",
       "weight": 2,
-      "source": "Large Platform A",
-      "target": "Resin",
+      "source": "n80",
+      "sourceLabel": "Large Platform A",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "2"
     }
   },
@@ -4653,10 +4977,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e80",
+      "id": "e804",
       "weight": 1,
-      "source": "Large Platform A",
-      "target": "Medium Printer",
+      "source": "n80",
+      "sourceLabel": "Large Platform A",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -4670,10 +4996,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e81",
+      "id": "e810",
       "weight": 3,
-      "source": "Large Platform B",
-      "target": "Resin",
+      "source": "n81",
+      "sourceLabel": "Large Platform B",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "3"
     }
   },
@@ -4687,10 +5015,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e81",
+      "id": "e811",
       "weight": 500,
-      "source": "Large Platform B",
-      "target": "Bytes",
+      "source": "n81",
+      "sourceLabel": "Large Platform B",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "500"
     }
   },
@@ -4704,10 +5034,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e81",
+      "id": "e814",
       "weight": 1,
-      "source": "Large Platform B",
-      "target": "Medium Printer",
+      "source": "n81",
+      "sourceLabel": "Large Platform B",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -4721,10 +5053,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e82",
+      "id": "e820",
       "weight": 3,
-      "source": "Large Platform C",
-      "target": "Iron",
+      "source": "n82",
+      "sourceLabel": "Large Platform C",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "3"
     }
   },
@@ -4738,10 +5072,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e82",
+      "id": "e821",
       "weight": 2000,
-      "source": "Large Platform C",
-      "target": "Bytes",
+      "source": "n82",
+      "sourceLabel": "Large Platform C",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -4755,10 +5091,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e82",
+      "id": "e824",
       "weight": 1,
-      "source": "Large Platform C",
-      "target": "Medium Printer",
+      "source": "n82",
+      "sourceLabel": "Large Platform C",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -4772,10 +5110,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e83",
+      "id": "e830",
       "weight": 2,
-      "source": "Research Chamber",
-      "target": "Compound",
+      "source": "n83",
+      "sourceLabel": "Research Chamber",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "2"
     }
   },
@@ -4789,10 +5129,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e83",
+      "id": "e831",
       "weight": 1,
-      "source": "Research Chamber",
-      "target": "Resin",
+      "source": "n83",
+      "sourceLabel": "Research Chamber",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "1"
     }
   },
@@ -4806,10 +5148,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e83",
+      "id": "e834",
       "weight": 1,
-      "source": "Research Chamber",
-      "target": "Medium Printer",
+      "source": "n83",
+      "sourceLabel": "Research Chamber",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -4823,10 +5167,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e83",
+      "id": "e835",
       "weight": 1,
-      "source": "Research Chamber",
-      "target": "Large Platform A",
+      "source": "n83",
+      "sourceLabel": "Research Chamber",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -4840,10 +5186,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e84",
+      "id": "e840",
       "weight": 1,
-      "source": "Smelting Furnace",
-      "target": "Compound",
+      "source": "n84",
+      "sourceLabel": "Smelting Furnace",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -4857,10 +5205,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e84",
+      "id": "e841",
       "weight": 1,
-      "source": "Smelting Furnace",
-      "target": "Resin",
+      "source": "n84",
+      "sourceLabel": "Smelting Furnace",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "1"
     }
   },
@@ -4874,10 +5224,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e84",
+      "id": "e844",
       "weight": 1,
-      "source": "Smelting Furnace",
-      "target": "Medium Printer",
+      "source": "n84",
+      "sourceLabel": "Smelting Furnace",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -4891,10 +5243,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e84",
+      "id": "e845",
       "weight": 1,
-      "source": "Smelting Furnace",
-      "target": "Large Platform A",
+      "source": "n84",
+      "sourceLabel": "Smelting Furnace",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -4908,10 +5262,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e85",
+      "id": "e850",
       "weight": 2,
-      "source": "Soil Centrifuge",
-      "target": "Compound",
+      "source": "n85",
+      "sourceLabel": "Soil Centrifuge",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "2"
     }
   },
@@ -4925,10 +5281,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e85",
+      "id": "e851",
       "weight": 1,
-      "source": "Soil Centrifuge",
-      "target": "Aluminum",
+      "source": "n85",
+      "sourceLabel": "Soil Centrifuge",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "1"
     }
   },
@@ -4942,10 +5300,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e85",
+      "id": "e852",
       "weight": 750,
-      "source": "Soil Centrifuge",
-      "target": "Bytes",
+      "source": "n85",
+      "sourceLabel": "Soil Centrifuge",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "750"
     }
   },
@@ -4959,10 +5319,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e85",
+      "id": "e854",
       "weight": 1,
-      "source": "Soil Centrifuge",
-      "target": "Medium Printer",
+      "source": "n85",
+      "sourceLabel": "Soil Centrifuge",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -4976,10 +5338,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e85",
+      "id": "e855",
       "weight": 1,
-      "source": "Soil Centrifuge",
-      "target": "Large Platform A",
+      "source": "n85",
+      "sourceLabel": "Soil Centrifuge",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -4993,10 +5357,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e86",
+      "id": "e860",
       "weight": 1,
-      "source": "Chemistry Lab",
-      "target": "Ceramic",
+      "source": "n86",
+      "sourceLabel": "Chemistry Lab",
+      "target": "n22",
+      "targetLabel": "Ceramic",
       "label": "1"
     }
   },
@@ -5010,10 +5376,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e86",
+      "id": "e861",
       "weight": 1,
-      "source": "Chemistry Lab",
-      "target": "Glass",
+      "source": "n86",
+      "sourceLabel": "Chemistry Lab",
+      "target": "n21",
+      "targetLabel": "Glass",
       "label": "1"
     }
   },
@@ -5027,10 +5395,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e86",
+      "id": "e862",
       "weight": 1,
-      "source": "Chemistry Lab",
-      "target": "Tungsten",
+      "source": "n86",
+      "sourceLabel": "Chemistry Lab",
+      "target": "n20",
+      "targetLabel": "Tungsten",
       "label": "1"
     }
   },
@@ -5044,10 +5414,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e86",
+      "id": "e863",
       "weight": 1250,
-      "source": "Chemistry Lab",
-      "target": "Bytes",
+      "source": "n86",
+      "sourceLabel": "Chemistry Lab",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1250"
     }
   },
@@ -5061,10 +5433,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e86",
+      "id": "e864",
       "weight": 1,
-      "source": "Chemistry Lab",
-      "target": "Medium Printer",
+      "source": "n86",
+      "sourceLabel": "Chemistry Lab",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -5078,10 +5452,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e86",
+      "id": "e865",
       "weight": 1,
-      "source": "Chemistry Lab",
-      "target": "Large Platform A",
+      "source": "n86",
+      "sourceLabel": "Chemistry Lab",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -5095,10 +5471,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e87",
+      "id": "e870",
       "weight": 1,
-      "source": "Atmospheric Condenser",
-      "target": "Plastic",
+      "source": "n87",
+      "sourceLabel": "Atmospheric Condenser",
+      "target": "n35",
+      "targetLabel": "Plastic",
       "label": "1"
     }
   },
@@ -5112,10 +5490,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e87",
+      "id": "e871",
       "weight": 1,
-      "source": "Atmospheric Condenser",
-      "target": "Glass",
+      "source": "n87",
+      "sourceLabel": "Atmospheric Condenser",
+      "target": "n21",
+      "targetLabel": "Glass",
       "label": "1"
     }
   },
@@ -5129,10 +5509,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e87",
+      "id": "e872",
       "weight": 1,
-      "source": "Atmospheric Condenser",
-      "target": "Iron",
+      "source": "n87",
+      "sourceLabel": "Atmospheric Condenser",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "1"
     }
   },
@@ -5146,10 +5528,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e87",
+      "id": "e873",
       "weight": 1750,
-      "source": "Atmospheric Condenser",
-      "target": "Bytes",
+      "source": "n87",
+      "sourceLabel": "Atmospheric Condenser",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1750"
     }
   },
@@ -5163,10 +5547,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e87",
+      "id": "e874",
       "weight": 1,
-      "source": "Atmospheric Condenser",
-      "target": "Medium Printer",
+      "source": "n87",
+      "sourceLabel": "Atmospheric Condenser",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -5180,10 +5566,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e87",
+      "id": "e875",
       "weight": 1,
-      "source": "Atmospheric Condenser",
-      "target": "Large Platform A",
+      "source": "n87",
+      "sourceLabel": "Atmospheric Condenser",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -5197,10 +5585,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e88",
+      "id": "e880",
       "weight": 1,
-      "source": "Trade Platform",
-      "target": "Iron",
+      "source": "n88",
+      "sourceLabel": "Trade Platform",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "1"
     }
   },
@@ -5214,10 +5604,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e88",
+      "id": "e881",
       "weight": 1,
-      "source": "Trade Platform",
-      "target": "Tungsten",
+      "source": "n88",
+      "sourceLabel": "Trade Platform",
+      "target": "n20",
+      "targetLabel": "Tungsten",
       "label": "1"
     }
   },
@@ -5231,10 +5623,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e88",
+      "id": "e882",
       "weight": 1,
-      "source": "Trade Platform",
-      "target": "Compound",
+      "source": "n88",
+      "sourceLabel": "Trade Platform",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -5248,10 +5642,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e88",
+      "id": "e883",
       "weight": 2000,
-      "source": "Trade Platform",
-      "target": "Bytes",
+      "source": "n88",
+      "sourceLabel": "Trade Platform",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -5265,10 +5661,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e88",
+      "id": "e884",
       "weight": 1,
-      "source": "Trade Platform",
-      "target": "Medium Printer",
+      "source": "n88",
+      "sourceLabel": "Trade Platform",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -5282,10 +5680,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e88",
+      "id": "e885",
       "weight": 1,
-      "source": "Trade Platform",
-      "target": "Large Platform A",
+      "source": "n88",
+      "sourceLabel": "Trade Platform",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -5299,10 +5699,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e89",
+      "id": "e890",
       "weight": 1,
-      "source": "Large Shredder",
-      "target": "Tungsten Carbide",
+      "source": "n89",
+      "sourceLabel": "Large Shredder",
+      "target": "n40",
+      "targetLabel": "Tungsten Carbide",
       "label": "1"
     }
   },
@@ -5316,10 +5718,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e89",
+      "id": "e891",
       "weight": 2,
-      "source": "Large Shredder",
-      "target": "Iron",
+      "source": "n89",
+      "sourceLabel": "Large Shredder",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "2"
     }
   },
@@ -5333,10 +5737,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e89",
+      "id": "e892",
       "weight": 2000,
-      "source": "Large Shredder",
-      "target": "Bytes",
+      "source": "n89",
+      "sourceLabel": "Large Shredder",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -5350,10 +5756,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e89",
+      "id": "e894",
       "weight": 1,
-      "source": "Large Shredder",
-      "target": "Medium Printer",
+      "source": "n89",
+      "sourceLabel": "Large Shredder",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -5367,10 +5775,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e89",
+      "id": "e895",
       "weight": 1,
-      "source": "Large Shredder",
-      "target": "Large Platform A",
+      "source": "n89",
+      "sourceLabel": "Large Shredder",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -5384,10 +5794,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e90",
+      "id": "e900",
       "weight": 3,
-      "source": "Vehicle Bay",
-      "target": "Compound",
+      "source": "n90",
+      "sourceLabel": "Vehicle Bay",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "3"
     }
   },
@@ -5401,10 +5813,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e90",
+      "id": "e901",
       "weight": 1000,
-      "source": "Vehicle Bay",
-      "target": "Bytes",
+      "source": "n90",
+      "sourceLabel": "Vehicle Bay",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1000"
     }
   },
@@ -5418,10 +5832,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e90",
+      "id": "e904",
       "weight": 1,
-      "source": "Vehicle Bay",
-      "target": "Medium Printer",
+      "source": "n90",
+      "sourceLabel": "Vehicle Bay",
+      "target": "n79",
+      "targetLabel": "Medium Printer",
       "label": "1"
     }
   },
@@ -5435,10 +5851,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e90",
+      "id": "e905",
       "weight": 1,
-      "source": "Vehicle Bay",
-      "target": "Large Platform A",
+      "source": "n90",
+      "sourceLabel": "Vehicle Bay",
+      "target": "n80",
+      "targetLabel": "Large Platform A",
       "label": "1"
     }
   },
@@ -5452,10 +5870,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e91",
+      "id": "e910",
       "weight": 1,
-      "source": "Buggy",
-      "target": "Compound",
+      "source": "n91",
+      "sourceLabel": "Buggy",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -5469,10 +5889,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e91",
+      "id": "e911",
       "weight": 1,
-      "source": "Buggy",
-      "target": "Aluminum",
+      "source": "n91",
+      "sourceLabel": "Buggy",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "1"
     }
   },
@@ -5486,10 +5908,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e91",
+      "id": "e912",
       "weight": 1500,
-      "source": "Buggy",
-      "target": "Bytes",
+      "source": "n91",
+      "sourceLabel": "Buggy",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1500"
     }
   },
@@ -5503,10 +5927,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e91",
+      "id": "e914",
       "weight": 1,
-      "source": "Buggy",
-      "target": "Vehicle Bay",
+      "source": "n91",
+      "sourceLabel": "Buggy",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5520,10 +5946,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e92",
+      "id": "e920",
       "weight": 2,
-      "source": "Medium Rover",
-      "target": "Aluminum",
+      "source": "n92",
+      "sourceLabel": "Medium Rover",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "2"
     }
   },
@@ -5537,10 +5965,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e92",
+      "id": "e921",
       "weight": 1,
-      "source": "Medium Rover",
-      "target": "Ceramic",
+      "source": "n92",
+      "sourceLabel": "Medium Rover",
+      "target": "n22",
+      "targetLabel": "Ceramic",
       "label": "1"
     }
   },
@@ -5554,10 +5984,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e92",
+      "id": "e922",
       "weight": 3000,
-      "source": "Medium Rover",
-      "target": "Bytes",
+      "source": "n92",
+      "sourceLabel": "Medium Rover",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -5571,10 +6003,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e92",
+      "id": "e924",
       "weight": 1,
-      "source": "Medium Rover",
-      "target": "Vehicle Bay",
+      "source": "n92",
+      "sourceLabel": "Medium Rover",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5588,10 +6022,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e93",
+      "id": "e930",
       "weight": 2,
-      "source": "Large Rover",
-      "target": "Aluminum Alloy",
+      "source": "n93",
+      "sourceLabel": "Large Rover",
+      "target": "n30",
+      "targetLabel": "Aluminum Alloy",
       "label": "2"
     }
   },
@@ -5605,10 +6041,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e93",
+      "id": "e931",
       "weight": 2,
-      "source": "Large Rover",
-      "target": "Rubber",
+      "source": "n93",
+      "sourceLabel": "Large Rover",
+      "target": "n36",
+      "targetLabel": "Rubber",
       "label": "2"
     }
   },
@@ -5622,10 +6060,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e93",
+      "id": "e932",
       "weight": 4000,
-      "source": "Large Rover",
-      "target": "Bytes",
+      "source": "n93",
+      "sourceLabel": "Large Rover",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "4000"
     }
   },
@@ -5639,10 +6079,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e93",
+      "id": "e934",
       "weight": 1,
-      "source": "Large Rover",
-      "target": "Vehicle Bay",
+      "source": "n93",
+      "sourceLabel": "Large Rover",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5656,10 +6098,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e94",
+      "id": "e940",
       "weight": 2,
-      "source": "Small Shuttle",
-      "target": "Aluminum",
+      "source": "n94",
+      "sourceLabel": "Small Shuttle",
+      "target": "n15",
+      "targetLabel": "Aluminum",
       "label": "2"
     }
   },
@@ -5673,10 +6117,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e94",
+      "id": "e941",
       "weight": 1500,
-      "source": "Small Shuttle",
-      "target": "Bytes",
+      "source": "n94",
+      "sourceLabel": "Small Shuttle",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1500"
     }
   },
@@ -5690,10 +6136,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e94",
+      "id": "e942",
       "weight": 1500,
-      "source": "Small Shuttle",
-      "target": "Bytes",
+      "source": "n94",
+      "sourceLabel": "Small Shuttle",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1500"
     }
   },
@@ -5707,10 +6155,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e94",
+      "id": "e944",
       "weight": 1,
-      "source": "Small Shuttle",
-      "target": "Vehicle Bay",
+      "source": "n94",
+      "sourceLabel": "Small Shuttle",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5724,10 +6174,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e95",
+      "id": "e950",
       "weight": 2,
-      "source": "Medium Shuttle",
-      "target": "Aluminum Alloy",
+      "source": "n95",
+      "sourceLabel": "Medium Shuttle",
+      "target": "n30",
+      "targetLabel": "Aluminum Alloy",
       "label": "2"
     }
   },
@@ -5741,10 +6193,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e95",
+      "id": "e951",
       "weight": 2,
-      "source": "Medium Shuttle",
-      "target": "Ceramic",
+      "source": "n95",
+      "sourceLabel": "Medium Shuttle",
+      "target": "n22",
+      "targetLabel": "Ceramic",
       "label": "2"
     }
   },
@@ -5758,10 +6212,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e95",
+      "id": "e952",
       "weight": 3000,
-      "source": "Medium Shuttle",
-      "target": "Bytes",
+      "source": "n95",
+      "sourceLabel": "Medium Shuttle",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -5775,10 +6231,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e95",
+      "id": "e954",
       "weight": 1,
-      "source": "Medium Shuttle",
-      "target": "Vehicle Bay",
+      "source": "n95",
+      "sourceLabel": "Medium Shuttle",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5792,10 +6250,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e96",
+      "id": "e960",
       "weight": 2,
-      "source": "Large Shuttle",
-      "target": "Titanium Alloy",
+      "source": "n96",
+      "sourceLabel": "Large Shuttle",
+      "target": "n39",
+      "targetLabel": "Titanium Alloy",
       "label": "2"
     }
   },
@@ -5809,10 +6269,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e96",
+      "id": "e961",
       "weight": 2,
-      "source": "Large Shuttle",
-      "target": "Ceramic",
+      "source": "n96",
+      "sourceLabel": "Large Shuttle",
+      "target": "n22",
+      "targetLabel": "Ceramic",
       "label": "2"
     }
   },
@@ -5826,10 +6288,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e96",
+      "id": "e962",
       "weight": 4000,
-      "source": "Large Shuttle",
-      "target": "Bytes",
+      "source": "n96",
+      "sourceLabel": "Large Shuttle",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "4000"
     }
   },
@@ -5843,10 +6307,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e96",
+      "id": "e964",
       "weight": 1,
-      "source": "Large Shuttle",
-      "target": "Vehicle Bay",
+      "source": "n96",
+      "sourceLabel": "Large Shuttle",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5860,10 +6326,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e97",
+      "id": "e970",
       "weight": 3,
-      "source": "Large Storage",
-      "target": "Ceramic",
+      "source": "n97",
+      "sourceLabel": "Large Storage",
+      "target": "n22",
+      "targetLabel": "Ceramic",
       "label": "3"
     }
   },
@@ -5877,10 +6345,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e97",
+      "id": "e971",
       "weight": 2000,
-      "source": "Large Storage",
-      "target": "Bytes",
+      "source": "n97",
+      "sourceLabel": "Large Storage",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -5894,10 +6364,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e97",
+      "id": "e974",
       "weight": 1,
-      "source": "Large Storage",
-      "target": "Vehicle Bay",
+      "source": "n97",
+      "sourceLabel": "Large Storage",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5911,10 +6383,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e98",
+      "id": "e980",
       "weight": 2,
-      "source": "Extra Large Storage",
-      "target": "Steel",
+      "source": "n98",
+      "sourceLabel": "Extra Large Storage",
+      "target": "n38",
+      "targetLabel": "Steel",
       "label": "2"
     }
   },
@@ -5928,10 +6402,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e98",
+      "id": "e981",
       "weight": 2,
-      "source": "Extra Large Storage",
-      "target": "Iron",
+      "source": "n98",
+      "sourceLabel": "Extra Large Storage",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "2"
     }
   },
@@ -5945,10 +6421,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e98",
+      "id": "e982",
       "weight": 3000,
-      "source": "Extra Large Storage",
-      "target": "Bytes",
+      "source": "n98",
+      "sourceLabel": "Extra Large Storage",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3000"
     }
   },
@@ -5962,10 +6440,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e98",
+      "id": "e984",
       "weight": 1,
-      "source": "Extra Large Storage",
-      "target": "Vehicle Bay",
+      "source": "n98",
+      "sourceLabel": "Extra Large Storage",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -5979,10 +6459,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e99",
+      "id": "e990",
       "weight": 4,
-      "source": "Extra Large Platform A",
-      "target": "Iron",
+      "source": "n99",
+      "sourceLabel": "Extra Large Platform A",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "4"
     }
   },
@@ -5996,10 +6478,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e99",
+      "id": "e991",
       "weight": 2000,
-      "source": "Extra Large Platform A",
-      "target": "Bytes",
+      "source": "n99",
+      "sourceLabel": "Extra Large Platform A",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -6013,10 +6497,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e99",
+      "id": "e994",
       "weight": 1,
-      "source": "Extra Large Platform A",
-      "target": "Vehicle Bay",
+      "source": "n99",
+      "sourceLabel": "Extra Large Platform A",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -6030,10 +6516,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e100",
+      "id": "e1000",
       "weight": 2,
-      "source": "Extra Large Platform B",
-      "target": "Iron",
+      "source": "n100",
+      "sourceLabel": "Extra Large Platform B",
+      "target": "n16",
+      "targetLabel": "Iron",
       "label": "2"
     }
   },
@@ -6047,10 +6535,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e100",
+      "id": "e1001",
       "weight": 2,
-      "source": "Extra Large Platform B",
-      "target": "Resin",
+      "source": "n100",
+      "sourceLabel": "Extra Large Platform B",
+      "target": "n2",
+      "targetLabel": "Resin",
       "label": "2"
     }
   },
@@ -6064,10 +6554,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e100",
+      "id": "e1002",
       "weight": 2000,
-      "source": "Extra Large Platform B",
-      "target": "Bytes",
+      "source": "n100",
+      "sourceLabel": "Extra Large Platform B",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -6081,10 +6573,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e100",
+      "id": "e1004",
       "weight": 1,
-      "source": "Extra Large Platform B",
-      "target": "Vehicle Bay",
+      "source": "n100",
+      "sourceLabel": "Extra Large Platform B",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -6098,10 +6592,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e101",
+      "id": "e1010",
       "weight": 1,
-      "source": "Crane",
-      "target": "Steel",
+      "source": "n101",
+      "sourceLabel": "Crane",
+      "target": "n38",
+      "targetLabel": "Steel",
       "label": "1"
     }
   },
@@ -6115,10 +6611,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e101",
+      "id": "e1011",
       "weight": 1,
-      "source": "Crane",
-      "target": "Silicone",
+      "source": "n101",
+      "sourceLabel": "Crane",
+      "target": "n37",
+      "targetLabel": "Silicone",
       "label": "1"
     }
   },
@@ -6132,10 +6630,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e101",
+      "id": "e1012",
       "weight": 1,
-      "source": "Crane",
-      "target": "Titanium",
+      "source": "n101",
+      "sourceLabel": "Crane",
+      "target": "n19",
+      "targetLabel": "Titanium",
       "label": "1"
     }
   },
@@ -6149,10 +6649,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e101",
+      "id": "e1013",
       "weight": 3500,
-      "source": "Crane",
-      "target": "Bytes",
+      "source": "n101",
+      "sourceLabel": "Crane",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "3500"
     }
   },
@@ -6166,10 +6668,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e101",
+      "id": "e1014",
       "weight": 1,
-      "source": "Crane",
-      "target": "Vehicle Bay",
+      "source": "n101",
+      "sourceLabel": "Crane",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -6183,10 +6687,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e102",
+      "id": "e1020",
       "weight": 2,
-      "source": "Large Rover Seat",
-      "target": "Plastic",
+      "source": "n102",
+      "sourceLabel": "Large Rover Seat",
+      "target": "n35",
+      "targetLabel": "Plastic",
       "label": "2"
     }
   },
@@ -6200,10 +6706,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e102",
+      "id": "e1021",
       "weight": 1,
-      "source": "Large Rover Seat",
-      "target": "Compound",
+      "source": "n102",
+      "sourceLabel": "Large Rover Seat",
+      "target": "n1",
+      "targetLabel": "Compound",
       "label": "1"
     }
   },
@@ -6217,10 +6725,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e102",
+      "id": "e1022",
       "weight": 1500,
-      "source": "Large Rover Seat",
-      "target": "Bytes",
+      "source": "n102",
+      "sourceLabel": "Large Rover Seat",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "1500"
     }
   },
@@ -6234,10 +6744,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e102",
+      "id": "e1024",
       "weight": 1,
-      "source": "Large Rover Seat",
-      "target": "Vehicle Bay",
+      "source": "n102",
+      "sourceLabel": "Large Rover Seat",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -6251,10 +6763,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e103",
+      "id": "e1030",
       "weight": 2,
-      "source": "Large Shuttle Seat",
-      "target": "Aluminum Alloy",
+      "source": "n103",
+      "sourceLabel": "Large Shuttle Seat",
+      "target": "n30",
+      "targetLabel": "Aluminum Alloy",
       "label": "2"
     }
   },
@@ -6268,10 +6782,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e103",
+      "id": "e1031",
       "weight": 1,
-      "source": "Large Shuttle Seat",
-      "target": "Plastic",
+      "source": "n103",
+      "sourceLabel": "Large Shuttle Seat",
+      "target": "n35",
+      "targetLabel": "Plastic",
       "label": "1"
     }
   },
@@ -6285,10 +6801,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e103",
+      "id": "e1032",
       "weight": 2000,
-      "source": "Large Shuttle Seat",
-      "target": "Bytes",
+      "source": "n103",
+      "sourceLabel": "Large Shuttle Seat",
+      "target": "n0",
+      "targetLabel": "Bytes",
       "label": "2000"
     }
   },
@@ -6302,10 +6820,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e103",
+      "id": "e1034",
       "weight": 1,
-      "source": "Large Shuttle Seat",
-      "target": "Vehicle Bay",
+      "source": "n103",
+      "sourceLabel": "Large Shuttle Seat",
+      "target": "n90",
+      "targetLabel": "Vehicle Bay",
       "label": "1"
     }
   },
@@ -6319,10 +6839,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e104",
+      "id": "e1040",
       "weight": 1,
-      "source": "Minimal Rocket",
-      "target": "Small Shuttle",
+      "source": "n104",
+      "sourceLabel": "Minimal Rocket",
+      "target": "n94",
+      "targetLabel": "Small Shuttle",
       "label": "1"
     }
   },
@@ -6336,10 +6858,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e104",
+      "id": "e1041",
       "weight": 1,
-      "source": "Minimal Rocket",
-      "target": "Rover Seat",
+      "source": "n104",
+      "sourceLabel": "Minimal Rocket",
+      "target": "n77",
+      "targetLabel": "Rover Seat",
       "label": "1"
     }
   },
@@ -6353,10 +6877,12 @@
     "grabbable": true,
     "classes": "",
     "data": {
-      "id": "e104",
+      "id": "e1042",
       "weight": 2,
-      "source": "Minimal Rocket",
-      "target": "Solid Fuel Thruster",
+      "source": "n104",
+      "sourceLabel": "Minimal Rocket",
+      "target": "n74",
+      "targetLabel": "Solid Fuel Thruster",
       "label": "2"
     }
   }

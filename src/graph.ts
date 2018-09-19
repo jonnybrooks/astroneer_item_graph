@@ -1,5 +1,3 @@
-import graphConfig from "./graph_config";
-
 /*
 * Data object for vertex
 * */
@@ -119,7 +117,3 @@ namespace Graph {
         return graph;
     }
 }
-
-// const g = Graph.loadGraphConfig(graphConfig);
-// console.log(g.edges.getEdge(0, 1));
-// console.log(g.edges.getEdge(1, 0));
