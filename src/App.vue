@@ -7,17 +7,32 @@
 <script>
     import cytoscape from "cytoscape";
     import dagre from "cytoscape-dagre";
-    // import coseBilkent from "cytoscape-cose-bilkent";
+    import coseBilkent from "cytoscape-cose-bilkent";
     import config from "./assets/cytoscape_config";
 
     cytoscape.use( dagre );
-    // cytoscape.use( coseBilkent );
+    cytoscape.use( coseBilkent );
 
     export default {
         name: 'App',
         async mounted() {
             this.renderGraph(config);
-            this.filterNodes();
+
+            // build the branching dependency table
+            const dependencyTable = this.buildDependencyTable("Buggy");
+
+            // flatten out the table
+            const edges = dependencyTable.reduce((acc, path) =>{
+                path.forEach(edge => acc.push(edge));
+                return acc;
+            }, []);
+
+            const filteredEdges = cy.edges().filter(e => !edges.includes(e));
+            const filteredNodes = cy.nodes().filter(n => !edges.find(e =>
+                    e.data("source") === n.data("id") || e.data("target") === n.data("id")));
+
+            cy.remove(filteredEdges);
+            cy.remove(filteredNodes);
         },
         methods: {
             renderGraph(config) {
@@ -25,9 +40,19 @@
                     container: document.getElementById('cy'),
                     boxSelectionEnabled: false,
                     autounselectify: true,
+
                     // layout: { name: "dagre" },
-                    layout: { name: "grid" },
-                    // layout: { name: "cose-bilkent", animate: false },
+                    layout: {
+                        name: "grid",
+                        nodeSep: 100
+                    },
+                    // layout: {
+                    //     name: "cose-bilkent",
+                    //     animate: false,
+                    //     nodeSep: 20
+                    // },
+                    // layout: { name: "circle" },
+
                     style: [
                         {
                             selector: "node",
@@ -64,9 +89,28 @@
                 cy.remove(filtered);
                 // filtered.restore();
 
+            },
+            buildDependencyTable(currentNode, localEdges = [], finalEdges = []) {
+
+                let dependencies = cy.edges().filter(e => e.data("sourceLabel") === currentNode);
+
+                // If we're at a node with no dependencies (edges), add the path to the list
+                if(dependencies.length <= 0) {
+                    return finalEdges.push(localEdges);
+                }
+
+                // Else recurse over the dependencies and save the paths from the recursive calls
+                dependencies.forEach(dep => {
+                    const scopedPath = localEdges.slice(0);
+                    scopedPath.push(dep);
+                    this.buildDependencyTable(dep.data("targetLabel"), scopedPath, finalEdges);
+                });
+
+                return finalEdges;
             }
         }
     }
+
 </script>
 
 <style>
