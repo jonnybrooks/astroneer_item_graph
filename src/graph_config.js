@@ -1,4 +1,6 @@
-export default {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
     vertices: [
         { index: 0, data: { name: "Resin", rank: 0 } },
         { index: 1, data: { name: "Medium Platform", rank: 1 } },

@@ -1,0 +1,2056 @@
+{
+  "vertices": [
+    {
+      "index": 0,
+      "data": {
+        "name": "Bytes",
+        "rank": 0
+      }
+    },
+    {
+      "index": 1,
+      "data": {
+        "name": "Compound",
+        "rank": 0
+      }
+    },
+    {
+      "index": 2,
+      "data": {
+        "name": "Resin",
+        "rank": 0
+      }
+    },
+    {
+      "index": 3,
+      "data": {
+        "name": "Lithium",
+        "rank": 0
+      }
+    },
+    {
+      "index": 4,
+      "data": {
+        "name": "Quartz",
+        "rank": 0
+      }
+    },
+    {
+      "index": 5,
+      "data": {
+        "name": "Malachite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 6,
+      "data": {
+        "name": "Wolframite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 7,
+      "data": {
+        "name": "Sphalerite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 8,
+      "data": {
+        "name": "Hematite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 9,
+      "data": {
+        "name": "Titanite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 10,
+      "data": {
+        "name": "Clay",
+        "rank": 0
+      }
+    },
+    {
+      "index": 11,
+      "data": {
+        "name": "Ammonium",
+        "rank": 0
+      }
+    },
+    {
+      "index": 12,
+      "data": {
+        "name": "Graphite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 13,
+      "data": {
+        "name": "Laterite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 14,
+      "data": {
+        "name": "Organic",
+        "rank": 0
+      }
+    },
+    {
+      "index": 15,
+      "data": {
+        "name": "Aluminum",
+        "rank": 0
+      }
+    },
+    {
+      "index": 16,
+      "data": {
+        "name": "Iron",
+        "rank": 0
+      }
+    },
+    {
+      "index": 17,
+      "data": {
+        "name": "Copper",
+        "rank": 0
+      }
+    },
+    {
+      "index": 18,
+      "data": {
+        "name": "Zinc",
+        "rank": 0
+      }
+    },
+    {
+      "index": 19,
+      "data": {
+        "name": "Titanium",
+        "rank": 0
+      }
+    },
+    {
+      "index": 20,
+      "data": {
+        "name": "Tungsten",
+        "rank": 0
+      }
+    },
+    {
+      "index": 21,
+      "data": {
+        "name": "Glass",
+        "rank": 0
+      }
+    },
+    {
+      "index": 22,
+      "data": {
+        "name": "Ceramic",
+        "rank": 0
+      }
+    },
+    {
+      "index": 23,
+      "data": {
+        "name": "Carbon",
+        "rank": 0
+      }
+    },
+    {
+      "index": 24,
+      "data": {
+        "name": "Argon",
+        "rank": 0
+      }
+    },
+    {
+      "index": 25,
+      "data": {
+        "name": "Helium",
+        "rank": 0
+      }
+    },
+    {
+      "index": 26,
+      "data": {
+        "name": "Hydrogen",
+        "rank": 0
+      }
+    },
+    {
+      "index": 27,
+      "data": {
+        "name": "Methane",
+        "rank": 0
+      }
+    },
+    {
+      "index": 28,
+      "data": {
+        "name": "Nitrogen",
+        "rank": 0
+      }
+    },
+    {
+      "index": 29,
+      "data": {
+        "name": "Sulfur",
+        "rank": 0
+      }
+    },
+    {
+      "index": 30,
+      "data": {
+        "name": "Aluminum Alloy",
+        "rank": 0
+      }
+    },
+    {
+      "index": 31,
+      "data": {
+        "name": "Diamond",
+        "rank": 0
+      }
+    },
+    {
+      "index": 32,
+      "data": {
+        "name": "Explosive Powder",
+        "rank": 0
+      }
+    },
+    {
+      "index": 33,
+      "data": {
+        "name": "Graphene",
+        "rank": 0
+      }
+    },
+    {
+      "index": 34,
+      "data": {
+        "name": "Nanocarbon Alloy",
+        "rank": 0
+      }
+    },
+    {
+      "index": 35,
+      "data": {
+        "name": "Plastic",
+        "rank": 0
+      }
+    },
+    {
+      "index": 36,
+      "data": {
+        "name": "Rubber",
+        "rank": 0
+      }
+    },
+    {
+      "index": 37,
+      "data": {
+        "name": "Silicone",
+        "rank": 0
+      }
+    },
+    {
+      "index": 38,
+      "data": {
+        "name": "Steel",
+        "rank": 0
+      }
+    },
+    {
+      "index": 39,
+      "data": {
+        "name": "Titanium Alloy",
+        "rank": 0
+      }
+    },
+    {
+      "index": 40,
+      "data": {
+        "name": "Tungsten Carbide",
+        "rank": 0
+      }
+    },
+    {
+      "index": 41,
+      "data": {
+        "name": "Hydrazine",
+        "rank": 0
+      }
+    },
+    {
+      "index": 42,
+      "data": {
+        "name": "Tethers",
+        "rank": 0
+      }
+    },
+    {
+      "index": 43,
+      "data": {
+        "name": "Canister",
+        "rank": 0
+      }
+    },
+    {
+      "index": 44,
+      "data": {
+        "name": "Beacon",
+        "rank": 0
+      }
+    },
+    {
+      "index": 45,
+      "data": {
+        "name": "Work Light",
+        "rank": 0
+      }
+    },
+    {
+      "index": 46,
+      "data": {
+        "name": "Oxygen Filters",
+        "rank": 0
+      }
+    },
+    {
+      "index": 47,
+      "data": {
+        "name": "Small Oxygen Tank",
+        "rank": 0
+      }
+    },
+    {
+      "index": 48,
+      "data": {
+        "name": "Small Generator",
+        "rank": 0
+      }
+    },
+    {
+      "index": 49,
+      "data": {
+        "name": "Power Cells",
+        "rank": 0
+      }
+    },
+    {
+      "index": 50,
+      "data": {
+        "name": "Small Battery",
+        "rank": 0
+      }
+    },
+    {
+      "index": 51,
+      "data": {
+        "name": "Wide Mod",
+        "rank": 0
+      }
+    },
+    {
+      "index": 52,
+      "data": {
+        "name": "Small Solar",
+        "rank": 0
+      }
+    },
+    {
+      "index": 53,
+      "data": {
+        "name": "Small Wind Turbine",
+        "rank": 0
+      }
+    },
+    {
+      "index": 54,
+      "data": {
+        "name": "Alignment Mod",
+        "rank": 0
+      }
+    },
+    {
+      "index": 55,
+      "data": {
+        "name": "Inhibitor Mod",
+        "rank": 0
+      }
+    },
+    {
+      "index": 56,
+      "data": {
+        "name": "Boost Mod",
+        "rank": 0
+      }
+    },
+    {
+      "index": 57,
+      "data": {
+        "name": "Narrow Mod",
+        "rank": 0
+      }
+    },
+    {
+      "index": 58,
+      "data": {
+        "name": "Terrain Analyzer",
+        "rank": 0
+      }
+    },
+    {
+      "index": 59,
+      "data": {
+        "name": "Extenders",
+        "rank": 0
+      }
+    },
+    {
+      "index": 60,
+      "data": {
+        "name": "Dynamite",
+        "rank": 0
+      }
+    },
+    {
+      "index": 61,
+      "data": {
+        "name": "Fireworks",
+        "rank": 0
+      }
+    },
+    {
+      "index": 62,
+      "data": {
+        "name": "Small Printer",
+        "rank": 0
+      }
+    },
+    {
+      "index": 63,
+      "data": {
+        "name": "Medium Generator",
+        "rank": 0
+      }
+    },
+    {
+      "index": 64,
+      "data": {
+        "name": "Medium Solar",
+        "rank": 0
+      }
+    },
+    {
+      "index": 65,
+      "data": {
+        "name": "Medium Wind Turbine",
+        "rank": 0
+      }
+    },
+    {
+      "index": 66,
+      "data": {
+        "name": "Medium Battery",
+        "rank": 0
+      }
+    },
+    {
+      "index": 67,
+      "data": {
+        "name": "Medium Storage",
+        "rank": 0
+      }
+    },
+    {
+      "index": 68,
+      "data": {
+        "name": "Medium Platform A",
+        "rank": 0
+      }
+    },
+    {
+      "index": 69,
+      "data": {
+        "name": "Medium Platform B",
+        "rank": 0
+      }
+    },
+    {
+      "index": 70,
+      "data": {
+        "name": "Medium Shredder",
+        "rank": 0
+      }
+    },
+    {
+      "index": 71,
+      "data": {
+        "name": "Dropship",
+        "rank": 0
+      }
+    },
+    {
+      "index": 72,
+      "data": {
+        "name": "Splitter",
+        "rank": 0
+      }
+    },
+    {
+      "index": 73,
+      "data": {
+        "name": "Drill Head",
+        "rank": 0
+      }
+    },
+    {
+      "index": 74,
+      "data": {
+        "name": "Solid Fuel Thruster",
+        "rank": 0
+      }
+    },
+    {
+      "index": 75,
+      "data": {
+        "name": "Hydrazine Thruster",
+        "rank": 0
+      }
+    },
+    {
+      "index": 76,
+      "data": {
+        "name": "Winch",
+        "rank": 0
+      }
+    },
+    {
+      "index": 77,
+      "data": {
+        "name": "Rover Seat",
+        "rank": 0
+      }
+    },
+    {
+      "index": 78,
+      "data": {
+        "name": "Shuttle Seat",
+        "rank": 0
+      }
+    },
+    {
+      "index": 79,
+      "data": {
+        "name": "Medium Printer",
+        "rank": 0
+      }
+    },
+    {
+      "index": 80,
+      "data": {
+        "name": "Large Platform A",
+        "rank": 0
+      }
+    },
+    {
+      "index": 81,
+      "data": {
+        "name": "Large Platform B",
+        "rank": 0
+      }
+    },
+    {
+      "index": 82,
+      "data": {
+        "name": "Large Platform C",
+        "rank": 0
+      }
+    },
+    {
+      "index": 83,
+      "data": {
+        "name": "Research Chamber",
+        "rank": 0
+      }
+    },
+    {
+      "index": 84,
+      "data": {
+        "name": "Smelting Furnace",
+        "rank": 0
+      }
+    },
+    {
+      "index": 85,
+      "data": {
+        "name": "Soil Centrifuge",
+        "rank": 0
+      }
+    },
+    {
+      "index": 86,
+      "data": {
+        "name": "Chemistry Lab",
+        "rank": 0
+      }
+    },
+    {
+      "index": 87,
+      "data": {
+        "name": "Atmospheric Condenser",
+        "rank": 0
+      }
+    },
+    {
+      "index": 88,
+      "data": {
+        "name": "Trade Platform",
+        "rank": 0
+      }
+    },
+    {
+      "index": 89,
+      "data": {
+        "name": "Large Shredder",
+        "rank": 0
+      }
+    },
+    {
+      "index": 90,
+      "data": {
+        "name": "Vehicle Bay",
+        "rank": 0
+      }
+    },
+    {
+      "index": 91,
+      "data": {
+        "name": "Buggy",
+        "rank": 0
+      }
+    },
+    {
+      "index": 92,
+      "data": {
+        "name": "Medium Rover",
+        "rank": 0
+      }
+    },
+    {
+      "index": 93,
+      "data": {
+        "name": "Large Rover",
+        "rank": 0
+      }
+    },
+    {
+      "index": 94,
+      "data": {
+        "name": "Small Shuttle",
+        "rank": 0
+      }
+    },
+    {
+      "index": 95,
+      "data": {
+        "name": "Medium Shuttle",
+        "rank": 0
+      }
+    },
+    {
+      "index": 96,
+      "data": {
+        "name": "Large Shuttle",
+        "rank": 0
+      }
+    },
+    {
+      "index": 97,
+      "data": {
+        "name": "Large Storage",
+        "rank": 0
+      }
+    },
+    {
+      "index": 98,
+      "data": {
+        "name": "Extra Large Storage",
+        "rank": 0
+      }
+    },
+    {
+      "index": 99,
+      "data": {
+        "name": "Extra Large Platform A",
+        "rank": 0
+      }
+    },
+    {
+      "index": 100,
+      "data": {
+        "name": "Extra Large Platform B",
+        "rank": 0
+      }
+    },
+    {
+      "index": 101,
+      "data": {
+        "name": "Crane",
+        "rank": 0
+      }
+    },
+    {
+      "index": 102,
+      "data": {
+        "name": "Large Rover Seat",
+        "rank": 0
+      }
+    },
+    {
+      "index": 103,
+      "data": {
+        "name": "Large Shuttle Seat",
+        "rank": 0
+      }
+    },
+    {
+      "index": 104,
+      "data": {
+        "name": "Minimal Rocket",
+        "rank": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": 15,
+      "to": 13,
+      "amount": 1
+    },
+    {
+      "from": 15,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 16,
+      "to": 8,
+      "amount": 1
+    },
+    {
+      "from": 16,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 17,
+      "to": 5,
+      "amount": 1
+    },
+    {
+      "from": 17,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 18,
+      "to": 7,
+      "amount": 1
+    },
+    {
+      "from": 18,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 19,
+      "to": 9,
+      "amount": 1
+    },
+    {
+      "from": 19,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 20,
+      "to": 6,
+      "amount": 1
+    },
+    {
+      "from": 20,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 21,
+      "to": 4,
+      "amount": 1
+    },
+    {
+      "from": 21,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 22,
+      "to": 10,
+      "amount": 1
+    },
+    {
+      "from": 22,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 23,
+      "to": 14,
+      "amount": 1
+    },
+    {
+      "from": 23,
+      "to": 84,
+      "amount": 1
+    },
+    {
+      "from": 24,
+      "to": 87,
+      "amount": 1
+    },
+    {
+      "from": 25,
+      "to": 87,
+      "amount": 1
+    },
+    {
+      "from": 25,
+      "to": 104,
+      "amount": 1
+    },
+    {
+      "from": 26,
+      "to": 87,
+      "amount": 1
+    },
+    {
+      "from": 27,
+      "to": 87,
+      "amount": 1
+    },
+    {
+      "from": 27,
+      "to": 104,
+      "amount": 1
+    },
+    {
+      "from": 28,
+      "to": 87,
+      "amount": 1
+    },
+    {
+      "from": 29,
+      "to": 87,
+      "amount": 1
+    },
+    {
+      "from": 29,
+      "to": 104,
+      "amount": 1
+    },
+    {
+      "from": 30,
+      "to": 15,
+      "amount": 1
+    },
+    {
+      "from": 30,
+      "to": 17,
+      "amount": 1
+    },
+    {
+      "from": 30,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 31,
+      "to": 33,
+      "amount": 2
+    },
+    {
+      "from": 31,
+      "to": 87,
+      "amount": 1
+    },
+    {
+      "from": 31,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 32,
+      "to": 23,
+      "amount": 2
+    },
+    {
+      "from": 32,
+      "to": 29,
+      "amount": 1
+    },
+    {
+      "from": 32,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 33,
+      "to": 12,
+      "amount": 1
+    },
+    {
+      "from": 33,
+      "to": 41,
+      "amount": 1
+    },
+    {
+      "from": 33,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 34,
+      "to": 38,
+      "amount": 1
+    },
+    {
+      "from": 34,
+      "to": 39,
+      "amount": 1
+    },
+    {
+      "from": 34,
+      "to": 25,
+      "amount": 1
+    },
+    {
+      "from": 34,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 35,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 35,
+      "to": 23,
+      "amount": 1
+    },
+    {
+      "from": 35,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 36,
+      "to": 14,
+      "amount": 1
+    },
+    {
+      "from": 36,
+      "to": 2,
+      "amount": 1
+    },
+    {
+      "from": 36,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 37,
+      "to": 2,
+      "amount": 1
+    },
+    {
+      "from": 37,
+      "to": 4,
+      "amount": 1
+    },
+    {
+      "from": 37,
+      "to": 27,
+      "amount": 1
+    },
+    {
+      "from": 37,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 38,
+      "to": 23,
+      "amount": 1
+    },
+    {
+      "from": 38,
+      "to": 16,
+      "amount": 1
+    },
+    {
+      "from": 38,
+      "to": 24,
+      "amount": 1
+    },
+    {
+      "from": 38,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 39,
+      "to": 19,
+      "amount": 1
+    },
+    {
+      "from": 39,
+      "to": 33,
+      "amount": 1
+    },
+    {
+      "from": 39,
+      "to": 28,
+      "amount": 1
+    },
+    {
+      "from": 39,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 40,
+      "to": 23,
+      "amount": 1
+    },
+    {
+      "from": 40,
+      "to": 20,
+      "amount": 1
+    },
+    {
+      "from": 40,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 41,
+      "to": 11,
+      "amount": 2
+    },
+    {
+      "from": 41,
+      "to": 26,
+      "amount": 1
+    },
+    {
+      "from": 41,
+      "to": 86,
+      "amount": 1
+    },
+    {
+      "from": 42,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 43,
+      "to": 2,
+      "amount": 1
+    },
+    {
+      "from": 44,
+      "to": 4,
+      "amount": 1
+    },
+    {
+      "from": 44,
+      "to": 0,
+      "amount": 250
+    },
+    {
+      "from": 45,
+      "to": 17,
+      "amount": 1
+    },
+    {
+      "from": 45,
+      "to": 0,
+      "amount": 500
+    },
+    {
+      "from": 46,
+      "to": 2,
+      "amount": 1
+    },
+    {
+      "from": 47,
+      "to": 21,
+      "amount": 1
+    },
+    {
+      "from": 47,
+      "to": 0,
+      "amount": 1600
+    },
+    {
+      "from": 48,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 49,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 49,
+      "to": 0,
+      "amount": 800
+    },
+    {
+      "from": 50,
+      "to": 3,
+      "amount": 1
+    },
+    {
+      "from": 50,
+      "to": 0,
+      "amount": 1500
+    },
+    {
+      "from": 51,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 51,
+      "to": 0,
+      "amount": 800
+    },
+    {
+      "from": 52,
+      "to": 17,
+      "amount": 1
+    },
+    {
+      "from": 52,
+      "to": 0,
+      "amount": 500
+    },
+    {
+      "from": 53,
+      "to": 21,
+      "amount": 1
+    },
+    {
+      "from": 53,
+      "to": 0,
+      "amount": 500
+    },
+    {
+      "from": 54,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 54,
+      "to": 0,
+      "amount": 800
+    },
+    {
+      "from": 55,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 55,
+      "to": 0,
+      "amount": 800
+    },
+    {
+      "from": 56,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 56,
+      "to": 0,
+      "amount": 800
+    },
+    {
+      "from": 57,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 57,
+      "to": 0,
+      "amount": 800
+    },
+    {
+      "from": 58,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 58,
+      "to": 0,
+      "amount": 1600
+    },
+    {
+      "from": 59,
+      "to": 17,
+      "amount": 1
+    },
+    {
+      "from": 59,
+      "to": 0,
+      "amount": 500
+    },
+    {
+      "from": 60,
+      "to": 32,
+      "amount": 1
+    },
+    {
+      "from": 60,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 61,
+      "to": 32,
+      "amount": 1
+    },
+    {
+      "from": 61,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 62,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 63,
+      "to": 15,
+      "amount": 1
+    },
+    {
+      "from": 63,
+      "to": 20,
+      "amount": 1
+    },
+    {
+      "from": 63,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 63,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 64,
+      "to": 17,
+      "amount": 1
+    },
+    {
+      "from": 64,
+      "to": 21,
+      "amount": 1
+    },
+    {
+      "from": 64,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 64,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 65,
+      "to": 22,
+      "amount": 1
+    },
+    {
+      "from": 65,
+      "to": 21,
+      "amount": 1
+    },
+    {
+      "from": 65,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 65,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 66,
+      "to": 3,
+      "amount": 1
+    },
+    {
+      "from": 66,
+      "to": 18,
+      "amount": 1
+    },
+    {
+      "from": 66,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 66,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 67,
+      "to": 2,
+      "amount": 2
+    },
+    {
+      "from": 67,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 68,
+      "to": 2,
+      "amount": 1
+    },
+    {
+      "from": 68,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 69,
+      "to": 2,
+      "amount": 2
+    },
+    {
+      "from": 69,
+      "to": 0,
+      "amount": 250
+    },
+    {
+      "from": 69,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 70,
+      "to": 16,
+      "amount": 2
+    },
+    {
+      "from": 70,
+      "to": 0,
+      "amount": 1000
+    },
+    {
+      "from": 70,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 71,
+      "to": 39,
+      "amount": 1
+    },
+    {
+      "from": 71,
+      "to": 33,
+      "amount": 1
+    },
+    {
+      "from": 71,
+      "to": 0,
+      "amount": 4000
+    },
+    {
+      "from": 71,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 72,
+      "to": 17,
+      "amount": 1
+    },
+    {
+      "from": 72,
+      "to": 12,
+      "amount": 1
+    },
+    {
+      "from": 72,
+      "to": 0,
+      "amount": 1000
+    },
+    {
+      "from": 72,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 73,
+      "to": 40,
+      "amount": 1
+    },
+    {
+      "from": 73,
+      "to": 22,
+      "amount": 1
+    },
+    {
+      "from": 73,
+      "to": 0,
+      "amount": 3500
+    },
+    {
+      "from": 73,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 74,
+      "to": 15,
+      "amount": 1
+    },
+    {
+      "from": 74,
+      "to": 11,
+      "amount": 1
+    },
+    {
+      "from": 74,
+      "to": 0,
+      "amount": 500
+    },
+    {
+      "from": 74,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 75,
+      "to": 20,
+      "amount": 1
+    },
+    {
+      "from": 75,
+      "to": 39,
+      "amount": 1
+    },
+    {
+      "from": 75,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 75,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 76,
+      "to": 20,
+      "amount": 1
+    },
+    {
+      "from": 76,
+      "to": 36,
+      "amount": 1
+    },
+    {
+      "from": 76,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 76,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 77,
+      "to": 1,
+      "amount": 2
+    },
+    {
+      "from": 77,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 78,
+      "to": 15,
+      "amount": 2
+    },
+    {
+      "from": 78,
+      "to": 0,
+      "amount": 1000
+    },
+    {
+      "from": 78,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 79,
+      "to": 1,
+      "amount": 2
+    },
+    {
+      "from": 79,
+      "to": 62,
+      "amount": 1
+    },
+    {
+      "from": 80,
+      "to": 2,
+      "amount": 2
+    },
+    {
+      "from": 80,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 81,
+      "to": 2,
+      "amount": 3
+    },
+    {
+      "from": 81,
+      "to": 0,
+      "amount": 500
+    },
+    {
+      "from": 81,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 82,
+      "to": 16,
+      "amount": 3
+    },
+    {
+      "from": 82,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 82,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 83,
+      "to": 1,
+      "amount": 2
+    },
+    {
+      "from": 83,
+      "to": 2,
+      "amount": 1
+    },
+    {
+      "from": 83,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 83,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 84,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 84,
+      "to": 2,
+      "amount": 1
+    },
+    {
+      "from": 84,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 84,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 85,
+      "to": 1,
+      "amount": 2
+    },
+    {
+      "from": 85,
+      "to": 15,
+      "amount": 1
+    },
+    {
+      "from": 85,
+      "to": 0,
+      "amount": 750
+    },
+    {
+      "from": 85,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 85,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 86,
+      "to": 22,
+      "amount": 1
+    },
+    {
+      "from": 86,
+      "to": 21,
+      "amount": 1
+    },
+    {
+      "from": 86,
+      "to": 20,
+      "amount": 1
+    },
+    {
+      "from": 86,
+      "to": 0,
+      "amount": 1250
+    },
+    {
+      "from": 86,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 86,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 87,
+      "to": 35,
+      "amount": 1
+    },
+    {
+      "from": 87,
+      "to": 21,
+      "amount": 1
+    },
+    {
+      "from": 87,
+      "to": 16,
+      "amount": 1
+    },
+    {
+      "from": 87,
+      "to": 0,
+      "amount": 1750
+    },
+    {
+      "from": 87,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 87,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 88,
+      "to": 16,
+      "amount": 1
+    },
+    {
+      "from": 88,
+      "to": 20,
+      "amount": 1
+    },
+    {
+      "from": 88,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 88,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 88,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 88,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 89,
+      "to": 40,
+      "amount": 1
+    },
+    {
+      "from": 89,
+      "to": 16,
+      "amount": 2
+    },
+    {
+      "from": 89,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 89,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 89,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 90,
+      "to": 1,
+      "amount": 3
+    },
+    {
+      "from": 90,
+      "to": 0,
+      "amount": 1000
+    },
+    {
+      "from": 90,
+      "to": 79,
+      "amount": 1
+    },
+    {
+      "from": 90,
+      "to": 80,
+      "amount": 1
+    },
+    {
+      "from": 91,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 91,
+      "to": 15,
+      "amount": 1
+    },
+    {
+      "from": 91,
+      "to": 0,
+      "amount": 1500
+    },
+    {
+      "from": 91,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 92,
+      "to": 15,
+      "amount": 2
+    },
+    {
+      "from": 92,
+      "to": 22,
+      "amount": 1
+    },
+    {
+      "from": 92,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 92,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 93,
+      "to": 30,
+      "amount": 2
+    },
+    {
+      "from": 93,
+      "to": 36,
+      "amount": 2
+    },
+    {
+      "from": 93,
+      "to": 0,
+      "amount": 4000
+    },
+    {
+      "from": 93,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 94,
+      "to": 15,
+      "amount": 2
+    },
+    {
+      "from": 94,
+      "to": 0,
+      "amount": 1500
+    },
+    {
+      "from": 94,
+      "to": 0,
+      "amount": 1500
+    },
+    {
+      "from": 94,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 95,
+      "to": 30,
+      "amount": 2
+    },
+    {
+      "from": 95,
+      "to": 22,
+      "amount": 2
+    },
+    {
+      "from": 95,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 95,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 96,
+      "to": 39,
+      "amount": 2
+    },
+    {
+      "from": 96,
+      "to": 22,
+      "amount": 2
+    },
+    {
+      "from": 96,
+      "to": 0,
+      "amount": 4000
+    },
+    {
+      "from": 96,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 97,
+      "to": 22,
+      "amount": 3
+    },
+    {
+      "from": 97,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 97,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 98,
+      "to": 38,
+      "amount": 2
+    },
+    {
+      "from": 98,
+      "to": 16,
+      "amount": 2
+    },
+    {
+      "from": 98,
+      "to": 0,
+      "amount": 3000
+    },
+    {
+      "from": 98,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 99,
+      "to": 16,
+      "amount": 4
+    },
+    {
+      "from": 99,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 99,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 100,
+      "to": 16,
+      "amount": 2
+    },
+    {
+      "from": 100,
+      "to": 2,
+      "amount": 2
+    },
+    {
+      "from": 100,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 100,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 101,
+      "to": 38,
+      "amount": 1
+    },
+    {
+      "from": 101,
+      "to": 37,
+      "amount": 1
+    },
+    {
+      "from": 101,
+      "to": 19,
+      "amount": 1
+    },
+    {
+      "from": 101,
+      "to": 0,
+      "amount": 3500
+    },
+    {
+      "from": 101,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 102,
+      "to": 35,
+      "amount": 2
+    },
+    {
+      "from": 102,
+      "to": 1,
+      "amount": 1
+    },
+    {
+      "from": 102,
+      "to": 0,
+      "amount": 1500
+    },
+    {
+      "from": 102,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 103,
+      "to": 30,
+      "amount": 2
+    },
+    {
+      "from": 103,
+      "to": 35,
+      "amount": 1
+    },
+    {
+      "from": 103,
+      "to": 0,
+      "amount": 2000
+    },
+    {
+      "from": 103,
+      "to": 90,
+      "amount": 1
+    },
+    {
+      "from": 104,
+      "to": 94,
+      "amount": 1
+    },
+    {
+      "from": 104,
+      "to": 77,
+      "amount": 1
+    },
+    {
+      "from": 104,
+      "to": 74,
+      "amount": 2
+    }
+  ]
+}
