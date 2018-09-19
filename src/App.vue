@@ -2,8 +2,12 @@
     <div id="app">
         <header>
             <h1>Vertex creation tool</h1>
-            <button @click="save" id="save">Save Config</button>
+            <button @click="json.hidden = false" id="display">Display Config</button>
             <button @click="clear" id="clear">Clear Config</button>
+            <div id="rank-visibility"> Ranks:
+                <label v-for="(r, i) in ranksVisible"> <input type="checkbox" v-model="ranksVisible[i]"> {{ i }}
+            </label>
+            </div>
         </header>
 
         <form id="create-vertex" @submit.prevent="createVertex">
@@ -14,18 +18,22 @@
 
         <div id="vertices">
 
-            <div class="vertex" v-for="v in vertices" :data-index="v.index">
-                <p class="name">{{ v.data.name }}</p>
-                <label v-for="v2 in vertices" v-if="v.index !== v2.index" class="inactive">
-                    {{ v2.data.name }}
-                    <input class="dependency"
-                           type="number"
-                           :name="v2.data.name"
-                           placeholder="Amount"
-                           :data-index="v2.index"
-                           @input="fade"
-                           @change="editDependency">
-                </label>
+            <div class="vertex" v-for="v in vertices" :data-index="v.index" v-if="ranksVisible[v.data.rank]">
+                <p class="name">{{ v.data.name }} <sup>{{ v.data.rank }}</sup> </p> ::
+                <form class="add-dependency" @submit.prevent="addEdge">
+                    <select name="dependency-list" class="dependency-list">
+                        <option value="">Add dependency</option>
+                        <option v-for="v2 in vertices" :value="v2.index">{{ v2.data.name }}</option>
+                    </select>
+                    <input type="number" name="amount" placeholder="Amount">
+                    <button>Commit</button>
+                </form>
+                <div class="edges">
+                    <div class="edge" v-for="(e, i) in edges" v-if="e.from == v.index" :data-index="i">
+                        {{ e.amount }} x {{ vertices[e.to].data.name }}
+                        <button @click="edges.splice(i, 1); save();">Delete</button>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -48,7 +56,10 @@
             return {
                 vertices: [],
                 edges: [],
-                json: { hidden: true, result: "" }
+                json: { hidden: true, result: "" },
+                ranksVisible: {
+                    0: false, 1: true, 2: true, 3: true, 4: true, 5: true
+                }
             }
         },
         mounted() {
@@ -64,26 +75,32 @@
                 const data = inputs.reduce((acc, curr) => Object.assign(acc, {[curr.name]: curr.value}), {});
                 const index = this.vertices.length;
                 this.vertices.push({ index, data });
-                inputs.forEach(input => input.value = "");
+                inputs[0].value = "";
                 inputs[0].focus();
+
+                // save the config
+                this.save();
             },
-            editDependency(e) {
+            addEdge(e) {
+                const select = e.target.childNodes[0];
                 const from = e.target.closest(".vertex").dataset.index;
-                const to = e.target.dataset.index;
-                const amount = e.target.value;
+                const to = select.options[select.selectedIndex].value;
+                const amount = select.nextSibling.value;
 
-                if(amount > 0) return this.edges.push({ from, to, amount });
+                // return if the inputs are empty
+                if(!to || !amount) return;
 
-                const edge = this.edges.findIndex(e => e.to === to && e.from === from);
-                if(edge >= 0) this.edges.splice(edge, 1);
-            },
-            fade(e) {
-                const amount = e.target.value;
-                if(amount <= 0) return e.target.closest("label").classList.add("inactive");
-                e.target.closest("label").classList.remove("inactive");
+                // update the edge if it already exists, otherwise add it
+                const edge = { from, to, amount };
+                const existingEdgeIndex = this.edges.findIndex(e => e.to === to && e.from === from);
+                existingEdgeIndex >= 0
+                    ? this.edges.splice(existingEdgeIndex, 1, edge)
+                    : this.edges.push(edge);
+
+                // save the config
+                this.save();
             },
             save() {
-                if(!confirm("This will overwrite current saved data. Proceed?")) return;
                 const vertices = this.vertices;
                 const edges = this.edges;
 
@@ -91,8 +108,6 @@
                 localStorage.setItem(storageKey, json);
 
                 this.json.result = json;
-                this.json.hidden = false;
-
             },
             clear() {
                 if(!confirm("This will delete all saved data. Proceed?")) return;
@@ -111,38 +126,53 @@
         -moz-osx-font-smoothing: grayscale;
     }
 
-    header * {
+    header h1, header button, header div {
         display: inline-block;
         vertical-align: middle;
-        padding-right: 20px;
-    }
-
-    .inactive {
-        opacity: 0.3;
+        margin-right: 20px;
     }
 
     .vertex .name {
         font-weight: bold;
     }
-
-    .dependency {
-        width: 5vw;
+    .vertex .name sup {
+        font-weight: normal;
     }
 
     #json {
         position: fixed;
-        height: 80vh;
-        width: 60vw;
         top: 10vh;
         right: 5vw;
         background: lightgrey;
         box-sizing: border-box;
     }
 
+    #json button {
+        position: absolute;
+        right: 20px;
+        top: 5px;
+    }
+
     #json-result {
+        height: 80vh;
+        width: 60vw;
         padding: 3px;
         font-family: monospace;
         white-space: pre;
+        overflow-y: scroll;
+    }
+
+    .vertex .add-dependency,
+    .vertex .name {
+        display: inline-block;
+    }
+
+    .edge {
+        font-size: small;
+        background: lightblue;
+        display: inline-block;
+        margin-right: 5px;
+        padding: 3px 5px;
     }
 
 </style>
