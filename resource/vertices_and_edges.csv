@@ -1,5 +1,4 @@
 vertex,edge1,edge2,edge3,edge4,edge5,edge6
-bytes,,,,,,
 compound,,,,,,
 resin,,,,,,
 lithium,,,,,,
@@ -14,6 +13,7 @@ ammonium,,,,,,
 graphite,,,,,,
 laterite,,,,,,
 organic,,,,,,
+bytes,,,,,,
 aluminum,1 laterite,1 smelting furnace,,,,
 iron,1 hematite,1 smelting furnace,,,,
 copper,1 malachite,1 smelting furnace,,,,
@@ -30,7 +30,7 @@ methane,1 atmospheric condenser,1 minimal rocket,,,,
 nitrogen,1 atmospheric condenser,,,,,
 sulfur,1 atmospheric condenser,1 minimal rocket,,,,
 aluminum alloy,1 aluminum,1 copper,,1 chemistry lab,,
-diamond,2 graphene,1 atmospheric condenser,,1 chemistry lab,,
+diamond,2 graphene,,,1 chemistry lab,,
 explosive powder,2 carbon,1 sulfur,,1 chemistry lab,,
 graphene,1 graphite,1 hydrazine,,1 chemistry lab,,
 nanoCarbon alloy,1 steel,1 titanium alloy,1 helium,1 chemistry lab,,
@@ -83,7 +83,7 @@ large platform a,2 resin,,,,1 medium printer,
 large platform b,3 resin,500 bytes,,,1 medium printer,
 large platform c,3 iron,2000 bytes,,,1 medium printer,
 research chamber,2 compound,1 resin,,,1 medium printer,1 large platform a
-smelting furnace,1 compound,1 resin,,,1 medium printer,1 large platform a
+smelting furnace,1 compound,2 resin,250 bytes,,1 medium printer,1 large platform a
 soil centrifuge,2 compound,1 aluminum,750 bytes,,1 medium printer,1 large platform a
 chemistry lab,1 ceramic,1 glass,1 tungsten,1250 bytes,1 medium printer,1 large platform a
 atmospheric condenser,1 plastic,1 glass,1 iron,1750 bytes,1 medium printer,1 large platform a
@@ -93,10 +93,10 @@ vehicle bay,3 compound,1000 bytes,,,1 medium printer,1 large platform a
 buggy,1 compound,1 aluminum,1500 bytes,,1 vehicle bay,
 medium rover,2 aluminum,1 ceramic,3000 bytes,,1 vehicle bay,
 large rover,2 aluminum alloy,2 rubber,4000 bytes,,1 vehicle bay,
-small shuttle,2 aluminum,1500 bytes,1500 bytes,,1 vehicle bay,
-medium shuttle,2 aluminum alloy,2 ceramic,3000 bytes,,1 vehicle bay,
+small shuttle,2 aluminum,1500 bytes,,,1 vehicle bay,
+medium shuttle,1 aluminum alloy,2 ceramic,3000 bytes,,1 vehicle bay,
 large shuttle,2 titanium alloy,2 ceramic,4000 bytes,,1 vehicle bay,
-large storage,3 ceramic,2000 bytes,,,1 vehicle bay,
+large storage,2 ceramic,2000 bytes,,,1 vehicle bay,
 extra large storage,2 steel,2 iron,3000 bytes,,1 vehicle bay,
 extra large platform a,4 iron,2000 bytes,,,1 vehicle bay,
 extra large platform b,2 iron,2 resin,2000 bytes,,1 vehicle bay,

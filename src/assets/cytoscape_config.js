@@ -14,7 +14,7 @@ export default [
     "data": {
       "id": "n0",
       "weight": 0,
-      "label": "Bytes"
+      "label": "compound"
     }
   },
   {
@@ -32,7 +32,7 @@ export default [
     "data": {
       "id": "n1",
       "weight": 0,
-      "label": "Compound"
+      "label": "resin"
     }
   },
   {
@@ -50,7 +50,7 @@ export default [
     "data": {
       "id": "n2",
       "weight": 0,
-      "label": "Resin"
+      "label": "lithium"
     }
   },
   {
@@ -68,7 +68,7 @@ export default [
     "data": {
       "id": "n3",
       "weight": 0,
-      "label": "Lithium"
+      "label": "quartz"
     }
   },
   {
@@ -86,7 +86,7 @@ export default [
     "data": {
       "id": "n4",
       "weight": 0,
-      "label": "Quartz"
+      "label": "malachite"
     }
   },
   {
@@ -104,7 +104,7 @@ export default [
     "data": {
       "id": "n5",
       "weight": 0,
-      "label": "Malachite"
+      "label": "wolframite"
     }
   },
   {
@@ -122,7 +122,7 @@ export default [
     "data": {
       "id": "n6",
       "weight": 0,
-      "label": "Wolframite"
+      "label": "sphalerite"
     }
   },
   {
@@ -140,7 +140,7 @@ export default [
     "data": {
       "id": "n7",
       "weight": 0,
-      "label": "Sphalerite"
+      "label": "hematite"
     }
   },
   {
@@ -158,7 +158,7 @@ export default [
     "data": {
       "id": "n8",
       "weight": 0,
-      "label": "Hematite"
+      "label": "titanite"
     }
   },
   {
@@ -176,7 +176,7 @@ export default [
     "data": {
       "id": "n9",
       "weight": 0,
-      "label": "Titanite"
+      "label": "clay"
     }
   },
   {
@@ -194,7 +194,7 @@ export default [
     "data": {
       "id": "n10",
       "weight": 0,
-      "label": "Clay"
+      "label": "ammonium"
     }
   },
   {
@@ -212,7 +212,7 @@ export default [
     "data": {
       "id": "n11",
       "weight": 0,
-      "label": "Ammonium"
+      "label": "graphite"
     }
   },
   {
@@ -230,7 +230,7 @@ export default [
     "data": {
       "id": "n12",
       "weight": 0,
-      "label": "Graphite"
+      "label": "laterite"
     }
   },
   {
@@ -248,7 +248,7 @@ export default [
     "data": {
       "id": "n13",
       "weight": 0,
-      "label": "Laterite"
+      "label": "organic"
     }
   },
   {
@@ -266,7 +266,7 @@ export default [
     "data": {
       "id": "n14",
       "weight": 0,
-      "label": "Organic"
+      "label": "bytes"
     }
   },
   {
@@ -284,7 +284,7 @@ export default [
     "data": {
       "id": "n15",
       "weight": 0,
-      "label": "Aluminum"
+      "label": "aluminum"
     }
   },
   {
@@ -302,7 +302,7 @@ export default [
     "data": {
       "id": "n16",
       "weight": 0,
-      "label": "Iron"
+      "label": "iron"
     }
   },
   {
@@ -320,7 +320,7 @@ export default [
     "data": {
       "id": "n17",
       "weight": 0,
-      "label": "Copper"
+      "label": "copper"
     }
   },
   {
@@ -338,7 +338,7 @@ export default [
     "data": {
       "id": "n18",
       "weight": 0,
-      "label": "Zinc"
+      "label": "zinc"
     }
   },
   {
@@ -356,7 +356,7 @@ export default [
     "data": {
       "id": "n19",
       "weight": 0,
-      "label": "Titanium"
+      "label": "titanium"
     }
   },
   {
@@ -374,7 +374,7 @@ export default [
     "data": {
       "id": "n20",
       "weight": 0,
-      "label": "Tungsten"
+      "label": "tungsten"
     }
   },
   {
@@ -392,7 +392,7 @@ export default [
     "data": {
       "id": "n21",
       "weight": 0,
-      "label": "Glass"
+      "label": "glass"
     }
   },
   {
@@ -410,7 +410,7 @@ export default [
     "data": {
       "id": "n22",
       "weight": 0,
-      "label": "Ceramic"
+      "label": "ceramic"
     }
   },
   {
@@ -428,7 +428,7 @@ export default [
     "data": {
       "id": "n23",
       "weight": 0,
-      "label": "Carbon"
+      "label": "carbon"
     }
   },
   {
@@ -446,7 +446,7 @@ export default [
     "data": {
       "id": "n24",
       "weight": 0,
-      "label": "Argon"
+      "label": "argon"
     }
   },
   {
@@ -464,7 +464,7 @@ export default [
     "data": {
       "id": "n25",
       "weight": 0,
-      "label": "Helium"
+      "label": "helium"
     }
   },
   {
@@ -482,7 +482,7 @@ export default [
     "data": {
       "id": "n26",
       "weight": 0,
-      "label": "Hydrogen"
+      "label": "hydrogen"
     }
   },
   {
@@ -500,7 +500,7 @@ export default [
     "data": {
       "id": "n27",
       "weight": 0,
-      "label": "Methane"
+      "label": "methane"
     }
   },
   {
@@ -518,7 +518,7 @@ export default [
     "data": {
       "id": "n28",
       "weight": 0,
-      "label": "Nitrogen"
+      "label": "nitrogen"
     }
   },
   {
@@ -536,7 +536,7 @@ export default [
     "data": {
       "id": "n29",
       "weight": 0,
-      "label": "Sulfur"
+      "label": "sulfur"
     }
   },
   {
@@ -554,7 +554,7 @@ export default [
     "data": {
       "id": "n30",
       "weight": 0,
-      "label": "Aluminum Alloy"
+      "label": "aluminum alloy"
     }
   },
   {
@@ -572,7 +572,7 @@ export default [
     "data": {
       "id": "n31",
       "weight": 0,
-      "label": "Diamond"
+      "label": "diamond"
     }
   },
   {
@@ -590,7 +590,7 @@ export default [
     "data": {
       "id": "n32",
       "weight": 0,
-      "label": "Explosive Powder"
+      "label": "explosive powder"
     }
   },
   {
@@ -608,7 +608,7 @@ export default [
     "data": {
       "id": "n33",
       "weight": 0,
-      "label": "Graphene"
+      "label": "graphene"
     }
   },
   {
@@ -626,7 +626,7 @@ export default [
     "data": {
       "id": "n34",
       "weight": 0,
-      "label": "Nanocarbon Alloy"
+      "label": "nanoCarbon alloy"
     }
   },
   {
@@ -644,7 +644,7 @@ export default [
     "data": {
       "id": "n35",
       "weight": 0,
-      "label": "Plastic"
+      "label": "plastic"
     }
   },
   {
@@ -662,7 +662,7 @@ export default [
     "data": {
       "id": "n36",
       "weight": 0,
-      "label": "Rubber"
+      "label": "rubber"
     }
   },
   {
@@ -680,7 +680,7 @@ export default [
     "data": {
       "id": "n37",
       "weight": 0,
-      "label": "Silicone"
+      "label": "silicone"
     }
   },
   {
@@ -698,7 +698,7 @@ export default [
     "data": {
       "id": "n38",
       "weight": 0,
-      "label": "Steel"
+      "label": "steel"
     }
   },
   {
@@ -716,7 +716,7 @@ export default [
     "data": {
       "id": "n39",
       "weight": 0,
-      "label": "Titanium Alloy"
+      "label": "titanium alloy"
     }
   },
   {
@@ -734,7 +734,7 @@ export default [
     "data": {
       "id": "n40",
       "weight": 0,
-      "label": "Tungsten Carbide"
+      "label": "tungsten carbide"
     }
   },
   {
@@ -752,7 +752,7 @@ export default [
     "data": {
       "id": "n41",
       "weight": 0,
-      "label": "Hydrazine"
+      "label": "hydrazine"
     }
   },
   {
@@ -770,7 +770,7 @@ export default [
     "data": {
       "id": "n42",
       "weight": 0,
-      "label": "Tethers"
+      "label": "tethers"
     }
   },
   {
@@ -788,7 +788,7 @@ export default [
     "data": {
       "id": "n43",
       "weight": 0,
-      "label": "Canister"
+      "label": "canister"
     }
   },
   {
@@ -806,7 +806,7 @@ export default [
     "data": {
       "id": "n44",
       "weight": 0,
-      "label": "Beacon"
+      "label": "beacon"
     }
   },
   {
@@ -824,7 +824,7 @@ export default [
     "data": {
       "id": "n45",
       "weight": 0,
-      "label": "Work Light"
+      "label": "work light"
     }
   },
   {
@@ -842,7 +842,7 @@ export default [
     "data": {
       "id": "n46",
       "weight": 0,
-      "label": "Oxygen Filters"
+      "label": "oxygen filters"
     }
   },
   {
@@ -860,7 +860,7 @@ export default [
     "data": {
       "id": "n47",
       "weight": 0,
-      "label": "Small Oxygen Tank"
+      "label": "small oxygen tank"
     }
   },
   {
@@ -878,7 +878,7 @@ export default [
     "data": {
       "id": "n48",
       "weight": 0,
-      "label": "Small Generator"
+      "label": "small generator"
     }
   },
   {
@@ -896,7 +896,7 @@ export default [
     "data": {
       "id": "n49",
       "weight": 0,
-      "label": "Power Cells"
+      "label": "power cells"
     }
   },
   {
@@ -914,7 +914,7 @@ export default [
     "data": {
       "id": "n50",
       "weight": 0,
-      "label": "Small Battery"
+      "label": "small battery"
     }
   },
   {
@@ -932,7 +932,7 @@ export default [
     "data": {
       "id": "n51",
       "weight": 0,
-      "label": "Wide Mod"
+      "label": "wide mod"
     }
   },
   {
@@ -950,7 +950,7 @@ export default [
     "data": {
       "id": "n52",
       "weight": 0,
-      "label": "Small Solar"
+      "label": "small solar"
     }
   },
   {
@@ -968,7 +968,7 @@ export default [
     "data": {
       "id": "n53",
       "weight": 0,
-      "label": "Small Wind Turbine"
+      "label": "small wind turbine"
     }
   },
   {
@@ -986,7 +986,7 @@ export default [
     "data": {
       "id": "n54",
       "weight": 0,
-      "label": "Alignment Mod"
+      "label": "alignment mod"
     }
   },
   {
@@ -1004,7 +1004,7 @@ export default [
     "data": {
       "id": "n55",
       "weight": 0,
-      "label": "Inhibitor Mod"
+      "label": "inhibitor mod"
     }
   },
   {
@@ -1022,7 +1022,7 @@ export default [
     "data": {
       "id": "n56",
       "weight": 0,
-      "label": "Boost Mod"
+      "label": "boost mod"
     }
   },
   {
@@ -1040,7 +1040,7 @@ export default [
     "data": {
       "id": "n57",
       "weight": 0,
-      "label": "Narrow Mod"
+      "label": "narrow mod"
     }
   },
   {
@@ -1058,7 +1058,7 @@ export default [
     "data": {
       "id": "n58",
       "weight": 0,
-      "label": "Terrain Analyzer"
+      "label": "terrain analyzer"
     }
   },
   {
@@ -1076,7 +1076,7 @@ export default [
     "data": {
       "id": "n59",
       "weight": 0,
-      "label": "Extenders"
+      "label": "extenders"
     }
   },
   {
@@ -1094,7 +1094,7 @@ export default [
     "data": {
       "id": "n60",
       "weight": 0,
-      "label": "Dynamite"
+      "label": "dynamite"
     }
   },
   {
@@ -1112,7 +1112,7 @@ export default [
     "data": {
       "id": "n61",
       "weight": 0,
-      "label": "Fireworks"
+      "label": "fireworks"
     }
   },
   {
@@ -1130,7 +1130,7 @@ export default [
     "data": {
       "id": "n62",
       "weight": 0,
-      "label": "Small Printer"
+      "label": "small printer"
     }
   },
   {
@@ -1148,7 +1148,7 @@ export default [
     "data": {
       "id": "n63",
       "weight": 0,
-      "label": "Medium Generator"
+      "label": "medium generator"
     }
   },
   {
@@ -1166,7 +1166,7 @@ export default [
     "data": {
       "id": "n64",
       "weight": 0,
-      "label": "Medium Solar"
+      "label": "medium solar"
     }
   },
   {
@@ -1184,7 +1184,7 @@ export default [
     "data": {
       "id": "n65",
       "weight": 0,
-      "label": "Medium Wind Turbine"
+      "label": "medium wind turbine"
     }
   },
   {
@@ -1202,7 +1202,7 @@ export default [
     "data": {
       "id": "n66",
       "weight": 0,
-      "label": "Medium Battery"
+      "label": "medium battery"
     }
   },
   {
@@ -1220,7 +1220,7 @@ export default [
     "data": {
       "id": "n67",
       "weight": 0,
-      "label": "Medium Storage"
+      "label": "medium storage"
     }
   },
   {
@@ -1238,7 +1238,7 @@ export default [
     "data": {
       "id": "n68",
       "weight": 0,
-      "label": "Medium Platform A"
+      "label": "medium platform a"
     }
   },
   {
@@ -1256,7 +1256,7 @@ export default [
     "data": {
       "id": "n69",
       "weight": 0,
-      "label": "Medium Platform B"
+      "label": "medium platform b"
     }
   },
   {
@@ -1274,7 +1274,7 @@ export default [
     "data": {
       "id": "n70",
       "weight": 0,
-      "label": "Medium Shredder"
+      "label": "medium shredder"
     }
   },
   {
@@ -1292,7 +1292,7 @@ export default [
     "data": {
       "id": "n71",
       "weight": 0,
-      "label": "Dropship"
+      "label": "dropship"
     }
   },
   {
@@ -1310,7 +1310,7 @@ export default [
     "data": {
       "id": "n72",
       "weight": 0,
-      "label": "Splitter"
+      "label": "splitter"
     }
   },
   {
@@ -1328,7 +1328,7 @@ export default [
     "data": {
       "id": "n73",
       "weight": 0,
-      "label": "Drill Head"
+      "label": "drill head"
     }
   },
   {
@@ -1346,7 +1346,7 @@ export default [
     "data": {
       "id": "n74",
       "weight": 0,
-      "label": "Solid Fuel Thruster"
+      "label": "solid fuel thruster"
     }
   },
   {
@@ -1364,7 +1364,7 @@ export default [
     "data": {
       "id": "n75",
       "weight": 0,
-      "label": "Hydrazine Thruster"
+      "label": "hydrazine thruster"
     }
   },
   {
@@ -1382,7 +1382,7 @@ export default [
     "data": {
       "id": "n76",
       "weight": 0,
-      "label": "Winch"
+      "label": "winch"
     }
   },
   {
@@ -1400,7 +1400,7 @@ export default [
     "data": {
       "id": "n77",
       "weight": 0,
-      "label": "Rover Seat"
+      "label": "rover seat"
     }
   },
   {
@@ -1418,7 +1418,7 @@ export default [
     "data": {
       "id": "n78",
       "weight": 0,
-      "label": "Shuttle Seat"
+      "label": "shuttle seat"
     }
   },
   {
@@ -1436,7 +1436,7 @@ export default [
     "data": {
       "id": "n79",
       "weight": 0,
-      "label": "Medium Printer"
+      "label": "medium printer"
     }
   },
   {
@@ -1454,7 +1454,7 @@ export default [
     "data": {
       "id": "n80",
       "weight": 0,
-      "label": "Large Platform A"
+      "label": "large platform a"
     }
   },
   {
@@ -1472,7 +1472,7 @@ export default [
     "data": {
       "id": "n81",
       "weight": 0,
-      "label": "Large Platform B"
+      "label": "large platform b"
     }
   },
   {
@@ -1490,7 +1490,7 @@ export default [
     "data": {
       "id": "n82",
       "weight": 0,
-      "label": "Large Platform C"
+      "label": "large platform c"
     }
   },
   {
@@ -1508,7 +1508,7 @@ export default [
     "data": {
       "id": "n83",
       "weight": 0,
-      "label": "Research Chamber"
+      "label": "research chamber"
     }
   },
   {
@@ -1526,7 +1526,7 @@ export default [
     "data": {
       "id": "n84",
       "weight": 0,
-      "label": "Smelting Furnace"
+      "label": "smelting furnace"
     }
   },
   {
@@ -1544,7 +1544,7 @@ export default [
     "data": {
       "id": "n85",
       "weight": 0,
-      "label": "Soil Centrifuge"
+      "label": "soil centrifuge"
     }
   },
   {
@@ -1562,7 +1562,7 @@ export default [
     "data": {
       "id": "n86",
       "weight": 0,
-      "label": "Chemistry Lab"
+      "label": "chemistry lab"
     }
   },
   {
@@ -1580,7 +1580,7 @@ export default [
     "data": {
       "id": "n87",
       "weight": 0,
-      "label": "Atmospheric Condenser"
+      "label": "atmospheric condenser"
     }
   },
   {
@@ -1598,7 +1598,7 @@ export default [
     "data": {
       "id": "n88",
       "weight": 0,
-      "label": "Trade Platform"
+      "label": "trade platform"
     }
   },
   {
@@ -1616,7 +1616,7 @@ export default [
     "data": {
       "id": "n89",
       "weight": 0,
-      "label": "Large Shredder"
+      "label": "large shredder"
     }
   },
   {
@@ -1634,7 +1634,7 @@ export default [
     "data": {
       "id": "n90",
       "weight": 0,
-      "label": "Vehicle Bay"
+      "label": "vehicle bay"
     }
   },
   {
@@ -1652,7 +1652,7 @@ export default [
     "data": {
       "id": "n91",
       "weight": 0,
-      "label": "Buggy"
+      "label": "buggy"
     }
   },
   {
@@ -1670,7 +1670,7 @@ export default [
     "data": {
       "id": "n92",
       "weight": 0,
-      "label": "Medium Rover"
+      "label": "medium rover"
     }
   },
   {
@@ -1688,7 +1688,7 @@ export default [
     "data": {
       "id": "n93",
       "weight": 0,
-      "label": "Large Rover"
+      "label": "large rover"
     }
   },
   {
@@ -1706,7 +1706,7 @@ export default [
     "data": {
       "id": "n94",
       "weight": 0,
-      "label": "Small Shuttle"
+      "label": "small shuttle"
     }
   },
   {
@@ -1724,7 +1724,7 @@ export default [
     "data": {
       "id": "n95",
       "weight": 0,
-      "label": "Medium Shuttle"
+      "label": "medium shuttle"
     }
   },
   {
@@ -1742,7 +1742,7 @@ export default [
     "data": {
       "id": "n96",
       "weight": 0,
-      "label": "Large Shuttle"
+      "label": "large shuttle"
     }
   },
   {
@@ -1760,7 +1760,7 @@ export default [
     "data": {
       "id": "n97",
       "weight": 0,
-      "label": "Large Storage"
+      "label": "large storage"
     }
   },
   {
@@ -1778,7 +1778,7 @@ export default [
     "data": {
       "id": "n98",
       "weight": 0,
-      "label": "Extra Large Storage"
+      "label": "extra large storage"
     }
   },
   {
@@ -1796,7 +1796,7 @@ export default [
     "data": {
       "id": "n99",
       "weight": 0,
-      "label": "Extra Large Platform A"
+      "label": "extra large platform a"
     }
   },
   {
@@ -1814,7 +1814,7 @@ export default [
     "data": {
       "id": "n100",
       "weight": 0,
-      "label": "Extra Large Platform B"
+      "label": "extra large platform b"
     }
   },
   {
@@ -1832,7 +1832,7 @@ export default [
     "data": {
       "id": "n101",
       "weight": 0,
-      "label": "Crane"
+      "label": "crane"
     }
   },
   {
@@ -1850,7 +1850,7 @@ export default [
     "data": {
       "id": "n102",
       "weight": 0,
-      "label": "Large Rover Seat"
+      "label": "large rover seat"
     }
   },
   {
@@ -1868,7 +1868,7 @@ export default [
     "data": {
       "id": "n103",
       "weight": 0,
-      "label": "Large Shuttle Seat"
+      "label": "large shuttle seat"
     }
   },
   {
@@ -1886,7 +1886,7 @@ export default [
     "data": {
       "id": "n104",
       "weight": 0,
-      "label": "Minimal Rocket"
+      "label": "minimal rocket"
     }
   },
   {
@@ -1902,9 +1902,9 @@ export default [
       "id": "e150",
       "weight": 1,
       "source": "n15",
-      "sourceLabel": "Aluminum",
-      "target": "n13",
-      "targetLabel": "Laterite",
+      "sourceLabel": "aluminum",
+      "target": "n12",
+      "targetLabel": "laterite",
       "label": "1"
     }
   },
@@ -1921,9 +1921,9 @@ export default [
       "id": "e151",
       "weight": 1,
       "source": "n15",
-      "sourceLabel": "Aluminum",
+      "sourceLabel": "aluminum",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -1940,9 +1940,9 @@ export default [
       "id": "e160",
       "weight": 1,
       "source": "n16",
-      "sourceLabel": "Iron",
-      "target": "n8",
-      "targetLabel": "Hematite",
+      "sourceLabel": "iron",
+      "target": "n7",
+      "targetLabel": "hematite",
       "label": "1"
     }
   },
@@ -1959,9 +1959,9 @@ export default [
       "id": "e161",
       "weight": 1,
       "source": "n16",
-      "sourceLabel": "Iron",
+      "sourceLabel": "iron",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -1978,9 +1978,9 @@ export default [
       "id": "e170",
       "weight": 1,
       "source": "n17",
-      "sourceLabel": "Copper",
-      "target": "n5",
-      "targetLabel": "Malachite",
+      "sourceLabel": "copper",
+      "target": "n4",
+      "targetLabel": "malachite",
       "label": "1"
     }
   },
@@ -1997,9 +1997,9 @@ export default [
       "id": "e171",
       "weight": 1,
       "source": "n17",
-      "sourceLabel": "Copper",
+      "sourceLabel": "copper",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -2016,9 +2016,9 @@ export default [
       "id": "e180",
       "weight": 1,
       "source": "n18",
-      "sourceLabel": "Zinc",
-      "target": "n7",
-      "targetLabel": "Sphalerite",
+      "sourceLabel": "zinc",
+      "target": "n6",
+      "targetLabel": "sphalerite",
       "label": "1"
     }
   },
@@ -2035,9 +2035,9 @@ export default [
       "id": "e181",
       "weight": 1,
       "source": "n18",
-      "sourceLabel": "Zinc",
+      "sourceLabel": "zinc",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -2054,9 +2054,9 @@ export default [
       "id": "e190",
       "weight": 1,
       "source": "n19",
-      "sourceLabel": "Titanium",
-      "target": "n9",
-      "targetLabel": "Titanite",
+      "sourceLabel": "titanium",
+      "target": "n8",
+      "targetLabel": "titanite",
       "label": "1"
     }
   },
@@ -2073,9 +2073,9 @@ export default [
       "id": "e191",
       "weight": 1,
       "source": "n19",
-      "sourceLabel": "Titanium",
+      "sourceLabel": "titanium",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -2092,9 +2092,9 @@ export default [
       "id": "e200",
       "weight": 1,
       "source": "n20",
-      "sourceLabel": "Tungsten",
-      "target": "n6",
-      "targetLabel": "Wolframite",
+      "sourceLabel": "tungsten",
+      "target": "n5",
+      "targetLabel": "wolframite",
       "label": "1"
     }
   },
@@ -2111,9 +2111,9 @@ export default [
       "id": "e201",
       "weight": 1,
       "source": "n20",
-      "sourceLabel": "Tungsten",
+      "sourceLabel": "tungsten",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -2130,9 +2130,9 @@ export default [
       "id": "e210",
       "weight": 1,
       "source": "n21",
-      "sourceLabel": "Glass",
-      "target": "n4",
-      "targetLabel": "Quartz",
+      "sourceLabel": "glass",
+      "target": "n3",
+      "targetLabel": "quartz",
       "label": "1"
     }
   },
@@ -2149,9 +2149,9 @@ export default [
       "id": "e211",
       "weight": 1,
       "source": "n21",
-      "sourceLabel": "Glass",
+      "sourceLabel": "glass",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -2168,9 +2168,9 @@ export default [
       "id": "e220",
       "weight": 1,
       "source": "n22",
-      "sourceLabel": "Ceramic",
-      "target": "n10",
-      "targetLabel": "Clay",
+      "sourceLabel": "ceramic",
+      "target": "n9",
+      "targetLabel": "clay",
       "label": "1"
     }
   },
@@ -2187,9 +2187,9 @@ export default [
       "id": "e221",
       "weight": 1,
       "source": "n22",
-      "sourceLabel": "Ceramic",
+      "sourceLabel": "ceramic",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -2206,9 +2206,9 @@ export default [
       "id": "e230",
       "weight": 1,
       "source": "n23",
-      "sourceLabel": "Carbon",
-      "target": "n14",
-      "targetLabel": "Organic",
+      "sourceLabel": "carbon",
+      "target": "n13",
+      "targetLabel": "organic",
       "label": "1"
     }
   },
@@ -2225,9 +2225,9 @@ export default [
       "id": "e231",
       "weight": 1,
       "source": "n23",
-      "sourceLabel": "Carbon",
+      "sourceLabel": "carbon",
       "target": "n84",
-      "targetLabel": "Smelting Furnace",
+      "targetLabel": "smelting furnace",
       "label": "1"
     }
   },
@@ -2244,9 +2244,9 @@ export default [
       "id": "e240",
       "weight": 1,
       "source": "n24",
-      "sourceLabel": "Argon",
+      "sourceLabel": "argon",
       "target": "n87",
-      "targetLabel": "Atmospheric Condenser",
+      "targetLabel": "atmospheric condenser",
       "label": "1"
     }
   },
@@ -2263,9 +2263,9 @@ export default [
       "id": "e250",
       "weight": 1,
       "source": "n25",
-      "sourceLabel": "Helium",
+      "sourceLabel": "helium",
       "target": "n87",
-      "targetLabel": "Atmospheric Condenser",
+      "targetLabel": "atmospheric condenser",
       "label": "1"
     }
   },
@@ -2282,9 +2282,9 @@ export default [
       "id": "e251",
       "weight": 1,
       "source": "n25",
-      "sourceLabel": "Helium",
+      "sourceLabel": "helium",
       "target": "n104",
-      "targetLabel": "Minimal Rocket",
+      "targetLabel": "minimal rocket",
       "label": "1"
     }
   },
@@ -2301,9 +2301,9 @@ export default [
       "id": "e260",
       "weight": 1,
       "source": "n26",
-      "sourceLabel": "Hydrogen",
+      "sourceLabel": "hydrogen",
       "target": "n87",
-      "targetLabel": "Atmospheric Condenser",
+      "targetLabel": "atmospheric condenser",
       "label": "1"
     }
   },
@@ -2320,9 +2320,9 @@ export default [
       "id": "e270",
       "weight": 1,
       "source": "n27",
-      "sourceLabel": "Methane",
+      "sourceLabel": "methane",
       "target": "n87",
-      "targetLabel": "Atmospheric Condenser",
+      "targetLabel": "atmospheric condenser",
       "label": "1"
     }
   },
@@ -2339,9 +2339,9 @@ export default [
       "id": "e271",
       "weight": 1,
       "source": "n27",
-      "sourceLabel": "Methane",
+      "sourceLabel": "methane",
       "target": "n104",
-      "targetLabel": "Minimal Rocket",
+      "targetLabel": "minimal rocket",
       "label": "1"
     }
   },
@@ -2358,9 +2358,9 @@ export default [
       "id": "e280",
       "weight": 1,
       "source": "n28",
-      "sourceLabel": "Nitrogen",
+      "sourceLabel": "nitrogen",
       "target": "n87",
-      "targetLabel": "Atmospheric Condenser",
+      "targetLabel": "atmospheric condenser",
       "label": "1"
     }
   },
@@ -2377,9 +2377,9 @@ export default [
       "id": "e290",
       "weight": 1,
       "source": "n29",
-      "sourceLabel": "Sulfur",
+      "sourceLabel": "sulfur",
       "target": "n87",
-      "targetLabel": "Atmospheric Condenser",
+      "targetLabel": "atmospheric condenser",
       "label": "1"
     }
   },
@@ -2396,9 +2396,9 @@ export default [
       "id": "e291",
       "weight": 1,
       "source": "n29",
-      "sourceLabel": "Sulfur",
+      "sourceLabel": "sulfur",
       "target": "n104",
-      "targetLabel": "Minimal Rocket",
+      "targetLabel": "minimal rocket",
       "label": "1"
     }
   },
@@ -2415,9 +2415,9 @@ export default [
       "id": "e300",
       "weight": 1,
       "source": "n30",
-      "sourceLabel": "Aluminum Alloy",
+      "sourceLabel": "aluminum alloy",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "1"
     }
   },
@@ -2434,9 +2434,9 @@ export default [
       "id": "e301",
       "weight": 1,
       "source": "n30",
-      "sourceLabel": "Aluminum Alloy",
+      "sourceLabel": "aluminum alloy",
       "target": "n17",
-      "targetLabel": "Copper",
+      "targetLabel": "copper",
       "label": "1"
     }
   },
@@ -2453,9 +2453,9 @@ export default [
       "id": "e303",
       "weight": 1,
       "source": "n30",
-      "sourceLabel": "Aluminum Alloy",
+      "sourceLabel": "aluminum alloy",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2472,29 +2472,10 @@ export default [
       "id": "e310",
       "weight": 2,
       "source": "n31",
-      "sourceLabel": "Diamond",
+      "sourceLabel": "diamond",
       "target": "n33",
-      "targetLabel": "Graphene",
+      "targetLabel": "graphene",
       "label": "2"
-    }
-  },
-  {
-    "position": {},
-    "group": "edges",
-    "removed": false,
-    "selected": false,
-    "selectable": true,
-    "locked": false,
-    "grabbable": true,
-    "classes": "",
-    "data": {
-      "id": "e311",
-      "weight": 1,
-      "source": "n31",
-      "sourceLabel": "Diamond",
-      "target": "n87",
-      "targetLabel": "Atmospheric Condenser",
-      "label": "1"
     }
   },
   {
@@ -2510,9 +2491,9 @@ export default [
       "id": "e313",
       "weight": 1,
       "source": "n31",
-      "sourceLabel": "Diamond",
+      "sourceLabel": "diamond",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2529,9 +2510,9 @@ export default [
       "id": "e320",
       "weight": 2,
       "source": "n32",
-      "sourceLabel": "Explosive Powder",
+      "sourceLabel": "explosive powder",
       "target": "n23",
-      "targetLabel": "Carbon",
+      "targetLabel": "carbon",
       "label": "2"
     }
   },
@@ -2548,9 +2529,9 @@ export default [
       "id": "e321",
       "weight": 1,
       "source": "n32",
-      "sourceLabel": "Explosive Powder",
+      "sourceLabel": "explosive powder",
       "target": "n29",
-      "targetLabel": "Sulfur",
+      "targetLabel": "sulfur",
       "label": "1"
     }
   },
@@ -2567,9 +2548,9 @@ export default [
       "id": "e323",
       "weight": 1,
       "source": "n32",
-      "sourceLabel": "Explosive Powder",
+      "sourceLabel": "explosive powder",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2586,9 +2567,9 @@ export default [
       "id": "e330",
       "weight": 1,
       "source": "n33",
-      "sourceLabel": "Graphene",
-      "target": "n12",
-      "targetLabel": "Graphite",
+      "sourceLabel": "graphene",
+      "target": "n11",
+      "targetLabel": "graphite",
       "label": "1"
     }
   },
@@ -2605,9 +2586,9 @@ export default [
       "id": "e331",
       "weight": 1,
       "source": "n33",
-      "sourceLabel": "Graphene",
+      "sourceLabel": "graphene",
       "target": "n41",
-      "targetLabel": "Hydrazine",
+      "targetLabel": "hydrazine",
       "label": "1"
     }
   },
@@ -2624,9 +2605,9 @@ export default [
       "id": "e333",
       "weight": 1,
       "source": "n33",
-      "sourceLabel": "Graphene",
+      "sourceLabel": "graphene",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2643,9 +2624,9 @@ export default [
       "id": "e340",
       "weight": 1,
       "source": "n34",
-      "sourceLabel": "Nanocarbon Alloy",
+      "sourceLabel": "nanoCarbon alloy",
       "target": "n38",
-      "targetLabel": "Steel",
+      "targetLabel": "steel",
       "label": "1"
     }
   },
@@ -2662,9 +2643,9 @@ export default [
       "id": "e341",
       "weight": 1,
       "source": "n34",
-      "sourceLabel": "Nanocarbon Alloy",
+      "sourceLabel": "nanoCarbon alloy",
       "target": "n39",
-      "targetLabel": "Titanium Alloy",
+      "targetLabel": "titanium alloy",
       "label": "1"
     }
   },
@@ -2681,9 +2662,9 @@ export default [
       "id": "e342",
       "weight": 1,
       "source": "n34",
-      "sourceLabel": "Nanocarbon Alloy",
+      "sourceLabel": "nanoCarbon alloy",
       "target": "n25",
-      "targetLabel": "Helium",
+      "targetLabel": "helium",
       "label": "1"
     }
   },
@@ -2700,9 +2681,9 @@ export default [
       "id": "e343",
       "weight": 1,
       "source": "n34",
-      "sourceLabel": "Nanocarbon Alloy",
+      "sourceLabel": "nanoCarbon alloy",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2719,9 +2700,9 @@ export default [
       "id": "e350",
       "weight": 1,
       "source": "n35",
-      "sourceLabel": "Plastic",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "plastic",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -2738,9 +2719,9 @@ export default [
       "id": "e351",
       "weight": 1,
       "source": "n35",
-      "sourceLabel": "Plastic",
+      "sourceLabel": "plastic",
       "target": "n23",
-      "targetLabel": "Carbon",
+      "targetLabel": "carbon",
       "label": "1"
     }
   },
@@ -2757,9 +2738,9 @@ export default [
       "id": "e353",
       "weight": 1,
       "source": "n35",
-      "sourceLabel": "Plastic",
+      "sourceLabel": "plastic",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2776,9 +2757,9 @@ export default [
       "id": "e360",
       "weight": 1,
       "source": "n36",
-      "sourceLabel": "Rubber",
-      "target": "n14",
-      "targetLabel": "Organic",
+      "sourceLabel": "rubber",
+      "target": "n13",
+      "targetLabel": "organic",
       "label": "1"
     }
   },
@@ -2795,9 +2776,9 @@ export default [
       "id": "e361",
       "weight": 1,
       "source": "n36",
-      "sourceLabel": "Rubber",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "rubber",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "1"
     }
   },
@@ -2814,9 +2795,9 @@ export default [
       "id": "e363",
       "weight": 1,
       "source": "n36",
-      "sourceLabel": "Rubber",
+      "sourceLabel": "rubber",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2833,9 +2814,9 @@ export default [
       "id": "e370",
       "weight": 1,
       "source": "n37",
-      "sourceLabel": "Silicone",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "silicone",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "1"
     }
   },
@@ -2852,9 +2833,9 @@ export default [
       "id": "e371",
       "weight": 1,
       "source": "n37",
-      "sourceLabel": "Silicone",
-      "target": "n4",
-      "targetLabel": "Quartz",
+      "sourceLabel": "silicone",
+      "target": "n3",
+      "targetLabel": "quartz",
       "label": "1"
     }
   },
@@ -2871,9 +2852,9 @@ export default [
       "id": "e372",
       "weight": 1,
       "source": "n37",
-      "sourceLabel": "Silicone",
+      "sourceLabel": "silicone",
       "target": "n27",
-      "targetLabel": "Methane",
+      "targetLabel": "methane",
       "label": "1"
     }
   },
@@ -2890,9 +2871,9 @@ export default [
       "id": "e373",
       "weight": 1,
       "source": "n37",
-      "sourceLabel": "Silicone",
+      "sourceLabel": "silicone",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2909,9 +2890,9 @@ export default [
       "id": "e380",
       "weight": 1,
       "source": "n38",
-      "sourceLabel": "Steel",
+      "sourceLabel": "steel",
       "target": "n23",
-      "targetLabel": "Carbon",
+      "targetLabel": "carbon",
       "label": "1"
     }
   },
@@ -2928,9 +2909,9 @@ export default [
       "id": "e381",
       "weight": 1,
       "source": "n38",
-      "sourceLabel": "Steel",
+      "sourceLabel": "steel",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "1"
     }
   },
@@ -2947,9 +2928,9 @@ export default [
       "id": "e382",
       "weight": 1,
       "source": "n38",
-      "sourceLabel": "Steel",
+      "sourceLabel": "steel",
       "target": "n24",
-      "targetLabel": "Argon",
+      "targetLabel": "argon",
       "label": "1"
     }
   },
@@ -2966,9 +2947,9 @@ export default [
       "id": "e383",
       "weight": 1,
       "source": "n38",
-      "sourceLabel": "Steel",
+      "sourceLabel": "steel",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -2985,9 +2966,9 @@ export default [
       "id": "e390",
       "weight": 1,
       "source": "n39",
-      "sourceLabel": "Titanium Alloy",
+      "sourceLabel": "titanium alloy",
       "target": "n19",
-      "targetLabel": "Titanium",
+      "targetLabel": "titanium",
       "label": "1"
     }
   },
@@ -3004,9 +2985,9 @@ export default [
       "id": "e391",
       "weight": 1,
       "source": "n39",
-      "sourceLabel": "Titanium Alloy",
+      "sourceLabel": "titanium alloy",
       "target": "n33",
-      "targetLabel": "Graphene",
+      "targetLabel": "graphene",
       "label": "1"
     }
   },
@@ -3023,9 +3004,9 @@ export default [
       "id": "e392",
       "weight": 1,
       "source": "n39",
-      "sourceLabel": "Titanium Alloy",
+      "sourceLabel": "titanium alloy",
       "target": "n28",
-      "targetLabel": "Nitrogen",
+      "targetLabel": "nitrogen",
       "label": "1"
     }
   },
@@ -3042,9 +3023,9 @@ export default [
       "id": "e393",
       "weight": 1,
       "source": "n39",
-      "sourceLabel": "Titanium Alloy",
+      "sourceLabel": "titanium alloy",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -3061,9 +3042,9 @@ export default [
       "id": "e400",
       "weight": 1,
       "source": "n40",
-      "sourceLabel": "Tungsten Carbide",
+      "sourceLabel": "tungsten carbide",
       "target": "n23",
-      "targetLabel": "Carbon",
+      "targetLabel": "carbon",
       "label": "1"
     }
   },
@@ -3080,9 +3061,9 @@ export default [
       "id": "e401",
       "weight": 1,
       "source": "n40",
-      "sourceLabel": "Tungsten Carbide",
+      "sourceLabel": "tungsten carbide",
       "target": "n20",
-      "targetLabel": "Tungsten",
+      "targetLabel": "tungsten",
       "label": "1"
     }
   },
@@ -3099,9 +3080,9 @@ export default [
       "id": "e403",
       "weight": 1,
       "source": "n40",
-      "sourceLabel": "Tungsten Carbide",
+      "sourceLabel": "tungsten carbide",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -3118,9 +3099,9 @@ export default [
       "id": "e410",
       "weight": 2,
       "source": "n41",
-      "sourceLabel": "Hydrazine",
-      "target": "n11",
-      "targetLabel": "Ammonium",
+      "sourceLabel": "hydrazine",
+      "target": "n10",
+      "targetLabel": "ammonium",
       "label": "2"
     }
   },
@@ -3137,9 +3118,9 @@ export default [
       "id": "e411",
       "weight": 1,
       "source": "n41",
-      "sourceLabel": "Hydrazine",
+      "sourceLabel": "hydrazine",
       "target": "n26",
-      "targetLabel": "Hydrogen",
+      "targetLabel": "hydrogen",
       "label": "1"
     }
   },
@@ -3156,9 +3137,9 @@ export default [
       "id": "e413",
       "weight": 1,
       "source": "n41",
-      "sourceLabel": "Hydrazine",
+      "sourceLabel": "hydrazine",
       "target": "n86",
-      "targetLabel": "Chemistry Lab",
+      "targetLabel": "chemistry lab",
       "label": "1"
     }
   },
@@ -3175,9 +3156,9 @@ export default [
       "id": "e420",
       "weight": 1,
       "source": "n42",
-      "sourceLabel": "Tethers",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "tethers",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -3194,9 +3175,9 @@ export default [
       "id": "e430",
       "weight": 1,
       "source": "n43",
-      "sourceLabel": "Canister",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "canister",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "1"
     }
   },
@@ -3213,9 +3194,9 @@ export default [
       "id": "e440",
       "weight": 1,
       "source": "n44",
-      "sourceLabel": "Beacon",
-      "target": "n4",
-      "targetLabel": "Quartz",
+      "sourceLabel": "beacon",
+      "target": "n3",
+      "targetLabel": "quartz",
       "label": "1"
     }
   },
@@ -3232,9 +3213,9 @@ export default [
       "id": "e441",
       "weight": 250,
       "source": "n44",
-      "sourceLabel": "Beacon",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "beacon",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "250"
     }
   },
@@ -3251,9 +3232,9 @@ export default [
       "id": "e450",
       "weight": 1,
       "source": "n45",
-      "sourceLabel": "Work Light",
+      "sourceLabel": "work light",
       "target": "n17",
-      "targetLabel": "Copper",
+      "targetLabel": "copper",
       "label": "1"
     }
   },
@@ -3270,9 +3251,9 @@ export default [
       "id": "e451",
       "weight": 500,
       "source": "n45",
-      "sourceLabel": "Work Light",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "work light",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "500"
     }
   },
@@ -3289,9 +3270,9 @@ export default [
       "id": "e460",
       "weight": 1,
       "source": "n46",
-      "sourceLabel": "Oxygen Filters",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "oxygen filters",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "1"
     }
   },
@@ -3308,9 +3289,9 @@ export default [
       "id": "e470",
       "weight": 1,
       "source": "n47",
-      "sourceLabel": "Small Oxygen Tank",
+      "sourceLabel": "small oxygen tank",
       "target": "n21",
-      "targetLabel": "Glass",
+      "targetLabel": "glass",
       "label": "1"
     }
   },
@@ -3327,9 +3308,9 @@ export default [
       "id": "e471",
       "weight": 1600,
       "source": "n47",
-      "sourceLabel": "Small Oxygen Tank",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "small oxygen tank",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1600"
     }
   },
@@ -3346,9 +3327,9 @@ export default [
       "id": "e480",
       "weight": 1,
       "source": "n48",
-      "sourceLabel": "Small Generator",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "small generator",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -3365,9 +3346,9 @@ export default [
       "id": "e490",
       "weight": 1,
       "source": "n49",
-      "sourceLabel": "Power Cells",
+      "sourceLabel": "power cells",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -3384,9 +3365,9 @@ export default [
       "id": "e491",
       "weight": 800,
       "source": "n49",
-      "sourceLabel": "Power Cells",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "power cells",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "800"
     }
   },
@@ -3403,9 +3384,9 @@ export default [
       "id": "e500",
       "weight": 1,
       "source": "n50",
-      "sourceLabel": "Small Battery",
-      "target": "n3",
-      "targetLabel": "Lithium",
+      "sourceLabel": "small battery",
+      "target": "n2",
+      "targetLabel": "lithium",
       "label": "1"
     }
   },
@@ -3422,9 +3403,9 @@ export default [
       "id": "e501",
       "weight": 1500,
       "source": "n50",
-      "sourceLabel": "Small Battery",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "small battery",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1500"
     }
   },
@@ -3441,9 +3422,9 @@ export default [
       "id": "e510",
       "weight": 1,
       "source": "n51",
-      "sourceLabel": "Wide Mod",
+      "sourceLabel": "wide mod",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -3460,9 +3441,9 @@ export default [
       "id": "e511",
       "weight": 800,
       "source": "n51",
-      "sourceLabel": "Wide Mod",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "wide mod",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "800"
     }
   },
@@ -3479,9 +3460,9 @@ export default [
       "id": "e520",
       "weight": 1,
       "source": "n52",
-      "sourceLabel": "Small Solar",
+      "sourceLabel": "small solar",
       "target": "n17",
-      "targetLabel": "Copper",
+      "targetLabel": "copper",
       "label": "1"
     }
   },
@@ -3498,9 +3479,9 @@ export default [
       "id": "e521",
       "weight": 500,
       "source": "n52",
-      "sourceLabel": "Small Solar",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "small solar",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "500"
     }
   },
@@ -3517,9 +3498,9 @@ export default [
       "id": "e530",
       "weight": 1,
       "source": "n53",
-      "sourceLabel": "Small Wind Turbine",
+      "sourceLabel": "small wind turbine",
       "target": "n21",
-      "targetLabel": "Glass",
+      "targetLabel": "glass",
       "label": "1"
     }
   },
@@ -3536,9 +3517,9 @@ export default [
       "id": "e531",
       "weight": 500,
       "source": "n53",
-      "sourceLabel": "Small Wind Turbine",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "small wind turbine",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "500"
     }
   },
@@ -3555,9 +3536,9 @@ export default [
       "id": "e540",
       "weight": 1,
       "source": "n54",
-      "sourceLabel": "Alignment Mod",
+      "sourceLabel": "alignment mod",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -3574,9 +3555,9 @@ export default [
       "id": "e541",
       "weight": 800,
       "source": "n54",
-      "sourceLabel": "Alignment Mod",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "alignment mod",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "800"
     }
   },
@@ -3593,9 +3574,9 @@ export default [
       "id": "e550",
       "weight": 1,
       "source": "n55",
-      "sourceLabel": "Inhibitor Mod",
+      "sourceLabel": "inhibitor mod",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -3612,9 +3593,9 @@ export default [
       "id": "e551",
       "weight": 800,
       "source": "n55",
-      "sourceLabel": "Inhibitor Mod",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "inhibitor mod",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "800"
     }
   },
@@ -3631,9 +3612,9 @@ export default [
       "id": "e560",
       "weight": 1,
       "source": "n56",
-      "sourceLabel": "Boost Mod",
+      "sourceLabel": "boost mod",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -3650,9 +3631,9 @@ export default [
       "id": "e561",
       "weight": 800,
       "source": "n56",
-      "sourceLabel": "Boost Mod",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "boost mod",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "800"
     }
   },
@@ -3669,9 +3650,9 @@ export default [
       "id": "e570",
       "weight": 1,
       "source": "n57",
-      "sourceLabel": "Narrow Mod",
+      "sourceLabel": "narrow mod",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -3688,9 +3669,9 @@ export default [
       "id": "e571",
       "weight": 800,
       "source": "n57",
-      "sourceLabel": "Narrow Mod",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "narrow mod",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "800"
     }
   },
@@ -3707,9 +3688,9 @@ export default [
       "id": "e580",
       "weight": 1,
       "source": "n58",
-      "sourceLabel": "Terrain Analyzer",
+      "sourceLabel": "terrain analyzer",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -3726,9 +3707,9 @@ export default [
       "id": "e581",
       "weight": 1600,
       "source": "n58",
-      "sourceLabel": "Terrain Analyzer",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "terrain analyzer",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1600"
     }
   },
@@ -3745,9 +3726,9 @@ export default [
       "id": "e590",
       "weight": 1,
       "source": "n59",
-      "sourceLabel": "Extenders",
+      "sourceLabel": "extenders",
       "target": "n17",
-      "targetLabel": "Copper",
+      "targetLabel": "copper",
       "label": "1"
     }
   },
@@ -3764,9 +3745,9 @@ export default [
       "id": "e591",
       "weight": 500,
       "source": "n59",
-      "sourceLabel": "Extenders",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "extenders",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "500"
     }
   },
@@ -3783,9 +3764,9 @@ export default [
       "id": "e600",
       "weight": 1,
       "source": "n60",
-      "sourceLabel": "Dynamite",
+      "sourceLabel": "dynamite",
       "target": "n32",
-      "targetLabel": "Explosive Powder",
+      "targetLabel": "explosive powder",
       "label": "1"
     }
   },
@@ -3802,9 +3783,9 @@ export default [
       "id": "e601",
       "weight": 3000,
       "source": "n60",
-      "sourceLabel": "Dynamite",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "dynamite",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -3821,9 +3802,9 @@ export default [
       "id": "e610",
       "weight": 1,
       "source": "n61",
-      "sourceLabel": "Fireworks",
+      "sourceLabel": "fireworks",
       "target": "n32",
-      "targetLabel": "Explosive Powder",
+      "targetLabel": "explosive powder",
       "label": "1"
     }
   },
@@ -3840,9 +3821,9 @@ export default [
       "id": "e611",
       "weight": 3000,
       "source": "n61",
-      "sourceLabel": "Fireworks",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "fireworks",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -3859,9 +3840,9 @@ export default [
       "id": "e620",
       "weight": 1,
       "source": "n62",
-      "sourceLabel": "Small Printer",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "small printer",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -3878,9 +3859,9 @@ export default [
       "id": "e630",
       "weight": 1,
       "source": "n63",
-      "sourceLabel": "Medium Generator",
+      "sourceLabel": "medium generator",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "1"
     }
   },
@@ -3897,9 +3878,9 @@ export default [
       "id": "e631",
       "weight": 1,
       "source": "n63",
-      "sourceLabel": "Medium Generator",
+      "sourceLabel": "medium generator",
       "target": "n20",
-      "targetLabel": "Tungsten",
+      "targetLabel": "tungsten",
       "label": "1"
     }
   },
@@ -3916,9 +3897,9 @@ export default [
       "id": "e632",
       "weight": 3000,
       "source": "n63",
-      "sourceLabel": "Medium Generator",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium generator",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -3935,9 +3916,9 @@ export default [
       "id": "e634",
       "weight": 1,
       "source": "n63",
-      "sourceLabel": "Medium Generator",
+      "sourceLabel": "medium generator",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -3954,9 +3935,9 @@ export default [
       "id": "e640",
       "weight": 1,
       "source": "n64",
-      "sourceLabel": "Medium Solar",
+      "sourceLabel": "medium solar",
       "target": "n17",
-      "targetLabel": "Copper",
+      "targetLabel": "copper",
       "label": "1"
     }
   },
@@ -3973,9 +3954,9 @@ export default [
       "id": "e641",
       "weight": 1,
       "source": "n64",
-      "sourceLabel": "Medium Solar",
+      "sourceLabel": "medium solar",
       "target": "n21",
-      "targetLabel": "Glass",
+      "targetLabel": "glass",
       "label": "1"
     }
   },
@@ -3992,9 +3973,9 @@ export default [
       "id": "e642",
       "weight": 3000,
       "source": "n64",
-      "sourceLabel": "Medium Solar",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium solar",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -4011,9 +3992,9 @@ export default [
       "id": "e644",
       "weight": 1,
       "source": "n64",
-      "sourceLabel": "Medium Solar",
+      "sourceLabel": "medium solar",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4030,9 +4011,9 @@ export default [
       "id": "e650",
       "weight": 1,
       "source": "n65",
-      "sourceLabel": "Medium Wind Turbine",
+      "sourceLabel": "medium wind turbine",
       "target": "n22",
-      "targetLabel": "Ceramic",
+      "targetLabel": "ceramic",
       "label": "1"
     }
   },
@@ -4049,9 +4030,9 @@ export default [
       "id": "e651",
       "weight": 1,
       "source": "n65",
-      "sourceLabel": "Medium Wind Turbine",
+      "sourceLabel": "medium wind turbine",
       "target": "n21",
-      "targetLabel": "Glass",
+      "targetLabel": "glass",
       "label": "1"
     }
   },
@@ -4068,9 +4049,9 @@ export default [
       "id": "e652",
       "weight": 2000,
       "source": "n65",
-      "sourceLabel": "Medium Wind Turbine",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium wind turbine",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -4087,9 +4068,9 @@ export default [
       "id": "e654",
       "weight": 1,
       "source": "n65",
-      "sourceLabel": "Medium Wind Turbine",
+      "sourceLabel": "medium wind turbine",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4106,9 +4087,9 @@ export default [
       "id": "e660",
       "weight": 1,
       "source": "n66",
-      "sourceLabel": "Medium Battery",
-      "target": "n3",
-      "targetLabel": "Lithium",
+      "sourceLabel": "medium battery",
+      "target": "n2",
+      "targetLabel": "lithium",
       "label": "1"
     }
   },
@@ -4125,9 +4106,9 @@ export default [
       "id": "e661",
       "weight": 1,
       "source": "n66",
-      "sourceLabel": "Medium Battery",
+      "sourceLabel": "medium battery",
       "target": "n18",
-      "targetLabel": "Zinc",
+      "targetLabel": "zinc",
       "label": "1"
     }
   },
@@ -4144,9 +4125,9 @@ export default [
       "id": "e662",
       "weight": 3000,
       "source": "n66",
-      "sourceLabel": "Medium Battery",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium battery",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -4163,9 +4144,9 @@ export default [
       "id": "e664",
       "weight": 1,
       "source": "n66",
-      "sourceLabel": "Medium Battery",
+      "sourceLabel": "medium battery",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4182,9 +4163,9 @@ export default [
       "id": "e670",
       "weight": 2,
       "source": "n67",
-      "sourceLabel": "Medium Storage",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "medium storage",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "2"
     }
   },
@@ -4201,9 +4182,9 @@ export default [
       "id": "e674",
       "weight": 1,
       "source": "n67",
-      "sourceLabel": "Medium Storage",
+      "sourceLabel": "medium storage",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4220,9 +4201,9 @@ export default [
       "id": "e680",
       "weight": 1,
       "source": "n68",
-      "sourceLabel": "Medium Platform A",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "medium platform a",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "1"
     }
   },
@@ -4239,9 +4220,9 @@ export default [
       "id": "e684",
       "weight": 1,
       "source": "n68",
-      "sourceLabel": "Medium Platform A",
+      "sourceLabel": "medium platform a",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4258,9 +4239,9 @@ export default [
       "id": "e690",
       "weight": 2,
       "source": "n69",
-      "sourceLabel": "Medium Platform B",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "medium platform b",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "2"
     }
   },
@@ -4277,9 +4258,9 @@ export default [
       "id": "e691",
       "weight": 250,
       "source": "n69",
-      "sourceLabel": "Medium Platform B",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium platform b",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "250"
     }
   },
@@ -4296,9 +4277,9 @@ export default [
       "id": "e694",
       "weight": 1,
       "source": "n69",
-      "sourceLabel": "Medium Platform B",
+      "sourceLabel": "medium platform b",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4315,9 +4296,9 @@ export default [
       "id": "e700",
       "weight": 2,
       "source": "n70",
-      "sourceLabel": "Medium Shredder",
+      "sourceLabel": "medium shredder",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "2"
     }
   },
@@ -4334,9 +4315,9 @@ export default [
       "id": "e701",
       "weight": 1000,
       "source": "n70",
-      "sourceLabel": "Medium Shredder",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium shredder",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1000"
     }
   },
@@ -4353,9 +4334,9 @@ export default [
       "id": "e704",
       "weight": 1,
       "source": "n70",
-      "sourceLabel": "Medium Shredder",
+      "sourceLabel": "medium shredder",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4372,9 +4353,9 @@ export default [
       "id": "e710",
       "weight": 1,
       "source": "n71",
-      "sourceLabel": "Dropship",
+      "sourceLabel": "dropship",
       "target": "n39",
-      "targetLabel": "Titanium Alloy",
+      "targetLabel": "titanium alloy",
       "label": "1"
     }
   },
@@ -4391,9 +4372,9 @@ export default [
       "id": "e711",
       "weight": 1,
       "source": "n71",
-      "sourceLabel": "Dropship",
+      "sourceLabel": "dropship",
       "target": "n33",
-      "targetLabel": "Graphene",
+      "targetLabel": "graphene",
       "label": "1"
     }
   },
@@ -4410,9 +4391,9 @@ export default [
       "id": "e712",
       "weight": 4000,
       "source": "n71",
-      "sourceLabel": "Dropship",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "dropship",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "4000"
     }
   },
@@ -4429,9 +4410,9 @@ export default [
       "id": "e714",
       "weight": 1,
       "source": "n71",
-      "sourceLabel": "Dropship",
+      "sourceLabel": "dropship",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4448,9 +4429,9 @@ export default [
       "id": "e720",
       "weight": 1,
       "source": "n72",
-      "sourceLabel": "Splitter",
+      "sourceLabel": "splitter",
       "target": "n17",
-      "targetLabel": "Copper",
+      "targetLabel": "copper",
       "label": "1"
     }
   },
@@ -4467,9 +4448,9 @@ export default [
       "id": "e721",
       "weight": 1,
       "source": "n72",
-      "sourceLabel": "Splitter",
-      "target": "n12",
-      "targetLabel": "Graphite",
+      "sourceLabel": "splitter",
+      "target": "n11",
+      "targetLabel": "graphite",
       "label": "1"
     }
   },
@@ -4486,9 +4467,9 @@ export default [
       "id": "e722",
       "weight": 1000,
       "source": "n72",
-      "sourceLabel": "Splitter",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "splitter",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1000"
     }
   },
@@ -4505,9 +4486,9 @@ export default [
       "id": "e724",
       "weight": 1,
       "source": "n72",
-      "sourceLabel": "Splitter",
+      "sourceLabel": "splitter",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4524,9 +4505,9 @@ export default [
       "id": "e730",
       "weight": 1,
       "source": "n73",
-      "sourceLabel": "Drill Head",
+      "sourceLabel": "drill head",
       "target": "n40",
-      "targetLabel": "Tungsten Carbide",
+      "targetLabel": "tungsten carbide",
       "label": "1"
     }
   },
@@ -4543,9 +4524,9 @@ export default [
       "id": "e731",
       "weight": 1,
       "source": "n73",
-      "sourceLabel": "Drill Head",
+      "sourceLabel": "drill head",
       "target": "n22",
-      "targetLabel": "Ceramic",
+      "targetLabel": "ceramic",
       "label": "1"
     }
   },
@@ -4562,9 +4543,9 @@ export default [
       "id": "e732",
       "weight": 3500,
       "source": "n73",
-      "sourceLabel": "Drill Head",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "drill head",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3500"
     }
   },
@@ -4581,9 +4562,9 @@ export default [
       "id": "e734",
       "weight": 1,
       "source": "n73",
-      "sourceLabel": "Drill Head",
+      "sourceLabel": "drill head",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4600,9 +4581,9 @@ export default [
       "id": "e740",
       "weight": 1,
       "source": "n74",
-      "sourceLabel": "Solid Fuel Thruster",
+      "sourceLabel": "solid fuel thruster",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "1"
     }
   },
@@ -4619,9 +4600,9 @@ export default [
       "id": "e741",
       "weight": 1,
       "source": "n74",
-      "sourceLabel": "Solid Fuel Thruster",
-      "target": "n11",
-      "targetLabel": "Ammonium",
+      "sourceLabel": "solid fuel thruster",
+      "target": "n10",
+      "targetLabel": "ammonium",
       "label": "1"
     }
   },
@@ -4638,9 +4619,9 @@ export default [
       "id": "e742",
       "weight": 500,
       "source": "n74",
-      "sourceLabel": "Solid Fuel Thruster",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "solid fuel thruster",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "500"
     }
   },
@@ -4657,9 +4638,9 @@ export default [
       "id": "e744",
       "weight": 1,
       "source": "n74",
-      "sourceLabel": "Solid Fuel Thruster",
+      "sourceLabel": "solid fuel thruster",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4676,9 +4657,9 @@ export default [
       "id": "e750",
       "weight": 1,
       "source": "n75",
-      "sourceLabel": "Hydrazine Thruster",
+      "sourceLabel": "hydrazine thruster",
       "target": "n20",
-      "targetLabel": "Tungsten",
+      "targetLabel": "tungsten",
       "label": "1"
     }
   },
@@ -4695,9 +4676,9 @@ export default [
       "id": "e751",
       "weight": 1,
       "source": "n75",
-      "sourceLabel": "Hydrazine Thruster",
+      "sourceLabel": "hydrazine thruster",
       "target": "n39",
-      "targetLabel": "Titanium Alloy",
+      "targetLabel": "titanium alloy",
       "label": "1"
     }
   },
@@ -4714,9 +4695,9 @@ export default [
       "id": "e752",
       "weight": 3000,
       "source": "n75",
-      "sourceLabel": "Hydrazine Thruster",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "hydrazine thruster",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -4733,9 +4714,9 @@ export default [
       "id": "e754",
       "weight": 1,
       "source": "n75",
-      "sourceLabel": "Hydrazine Thruster",
+      "sourceLabel": "hydrazine thruster",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4752,9 +4733,9 @@ export default [
       "id": "e760",
       "weight": 1,
       "source": "n76",
-      "sourceLabel": "Winch",
+      "sourceLabel": "winch",
       "target": "n20",
-      "targetLabel": "Tungsten",
+      "targetLabel": "tungsten",
       "label": "1"
     }
   },
@@ -4771,9 +4752,9 @@ export default [
       "id": "e761",
       "weight": 1,
       "source": "n76",
-      "sourceLabel": "Winch",
+      "sourceLabel": "winch",
       "target": "n36",
-      "targetLabel": "Rubber",
+      "targetLabel": "rubber",
       "label": "1"
     }
   },
@@ -4790,9 +4771,9 @@ export default [
       "id": "e762",
       "weight": 3000,
       "source": "n76",
-      "sourceLabel": "Winch",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "winch",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -4809,9 +4790,9 @@ export default [
       "id": "e764",
       "weight": 1,
       "source": "n76",
-      "sourceLabel": "Winch",
+      "sourceLabel": "winch",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4828,9 +4809,9 @@ export default [
       "id": "e770",
       "weight": 2,
       "source": "n77",
-      "sourceLabel": "Rover Seat",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "rover seat",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "2"
     }
   },
@@ -4847,9 +4828,9 @@ export default [
       "id": "e774",
       "weight": 1,
       "source": "n77",
-      "sourceLabel": "Rover Seat",
+      "sourceLabel": "rover seat",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4866,9 +4847,9 @@ export default [
       "id": "e780",
       "weight": 2,
       "source": "n78",
-      "sourceLabel": "Shuttle Seat",
+      "sourceLabel": "shuttle seat",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "2"
     }
   },
@@ -4885,9 +4866,9 @@ export default [
       "id": "e781",
       "weight": 1000,
       "source": "n78",
-      "sourceLabel": "Shuttle Seat",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "shuttle seat",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1000"
     }
   },
@@ -4904,9 +4885,9 @@ export default [
       "id": "e784",
       "weight": 1,
       "source": "n78",
-      "sourceLabel": "Shuttle Seat",
+      "sourceLabel": "shuttle seat",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4923,9 +4904,9 @@ export default [
       "id": "e790",
       "weight": 2,
       "source": "n79",
-      "sourceLabel": "Medium Printer",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "medium printer",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "2"
     }
   },
@@ -4942,9 +4923,9 @@ export default [
       "id": "e794",
       "weight": 1,
       "source": "n79",
-      "sourceLabel": "Medium Printer",
+      "sourceLabel": "medium printer",
       "target": "n62",
-      "targetLabel": "Small Printer",
+      "targetLabel": "small printer",
       "label": "1"
     }
   },
@@ -4961,9 +4942,9 @@ export default [
       "id": "e800",
       "weight": 2,
       "source": "n80",
-      "sourceLabel": "Large Platform A",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "large platform a",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "2"
     }
   },
@@ -4980,9 +4961,9 @@ export default [
       "id": "e804",
       "weight": 1,
       "source": "n80",
-      "sourceLabel": "Large Platform A",
+      "sourceLabel": "large platform a",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -4999,9 +4980,9 @@ export default [
       "id": "e810",
       "weight": 3,
       "source": "n81",
-      "sourceLabel": "Large Platform B",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "large platform b",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "3"
     }
   },
@@ -5018,9 +4999,9 @@ export default [
       "id": "e811",
       "weight": 500,
       "source": "n81",
-      "sourceLabel": "Large Platform B",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large platform b",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "500"
     }
   },
@@ -5037,9 +5018,9 @@ export default [
       "id": "e814",
       "weight": 1,
       "source": "n81",
-      "sourceLabel": "Large Platform B",
+      "sourceLabel": "large platform b",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5056,9 +5037,9 @@ export default [
       "id": "e820",
       "weight": 3,
       "source": "n82",
-      "sourceLabel": "Large Platform C",
+      "sourceLabel": "large platform c",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "3"
     }
   },
@@ -5075,9 +5056,9 @@ export default [
       "id": "e821",
       "weight": 2000,
       "source": "n82",
-      "sourceLabel": "Large Platform C",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large platform c",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -5094,9 +5075,9 @@ export default [
       "id": "e824",
       "weight": 1,
       "source": "n82",
-      "sourceLabel": "Large Platform C",
+      "sourceLabel": "large platform c",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5113,9 +5094,9 @@ export default [
       "id": "e830",
       "weight": 2,
       "source": "n83",
-      "sourceLabel": "Research Chamber",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "research chamber",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "2"
     }
   },
@@ -5132,9 +5113,9 @@ export default [
       "id": "e831",
       "weight": 1,
       "source": "n83",
-      "sourceLabel": "Research Chamber",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "research chamber",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "1"
     }
   },
@@ -5151,9 +5132,9 @@ export default [
       "id": "e834",
       "weight": 1,
       "source": "n83",
-      "sourceLabel": "Research Chamber",
+      "sourceLabel": "research chamber",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5170,9 +5151,9 @@ export default [
       "id": "e835",
       "weight": 1,
       "source": "n83",
-      "sourceLabel": "Research Chamber",
+      "sourceLabel": "research chamber",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5189,9 +5170,9 @@ export default [
       "id": "e840",
       "weight": 1,
       "source": "n84",
-      "sourceLabel": "Smelting Furnace",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "smelting furnace",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -5206,12 +5187,31 @@ export default [
     "classes": "",
     "data": {
       "id": "e841",
-      "weight": 1,
+      "weight": 2,
       "source": "n84",
-      "sourceLabel": "Smelting Furnace",
-      "target": "n2",
-      "targetLabel": "Resin",
-      "label": "1"
+      "sourceLabel": "smelting furnace",
+      "target": "n1",
+      "targetLabel": "resin",
+      "label": "2"
+    }
+  },
+  {
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "",
+    "data": {
+      "id": "e842",
+      "weight": 250,
+      "source": "n84",
+      "sourceLabel": "smelting furnace",
+      "target": "n14",
+      "targetLabel": "bytes",
+      "label": "250"
     }
   },
   {
@@ -5227,9 +5227,9 @@ export default [
       "id": "e844",
       "weight": 1,
       "source": "n84",
-      "sourceLabel": "Smelting Furnace",
+      "sourceLabel": "smelting furnace",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5246,9 +5246,9 @@ export default [
       "id": "e845",
       "weight": 1,
       "source": "n84",
-      "sourceLabel": "Smelting Furnace",
+      "sourceLabel": "smelting furnace",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5265,9 +5265,9 @@ export default [
       "id": "e850",
       "weight": 2,
       "source": "n85",
-      "sourceLabel": "Soil Centrifuge",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "soil centrifuge",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "2"
     }
   },
@@ -5284,9 +5284,9 @@ export default [
       "id": "e851",
       "weight": 1,
       "source": "n85",
-      "sourceLabel": "Soil Centrifuge",
+      "sourceLabel": "soil centrifuge",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "1"
     }
   },
@@ -5303,9 +5303,9 @@ export default [
       "id": "e852",
       "weight": 750,
       "source": "n85",
-      "sourceLabel": "Soil Centrifuge",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "soil centrifuge",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "750"
     }
   },
@@ -5322,9 +5322,9 @@ export default [
       "id": "e854",
       "weight": 1,
       "source": "n85",
-      "sourceLabel": "Soil Centrifuge",
+      "sourceLabel": "soil centrifuge",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5341,9 +5341,9 @@ export default [
       "id": "e855",
       "weight": 1,
       "source": "n85",
-      "sourceLabel": "Soil Centrifuge",
+      "sourceLabel": "soil centrifuge",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5360,9 +5360,9 @@ export default [
       "id": "e860",
       "weight": 1,
       "source": "n86",
-      "sourceLabel": "Chemistry Lab",
+      "sourceLabel": "chemistry lab",
       "target": "n22",
-      "targetLabel": "Ceramic",
+      "targetLabel": "ceramic",
       "label": "1"
     }
   },
@@ -5379,9 +5379,9 @@ export default [
       "id": "e861",
       "weight": 1,
       "source": "n86",
-      "sourceLabel": "Chemistry Lab",
+      "sourceLabel": "chemistry lab",
       "target": "n21",
-      "targetLabel": "Glass",
+      "targetLabel": "glass",
       "label": "1"
     }
   },
@@ -5398,9 +5398,9 @@ export default [
       "id": "e862",
       "weight": 1,
       "source": "n86",
-      "sourceLabel": "Chemistry Lab",
+      "sourceLabel": "chemistry lab",
       "target": "n20",
-      "targetLabel": "Tungsten",
+      "targetLabel": "tungsten",
       "label": "1"
     }
   },
@@ -5417,9 +5417,9 @@ export default [
       "id": "e863",
       "weight": 1250,
       "source": "n86",
-      "sourceLabel": "Chemistry Lab",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "chemistry lab",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1250"
     }
   },
@@ -5436,9 +5436,9 @@ export default [
       "id": "e864",
       "weight": 1,
       "source": "n86",
-      "sourceLabel": "Chemistry Lab",
+      "sourceLabel": "chemistry lab",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5455,9 +5455,9 @@ export default [
       "id": "e865",
       "weight": 1,
       "source": "n86",
-      "sourceLabel": "Chemistry Lab",
+      "sourceLabel": "chemistry lab",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5474,9 +5474,9 @@ export default [
       "id": "e870",
       "weight": 1,
       "source": "n87",
-      "sourceLabel": "Atmospheric Condenser",
+      "sourceLabel": "atmospheric condenser",
       "target": "n35",
-      "targetLabel": "Plastic",
+      "targetLabel": "plastic",
       "label": "1"
     }
   },
@@ -5493,9 +5493,9 @@ export default [
       "id": "e871",
       "weight": 1,
       "source": "n87",
-      "sourceLabel": "Atmospheric Condenser",
+      "sourceLabel": "atmospheric condenser",
       "target": "n21",
-      "targetLabel": "Glass",
+      "targetLabel": "glass",
       "label": "1"
     }
   },
@@ -5512,9 +5512,9 @@ export default [
       "id": "e872",
       "weight": 1,
       "source": "n87",
-      "sourceLabel": "Atmospheric Condenser",
+      "sourceLabel": "atmospheric condenser",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "1"
     }
   },
@@ -5531,9 +5531,9 @@ export default [
       "id": "e873",
       "weight": 1750,
       "source": "n87",
-      "sourceLabel": "Atmospheric Condenser",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "atmospheric condenser",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1750"
     }
   },
@@ -5550,9 +5550,9 @@ export default [
       "id": "e874",
       "weight": 1,
       "source": "n87",
-      "sourceLabel": "Atmospheric Condenser",
+      "sourceLabel": "atmospheric condenser",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5569,9 +5569,9 @@ export default [
       "id": "e875",
       "weight": 1,
       "source": "n87",
-      "sourceLabel": "Atmospheric Condenser",
+      "sourceLabel": "atmospheric condenser",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5588,9 +5588,9 @@ export default [
       "id": "e880",
       "weight": 1,
       "source": "n88",
-      "sourceLabel": "Trade Platform",
+      "sourceLabel": "trade platform",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "1"
     }
   },
@@ -5607,9 +5607,9 @@ export default [
       "id": "e881",
       "weight": 1,
       "source": "n88",
-      "sourceLabel": "Trade Platform",
+      "sourceLabel": "trade platform",
       "target": "n20",
-      "targetLabel": "Tungsten",
+      "targetLabel": "tungsten",
       "label": "1"
     }
   },
@@ -5626,9 +5626,9 @@ export default [
       "id": "e882",
       "weight": 1,
       "source": "n88",
-      "sourceLabel": "Trade Platform",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "trade platform",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -5645,9 +5645,9 @@ export default [
       "id": "e883",
       "weight": 2000,
       "source": "n88",
-      "sourceLabel": "Trade Platform",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "trade platform",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -5664,9 +5664,9 @@ export default [
       "id": "e884",
       "weight": 1,
       "source": "n88",
-      "sourceLabel": "Trade Platform",
+      "sourceLabel": "trade platform",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5683,9 +5683,9 @@ export default [
       "id": "e885",
       "weight": 1,
       "source": "n88",
-      "sourceLabel": "Trade Platform",
+      "sourceLabel": "trade platform",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5702,9 +5702,9 @@ export default [
       "id": "e890",
       "weight": 1,
       "source": "n89",
-      "sourceLabel": "Large Shredder",
+      "sourceLabel": "large shredder",
       "target": "n40",
-      "targetLabel": "Tungsten Carbide",
+      "targetLabel": "tungsten carbide",
       "label": "1"
     }
   },
@@ -5721,9 +5721,9 @@ export default [
       "id": "e891",
       "weight": 2,
       "source": "n89",
-      "sourceLabel": "Large Shredder",
+      "sourceLabel": "large shredder",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "2"
     }
   },
@@ -5740,9 +5740,9 @@ export default [
       "id": "e892",
       "weight": 2000,
       "source": "n89",
-      "sourceLabel": "Large Shredder",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large shredder",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -5759,9 +5759,9 @@ export default [
       "id": "e894",
       "weight": 1,
       "source": "n89",
-      "sourceLabel": "Large Shredder",
+      "sourceLabel": "large shredder",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5778,9 +5778,9 @@ export default [
       "id": "e895",
       "weight": 1,
       "source": "n89",
-      "sourceLabel": "Large Shredder",
+      "sourceLabel": "large shredder",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5797,9 +5797,9 @@ export default [
       "id": "e900",
       "weight": 3,
       "source": "n90",
-      "sourceLabel": "Vehicle Bay",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "vehicle bay",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "3"
     }
   },
@@ -5816,9 +5816,9 @@ export default [
       "id": "e901",
       "weight": 1000,
       "source": "n90",
-      "sourceLabel": "Vehicle Bay",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "vehicle bay",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1000"
     }
   },
@@ -5835,9 +5835,9 @@ export default [
       "id": "e904",
       "weight": 1,
       "source": "n90",
-      "sourceLabel": "Vehicle Bay",
+      "sourceLabel": "vehicle bay",
       "target": "n79",
-      "targetLabel": "Medium Printer",
+      "targetLabel": "medium printer",
       "label": "1"
     }
   },
@@ -5854,9 +5854,9 @@ export default [
       "id": "e905",
       "weight": 1,
       "source": "n90",
-      "sourceLabel": "Vehicle Bay",
+      "sourceLabel": "vehicle bay",
       "target": "n80",
-      "targetLabel": "Large Platform A",
+      "targetLabel": "large platform a",
       "label": "1"
     }
   },
@@ -5873,9 +5873,9 @@ export default [
       "id": "e910",
       "weight": 1,
       "source": "n91",
-      "sourceLabel": "Buggy",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "buggy",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -5892,9 +5892,9 @@ export default [
       "id": "e911",
       "weight": 1,
       "source": "n91",
-      "sourceLabel": "Buggy",
+      "sourceLabel": "buggy",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "1"
     }
   },
@@ -5911,9 +5911,9 @@ export default [
       "id": "e912",
       "weight": 1500,
       "source": "n91",
-      "sourceLabel": "Buggy",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "buggy",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1500"
     }
   },
@@ -5930,9 +5930,9 @@ export default [
       "id": "e914",
       "weight": 1,
       "source": "n91",
-      "sourceLabel": "Buggy",
+      "sourceLabel": "buggy",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -5949,9 +5949,9 @@ export default [
       "id": "e920",
       "weight": 2,
       "source": "n92",
-      "sourceLabel": "Medium Rover",
+      "sourceLabel": "medium rover",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "2"
     }
   },
@@ -5968,9 +5968,9 @@ export default [
       "id": "e921",
       "weight": 1,
       "source": "n92",
-      "sourceLabel": "Medium Rover",
+      "sourceLabel": "medium rover",
       "target": "n22",
-      "targetLabel": "Ceramic",
+      "targetLabel": "ceramic",
       "label": "1"
     }
   },
@@ -5987,9 +5987,9 @@ export default [
       "id": "e922",
       "weight": 3000,
       "source": "n92",
-      "sourceLabel": "Medium Rover",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium rover",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -6006,9 +6006,9 @@ export default [
       "id": "e924",
       "weight": 1,
       "source": "n92",
-      "sourceLabel": "Medium Rover",
+      "sourceLabel": "medium rover",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6025,9 +6025,9 @@ export default [
       "id": "e930",
       "weight": 2,
       "source": "n93",
-      "sourceLabel": "Large Rover",
+      "sourceLabel": "large rover",
       "target": "n30",
-      "targetLabel": "Aluminum Alloy",
+      "targetLabel": "aluminum alloy",
       "label": "2"
     }
   },
@@ -6044,9 +6044,9 @@ export default [
       "id": "e931",
       "weight": 2,
       "source": "n93",
-      "sourceLabel": "Large Rover",
+      "sourceLabel": "large rover",
       "target": "n36",
-      "targetLabel": "Rubber",
+      "targetLabel": "rubber",
       "label": "2"
     }
   },
@@ -6063,9 +6063,9 @@ export default [
       "id": "e932",
       "weight": 4000,
       "source": "n93",
-      "sourceLabel": "Large Rover",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large rover",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "4000"
     }
   },
@@ -6082,9 +6082,9 @@ export default [
       "id": "e934",
       "weight": 1,
       "source": "n93",
-      "sourceLabel": "Large Rover",
+      "sourceLabel": "large rover",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6101,9 +6101,9 @@ export default [
       "id": "e940",
       "weight": 2,
       "source": "n94",
-      "sourceLabel": "Small Shuttle",
+      "sourceLabel": "small shuttle",
       "target": "n15",
-      "targetLabel": "Aluminum",
+      "targetLabel": "aluminum",
       "label": "2"
     }
   },
@@ -6120,28 +6120,9 @@ export default [
       "id": "e941",
       "weight": 1500,
       "source": "n94",
-      "sourceLabel": "Small Shuttle",
-      "target": "n0",
-      "targetLabel": "Bytes",
-      "label": "1500"
-    }
-  },
-  {
-    "position": {},
-    "group": "edges",
-    "removed": false,
-    "selected": false,
-    "selectable": true,
-    "locked": false,
-    "grabbable": true,
-    "classes": "",
-    "data": {
-      "id": "e942",
-      "weight": 1500,
-      "source": "n94",
-      "sourceLabel": "Small Shuttle",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "small shuttle",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1500"
     }
   },
@@ -6158,9 +6139,9 @@ export default [
       "id": "e944",
       "weight": 1,
       "source": "n94",
-      "sourceLabel": "Small Shuttle",
+      "sourceLabel": "small shuttle",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6175,12 +6156,12 @@ export default [
     "classes": "",
     "data": {
       "id": "e950",
-      "weight": 2,
+      "weight": 1,
       "source": "n95",
-      "sourceLabel": "Medium Shuttle",
+      "sourceLabel": "medium shuttle",
       "target": "n30",
-      "targetLabel": "Aluminum Alloy",
-      "label": "2"
+      "targetLabel": "aluminum alloy",
+      "label": "1"
     }
   },
   {
@@ -6196,9 +6177,9 @@ export default [
       "id": "e951",
       "weight": 2,
       "source": "n95",
-      "sourceLabel": "Medium Shuttle",
+      "sourceLabel": "medium shuttle",
       "target": "n22",
-      "targetLabel": "Ceramic",
+      "targetLabel": "ceramic",
       "label": "2"
     }
   },
@@ -6215,9 +6196,9 @@ export default [
       "id": "e952",
       "weight": 3000,
       "source": "n95",
-      "sourceLabel": "Medium Shuttle",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "medium shuttle",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -6234,9 +6215,9 @@ export default [
       "id": "e954",
       "weight": 1,
       "source": "n95",
-      "sourceLabel": "Medium Shuttle",
+      "sourceLabel": "medium shuttle",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6253,9 +6234,9 @@ export default [
       "id": "e960",
       "weight": 2,
       "source": "n96",
-      "sourceLabel": "Large Shuttle",
+      "sourceLabel": "large shuttle",
       "target": "n39",
-      "targetLabel": "Titanium Alloy",
+      "targetLabel": "titanium alloy",
       "label": "2"
     }
   },
@@ -6272,9 +6253,9 @@ export default [
       "id": "e961",
       "weight": 2,
       "source": "n96",
-      "sourceLabel": "Large Shuttle",
+      "sourceLabel": "large shuttle",
       "target": "n22",
-      "targetLabel": "Ceramic",
+      "targetLabel": "ceramic",
       "label": "2"
     }
   },
@@ -6291,9 +6272,9 @@ export default [
       "id": "e962",
       "weight": 4000,
       "source": "n96",
-      "sourceLabel": "Large Shuttle",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large shuttle",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "4000"
     }
   },
@@ -6310,9 +6291,9 @@ export default [
       "id": "e964",
       "weight": 1,
       "source": "n96",
-      "sourceLabel": "Large Shuttle",
+      "sourceLabel": "large shuttle",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6327,12 +6308,12 @@ export default [
     "classes": "",
     "data": {
       "id": "e970",
-      "weight": 3,
+      "weight": 2,
       "source": "n97",
-      "sourceLabel": "Large Storage",
+      "sourceLabel": "large storage",
       "target": "n22",
-      "targetLabel": "Ceramic",
-      "label": "3"
+      "targetLabel": "ceramic",
+      "label": "2"
     }
   },
   {
@@ -6348,9 +6329,9 @@ export default [
       "id": "e971",
       "weight": 2000,
       "source": "n97",
-      "sourceLabel": "Large Storage",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large storage",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -6367,9 +6348,9 @@ export default [
       "id": "e974",
       "weight": 1,
       "source": "n97",
-      "sourceLabel": "Large Storage",
+      "sourceLabel": "large storage",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6386,9 +6367,9 @@ export default [
       "id": "e980",
       "weight": 2,
       "source": "n98",
-      "sourceLabel": "Extra Large Storage",
+      "sourceLabel": "extra large storage",
       "target": "n38",
-      "targetLabel": "Steel",
+      "targetLabel": "steel",
       "label": "2"
     }
   },
@@ -6405,9 +6386,9 @@ export default [
       "id": "e981",
       "weight": 2,
       "source": "n98",
-      "sourceLabel": "Extra Large Storage",
+      "sourceLabel": "extra large storage",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "2"
     }
   },
@@ -6424,9 +6405,9 @@ export default [
       "id": "e982",
       "weight": 3000,
       "source": "n98",
-      "sourceLabel": "Extra Large Storage",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "extra large storage",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3000"
     }
   },
@@ -6443,9 +6424,9 @@ export default [
       "id": "e984",
       "weight": 1,
       "source": "n98",
-      "sourceLabel": "Extra Large Storage",
+      "sourceLabel": "extra large storage",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6462,9 +6443,9 @@ export default [
       "id": "e990",
       "weight": 4,
       "source": "n99",
-      "sourceLabel": "Extra Large Platform A",
+      "sourceLabel": "extra large platform a",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "4"
     }
   },
@@ -6481,9 +6462,9 @@ export default [
       "id": "e991",
       "weight": 2000,
       "source": "n99",
-      "sourceLabel": "Extra Large Platform A",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "extra large platform a",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -6500,9 +6481,9 @@ export default [
       "id": "e994",
       "weight": 1,
       "source": "n99",
-      "sourceLabel": "Extra Large Platform A",
+      "sourceLabel": "extra large platform a",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6519,9 +6500,9 @@ export default [
       "id": "e1000",
       "weight": 2,
       "source": "n100",
-      "sourceLabel": "Extra Large Platform B",
+      "sourceLabel": "extra large platform b",
       "target": "n16",
-      "targetLabel": "Iron",
+      "targetLabel": "iron",
       "label": "2"
     }
   },
@@ -6538,9 +6519,9 @@ export default [
       "id": "e1001",
       "weight": 2,
       "source": "n100",
-      "sourceLabel": "Extra Large Platform B",
-      "target": "n2",
-      "targetLabel": "Resin",
+      "sourceLabel": "extra large platform b",
+      "target": "n1",
+      "targetLabel": "resin",
       "label": "2"
     }
   },
@@ -6557,9 +6538,9 @@ export default [
       "id": "e1002",
       "weight": 2000,
       "source": "n100",
-      "sourceLabel": "Extra Large Platform B",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "extra large platform b",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -6576,9 +6557,9 @@ export default [
       "id": "e1004",
       "weight": 1,
       "source": "n100",
-      "sourceLabel": "Extra Large Platform B",
+      "sourceLabel": "extra large platform b",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6595,9 +6576,9 @@ export default [
       "id": "e1010",
       "weight": 1,
       "source": "n101",
-      "sourceLabel": "Crane",
+      "sourceLabel": "crane",
       "target": "n38",
-      "targetLabel": "Steel",
+      "targetLabel": "steel",
       "label": "1"
     }
   },
@@ -6614,9 +6595,9 @@ export default [
       "id": "e1011",
       "weight": 1,
       "source": "n101",
-      "sourceLabel": "Crane",
+      "sourceLabel": "crane",
       "target": "n37",
-      "targetLabel": "Silicone",
+      "targetLabel": "silicone",
       "label": "1"
     }
   },
@@ -6633,9 +6614,9 @@ export default [
       "id": "e1012",
       "weight": 1,
       "source": "n101",
-      "sourceLabel": "Crane",
+      "sourceLabel": "crane",
       "target": "n19",
-      "targetLabel": "Titanium",
+      "targetLabel": "titanium",
       "label": "1"
     }
   },
@@ -6652,9 +6633,9 @@ export default [
       "id": "e1013",
       "weight": 3500,
       "source": "n101",
-      "sourceLabel": "Crane",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "crane",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "3500"
     }
   },
@@ -6671,9 +6652,9 @@ export default [
       "id": "e1014",
       "weight": 1,
       "source": "n101",
-      "sourceLabel": "Crane",
+      "sourceLabel": "crane",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6690,9 +6671,9 @@ export default [
       "id": "e1020",
       "weight": 2,
       "source": "n102",
-      "sourceLabel": "Large Rover Seat",
+      "sourceLabel": "large rover seat",
       "target": "n35",
-      "targetLabel": "Plastic",
+      "targetLabel": "plastic",
       "label": "2"
     }
   },
@@ -6709,9 +6690,9 @@ export default [
       "id": "e1021",
       "weight": 1,
       "source": "n102",
-      "sourceLabel": "Large Rover Seat",
-      "target": "n1",
-      "targetLabel": "Compound",
+      "sourceLabel": "large rover seat",
+      "target": "n0",
+      "targetLabel": "compound",
       "label": "1"
     }
   },
@@ -6728,9 +6709,9 @@ export default [
       "id": "e1022",
       "weight": 1500,
       "source": "n102",
-      "sourceLabel": "Large Rover Seat",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large rover seat",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "1500"
     }
   },
@@ -6747,9 +6728,9 @@ export default [
       "id": "e1024",
       "weight": 1,
       "source": "n102",
-      "sourceLabel": "Large Rover Seat",
+      "sourceLabel": "large rover seat",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6766,9 +6747,9 @@ export default [
       "id": "e1030",
       "weight": 2,
       "source": "n103",
-      "sourceLabel": "Large Shuttle Seat",
+      "sourceLabel": "large shuttle seat",
       "target": "n30",
-      "targetLabel": "Aluminum Alloy",
+      "targetLabel": "aluminum alloy",
       "label": "2"
     }
   },
@@ -6785,9 +6766,9 @@ export default [
       "id": "e1031",
       "weight": 1,
       "source": "n103",
-      "sourceLabel": "Large Shuttle Seat",
+      "sourceLabel": "large shuttle seat",
       "target": "n35",
-      "targetLabel": "Plastic",
+      "targetLabel": "plastic",
       "label": "1"
     }
   },
@@ -6804,9 +6785,9 @@ export default [
       "id": "e1032",
       "weight": 2000,
       "source": "n103",
-      "sourceLabel": "Large Shuttle Seat",
-      "target": "n0",
-      "targetLabel": "Bytes",
+      "sourceLabel": "large shuttle seat",
+      "target": "n14",
+      "targetLabel": "bytes",
       "label": "2000"
     }
   },
@@ -6823,9 +6804,9 @@ export default [
       "id": "e1034",
       "weight": 1,
       "source": "n103",
-      "sourceLabel": "Large Shuttle Seat",
+      "sourceLabel": "large shuttle seat",
       "target": "n90",
-      "targetLabel": "Vehicle Bay",
+      "targetLabel": "vehicle bay",
       "label": "1"
     }
   },
@@ -6842,9 +6823,9 @@ export default [
       "id": "e1040",
       "weight": 1,
       "source": "n104",
-      "sourceLabel": "Minimal Rocket",
+      "sourceLabel": "minimal rocket",
       "target": "n94",
-      "targetLabel": "Small Shuttle",
+      "targetLabel": "small shuttle",
       "label": "1"
     }
   },
@@ -6861,9 +6842,9 @@ export default [
       "id": "e1041",
       "weight": 1,
       "source": "n104",
-      "sourceLabel": "Minimal Rocket",
+      "sourceLabel": "minimal rocket",
       "target": "n77",
-      "targetLabel": "Rover Seat",
+      "targetLabel": "rover seat",
       "label": "1"
     }
   },
@@ -6880,9 +6861,9 @@ export default [
       "id": "e1042",
       "weight": 2,
       "source": "n104",
-      "sourceLabel": "Minimal Rocket",
+      "sourceLabel": "minimal rocket",
       "target": "n74",
-      "targetLabel": "Solid Fuel Thruster",
+      "targetLabel": "solid fuel thruster",
       "label": "2"
     }
   }
