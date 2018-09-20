@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const path_1 = require("path");
-const fs_1 = require("fs");
+import { resolve } from "path";
+import { readFileSync, writeFileSync } from "fs";
 /*
 * Function for extracting item and amount info from the json column
 * */
@@ -40,8 +38,8 @@ class Edge {
 /*
 * Start procedure
 * */
-const resource = path_1.resolve("resource/vertices_and_edges.json");
-const json = fs_1.readFileSync(resource, "utf8");
+const resource = resolve("resource/vertices_and_edges.json");
+const json = readFileSync(resource, "utf8");
 const vertsAndEdges = JSON.parse(json);
 const graphConfig = [];
 let vertexMap = {};
@@ -66,6 +64,6 @@ for (let i = 0; i < vertsAndEdges.length; i++) {
     }
 }
 const configJs = `export default ${JSON.stringify(graphConfig, null, "  ")}`;
-fs_1.writeFileSync("src/assets/cytoscape_config.js", configJs);
+writeFileSync("src/assets/cytoscape_config.js", configJs);
 console.log("Success!");
 //# sourceMappingURL=create_cytoscape_config.js.map

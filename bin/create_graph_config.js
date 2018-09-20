@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const path_1 = require("path");
-const fs_1 = require("fs");
+import { resolve } from "path";
+import { readFileSync, writeFileSync } from "fs";
 /*
 * Function for extracting item and amount info from the json column
 * */
@@ -14,8 +12,8 @@ function extractItemAndAmount(column) {
 /*
 * Start procedure
 * */
-const resource = path_1.resolve("resource/vertices_and_edges.json");
-const json = fs_1.readFileSync(resource, "utf8");
+const resource = resolve("resource/vertices_and_edges.json");
+const json = readFileSync(resource, "utf8");
 const vertsAndEdges = JSON.parse(json);
 const graphConfig = {
     vertices: [],
@@ -35,6 +33,6 @@ for (let i = 0; i < vertsAndEdges.length; i++) {
         graphConfig.edges.push({ from: i, to, amount });
     }
 }
-fs_1.writeFileSync("resource/graph_config.json", JSON.stringify(graphConfig, null, "  "));
+writeFileSync("resource/graph_config.json", JSON.stringify(graphConfig, null, "  "));
 console.log("Success!");
 //# sourceMappingURL=create_graph_config.js.map

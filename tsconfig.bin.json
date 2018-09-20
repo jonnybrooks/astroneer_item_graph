@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "target": "es6",
+        "strict": true,
+        "module": "commonjs"
+    },
+    "include": [
+        "bin"
+    ],
+    "exclude": [
+        "node_modules",
+        "src"
+    ]
+}
