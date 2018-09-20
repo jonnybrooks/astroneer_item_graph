@@ -5,7 +5,7 @@
                 <option value="">Select an item</option>
                 <option v-for="n in allItems" :value="n.data.label">{{ n.data.label }}</option>
             </select>
-            <ul id="item-totals" v-if="Object.keys(itemTotals).length">
+            <ul id="item-totals" v-if="nodeSelected && Object.keys(itemTotals).length">
                 <li v-for="item in itemTotals">
                     <span class="label">{{ item.label }}</span>:
                     <span class="amount">{{ item.amount }}</span>
@@ -18,7 +18,7 @@
 
 <script>
     import graphConfig from "./assets/cytoscape_config";
-    import {getDependencyGraphForItem, generateRenderConfig, getEdgeTotals} from "./graph_util";
+    import {getDependencyGraphForItem, generateRenderConfig, getEdgeTotals, clone} from "./graph_util";
     import cytoscape from "cytoscape";
     import coseBilkent from "cytoscape-cose-bilkent";
     cytoscape.use( coseBilkent );
@@ -29,16 +29,17 @@
             return {
                 graph: graphConfig,
                 allItems: graphConfig.filter(elem => elem.group === "nodes"),
+                itemTotals: {},
                 nodeSelected: ""
             }
         },
-        mounted() { this.nodeSelected = "Copper" },
-        computed: { itemTotals() { return getEdgeTotals(this.graph) } },
+        // mounted() { this.nodeSelected = "Titanium Alloy" },
         watch: {
             nodeSelected(newNode) {
                 this.graph = getDependencyGraphForItem(newNode, graphConfig);
-                const config = generateRenderConfig(document.getElementById("cy"), this.graph);
-                return cytoscape(config);
+                this.itemTotals = getEdgeTotals(clone(this.graph));
+                const renderConfig = generateRenderConfig(document.getElementById("cy"), clone(this.graph));
+                return cytoscape(renderConfig);
             }
         },
     }
