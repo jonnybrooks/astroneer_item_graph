@@ -3,7 +3,7 @@
         <div id="select-item-container">
             <select name="select_item" id="select-item" v-model="nodeSelected">
                 <option value="">Select an item</option>
-                <option v-for="n in allItems" :value="n.data.label">{{ n.data.label }}</option>
+                <option v-for="n in itemDropdown" :value="n.id">{{ n.label }}</option>
             </select>
             <ul id="item-totals" v-if="nodeSelected && Object.keys(itemTotals).length">
                 <li v-for="item in itemTotals">
@@ -13,32 +13,38 @@
             </ul>
         </div>
         <div id="cy"></div>
+        <div id="nothing-to-display" v-if="!Object.keys(itemTotals).length">This item has no dependencies</div>
     </div>
 </template>
 
 <script>
-    import graphConfig from "./assets/cytoscape_config";
-    import {getDependencyGraphForItem, generateRenderConfig, getEdgeTotals, clone} from "./graph_util";
+    import {GraphUtil} from "./graph_util";
     import cytoscape from "cytoscape";
     import coseBilkent from "cytoscape-cose-bilkent";
-    cytoscape.use( coseBilkent );
+    cytoscape.use(coseBilkent);
 
     export default {
         name: 'App',
         data() {
             return {
-                graph: graphConfig,
-                allItems: graphConfig.filter(elem => elem.group === "nodes"),
+                itemDropdown: [],
                 itemTotals: {},
                 nodeSelected: ""
             }
         },
-        // mounted() { this.nodeSelected = "Titanium Alloy" },
+        async mounted() {
+            const graphArray = await (await fetch("http://localhost:3000/")).json();
+            this.itemDropdown = graphArray.filter(e => e.id.startsWith("n"));
+        },
         watch: {
-            nodeSelected(newNode) {
-                this.graph = getDependencyGraphForItem(newNode, graphConfig);
-                this.itemTotals = getEdgeTotals(clone(this.graph));
-                const renderConfig = generateRenderConfig(document.getElementById("cy"), clone(this.graph));
+            async nodeSelected(newNode) {
+                let graph = await (await fetch(`http://localhost:3000/tree/${newNode.substring(1)}`)).json();
+                graph = graph.map(e => e.id.startsWith("n")
+                    ? GraphUtil.createNode(e)
+                    : GraphUtil.createEdge(e)
+                );
+                this.itemTotals = GraphUtil.getEdgeTotals(GraphUtil.clone(graph));
+                const renderConfig = GraphUtil.generateRenderConfig(document.getElementById("cy"), GraphUtil.clone(graph));
                 return cytoscape(renderConfig);
             }
         },
@@ -61,6 +67,14 @@
         top: 0;
         z-index: -999;
         box-sizing: border-box;
+    }
+
+    #nothing-to-display {
+        position: absolute;
+        top: 40%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        color: darkgrey;
     }
 
     #select-item-container {

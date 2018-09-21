@@ -1,0 +1,1 @@
+DROP FUNCTION sp_get_dependency_tree(int);

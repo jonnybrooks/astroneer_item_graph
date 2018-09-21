@@ -1,0 +1,2 @@
+DROP VIEW IF EXISTS v_node_data CASCADE;
+DROP VIEW IF EXISTS v_edge_data CASCADE;
