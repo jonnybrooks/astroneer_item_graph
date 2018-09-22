@@ -1,10 +1,19 @@
 .DS_Store
+
+# root
 node_modules
 /dist
 
+# ui
+ui/node_modules
+ui/dist
+
+# api
+api/node_modules
+api/dist
+
 # local env files
-.env.local
-.env.*.local
+*.env
 
 # Log files
 npm-debug.log*

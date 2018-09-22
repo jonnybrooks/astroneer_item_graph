@@ -1,0 +1,19 @@
+{
+    "name": "astroneer_tree_api",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "npx nodemon src/main"
+    },
+    "dependencies": {
+        "cors": "^2.8.4",
+        "dotenv": "^6.0.0",
+        "express": "^4.16.3",
+        "pg": "^7.4.3"
+    },
+    "devDependencies": {
+        "@types/express": "^4.16.0",
+        "@types/pg": "^7.4.10",
+        "nodemon": "^1.18.4"
+    }
+}

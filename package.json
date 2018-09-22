@@ -1,34 +1,13 @@
 {
-    "name": "astroneer_calculator",
+    "name": "astroneer_tree",
     "version": "0.1.0",
     "private": true,
-    "scripts": {
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+    "devDependencies": {
+        "@types/lodash": "^4.14.116",
+        "@types/node": "^10.10.1",
+        "typescript": "^3.0.3"
     },
     "dependencies": {
-        "cytoscape": "^3.2.16",
-        "cytoscape-cose-bilkent": "^4.0.0",
-        "cytoscape-dagre": "^2.2.1",
-        "vue": "^2.5.17"
-    },
-    "devDependencies": {
-        "@types/node": "^10.10.1",
-        "@vue/cli-plugin-babel": "^3.0.3",
-        "@vue/cli-service": "^3.0.3",
-        "ts-node": "^7.0.1",
-        "typescript": "^3.0.3",
-        "vue-template-compiler": "^2.5.17"
-    },
-    "postcss": {
-        "plugins": {
-            "autoprefixer": {}
-        }
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
-    ]
+        "lodash": "^4.17.11"
+    }
 }

@@ -1,0 +1,15 @@
+Tag,Description
+findable,Can be found in salvage points
+custom,Not present in game - this dependency is for easily calculating sub dependencies
+must_deploy,Must be deployed in order to use
+fabricator,Device for creating other items
+fundamental,A raw resource - this resource has no dependencies
+terran,Can be found on Terran
+barren,Can be found on Barren
+arid,Can be found on Arid
+radiated,Can be found on Radiated
+tundra,Can be found on Tundra
+exotic,Can be found on Exotic
+all_planets,Can be found anywhere
+deployment_target,Least expensive target for deploying large modules
+start_item,You start with one of these
