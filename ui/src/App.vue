@@ -51,10 +51,10 @@
                      .forEach(node => GraphUtil.addClass(node, "selected"));
 
                 // calculate the item totals for the totals pane
-                this.itemTotals = GraphUtil.getEdgeTotals(GraphUtil.clone(graph));
+                this.itemTotals = GraphUtil.getEdgeTotals(graph);
 
                 // merge the graph config with the cytoscape config and render it
-                const renderConfig = GraphUtil.generateRenderConfig(document.getElementById("cy"), GraphUtil.clone(graph));
+                const renderConfig = GraphUtil.generateRenderConfig(document.getElementById("cy"), graph);
                 return cytoscape(renderConfig);
             }
         },
@@ -71,7 +71,7 @@
 
 <style>
     #app {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
@@ -105,6 +105,7 @@
         background: rgba(0,0,0,0.1);
         font-size: 0.9em;
         padding: 10px;
+        font-weight: 500;
     }
 
     h1 {

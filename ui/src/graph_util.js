@@ -23,15 +23,17 @@ export var GraphUtil;
                         height: 15,
                         width: 15,
                         "background-color": "data(colour)",
-                        label: "data(label)"
+                        label: "data(label)",
+                        "font-family": "Roboto, Helvetica, Arial, sans-serif",
+                        "font-weight": "500",
+                        "text-background-opacity": 0.5,
+                        "text-background-color": "white",
+                        "text-background-padding": "5px"
                     }
                 },
                 {
                     selector: ".selected",
                     style: {
-                        height: 15,
-                        width: 15,
-                        label: "data(label)",
                         "text-background-opacity": 0.6,
                         "text-background-color": "yellow",
                         "text-background-padding": "5px"
@@ -71,10 +73,9 @@ export var GraphUtil;
     /*
     * Make a deep copy of the graph
     * */
-    function clone(graph) {
-        return JSON.parse(JSON.stringify(graph));
-    }
-    GraphUtil.clone = clone;
+    // export function clone(graph) {
+    //     return JSON.parse(JSON.stringify(graph));
+    // }
     /*
     * Configuration and functions for creating new graph elements
     * */
@@ -104,10 +105,4 @@ export var GraphUtil;
     }
     GraphUtil.addClass = addClass;
 })(GraphUtil || (GraphUtil = {}));
-function flattenTagArray(tags) {
-    return tags.reduce((tagMap, tag) => {
-        tagMap[tag] = true;
-        return tagMap;
-    }, {});
-}
 //# sourceMappingURL=graph_util.js.map
