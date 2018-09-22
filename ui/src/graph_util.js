@@ -27,6 +27,17 @@ export var GraphUtil;
                     }
                 },
                 {
+                    selector: ".selected",
+                    style: {
+                        height: 15,
+                        width: 15,
+                        label: "data(label)",
+                        "text-background-opacity": 0.6,
+                        "text-background-color": "yellow",
+                        "text-background-padding": "5px"
+                    }
+                },
+                {
                     selector: "edge",
                     style: {
                         "curve-style": "bezier",
@@ -79,7 +90,7 @@ export var GraphUtil;
         classes: "",
     };
     function createNode(data) {
-        const nodeConf = { data, position: { x: 0, y: 0 }, group: "nodes" };
+        const nodeConf = { data, position: { x: 0, y: 0 }, group: "nodes", classes: data.tags.join(" ") };
         return Object.assign({}, cytoscapeBaseConf, nodeConf);
     }
     GraphUtil.createNode = createNode;
@@ -88,5 +99,15 @@ export var GraphUtil;
         return Object.assign({}, cytoscapeBaseConf, edgeConf);
     }
     GraphUtil.createEdge = createEdge;
+    function addClass(elem, tag) {
+        elem.classes += ` ${tag}`;
+    }
+    GraphUtil.addClass = addClass;
 })(GraphUtil || (GraphUtil = {}));
+function flattenTagArray(tags) {
+    return tags.reduce((tagMap, tag) => {
+        tagMap[tag] = true;
+        return tagMap;
+    }, {});
+}
 //# sourceMappingURL=graph_util.js.map

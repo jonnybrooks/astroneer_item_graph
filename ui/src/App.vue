@@ -29,7 +29,7 @@
             return {
                 itemDropdown: [],
                 itemTotals: {},
-                nodeSelected: ""
+                nodeSelected: "",
             }
         },
         async mounted() {
@@ -39,15 +39,32 @@
         watch: {
             async nodeSelected(newNode) {
                 let graph = await (await fetch(`http://localhost:3000/tree/${newNode.substring(1)}`)).json();
+
+                // generate the cytoscape graph config
                 graph = graph.map(e => e.id.startsWith("n")
                     ? GraphUtil.createNode(e)
                     : GraphUtil.createEdge(e)
                 );
+
+                // add the selected class to the selected node
+                graph.filter(elem => elem.data.id === newNode)
+                     .forEach(node => GraphUtil.addClass(node, "selected"));
+
+                // calculate the item totals for the totals pane
                 this.itemTotals = GraphUtil.getEdgeTotals(GraphUtil.clone(graph));
+
+                // merge the graph config with the cytoscape config and render it
                 const renderConfig = GraphUtil.generateRenderConfig(document.getElementById("cy"), GraphUtil.clone(graph));
                 return cytoscape(renderConfig);
             }
         },
+        methods: {
+            selectDropdownFromName(target) {
+                const option = Array.from(document.querySelectorAll(`#select-item option`))
+                    .find(el => el.text === target);
+                if(option) this.nodeSelected = option.value;
+            }
+        }
     }
 
 </script>

@@ -26,6 +26,17 @@ export namespace GraphUtil {
                     }
                 },
                 {
+                    selector: ".selected",
+                    style: {
+                        height: 15,
+                        width: 15,
+                        label: "data(label)",
+                        "text-background-opacity": 0.6,
+                        "text-background-color": "yellow",
+                        "text-background-padding": "5px"
+                    }
+                },
+                {
                     selector: "edge",
                     style: {
                         "curve-style": "bezier",
@@ -79,7 +90,7 @@ export namespace GraphUtil {
     };
 
     export function createNode(data) {
-        const nodeConf = { data, position: {x: 0, y: 0}, group: "nodes"};
+        const nodeConf = { data, position: {x: 0, y: 0}, group: "nodes", classes: data.tags.join(" ")};
         return Object.assign({}, cytoscapeBaseConf, nodeConf);
     }
 
@@ -87,4 +98,9 @@ export namespace GraphUtil {
         const edgeConf = { data, position: {}, group: "edges"};
         return Object.assign({}, cytoscapeBaseConf, edgeConf);
     }
+
+    export function addClass(elem, tag) {
+        elem.classes += ` ${tag}`;
+    }
+
 }

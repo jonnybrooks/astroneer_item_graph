@@ -31,8 +31,6 @@ api.get("/tree/:source", async function(req, res) {
         SELECT * FROM v_edge_data WHERE id IN (SELECT concat('e', id) FROM dependency_tree);
     `;
 
-    console.log(source);
-
     try {
         const nodes = await pool.query(getNodesSql);
         const edges = await pool.query(getEdgesSql);
