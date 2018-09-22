@@ -3,18 +3,18 @@
         <div id="select-item-container">
             <select name="select_item" id="select-item" v-model="nodeSelected">
                 <option value="">Select an item</option>
-                <option v-for="n in itemDropdown" :value="n.id">{{ n.label }}</option>
+                <option v-for="n in items" :value="n.id">{{ n.label }}</option>
             </select>
             <ul id="item-totals" v-if="nodeSelected && Object.keys(itemTotals).length">
                 <li v-for="item in itemTotals">
                     <span class="label">{{ item.label }}</span>:
-                    <span class="amount">{{ item.amount }}</span>
+                    <span class="amount">{{ item.total }}</span>
                 </li>
             </ul>
         </div>
         <div id="cy"></div>
         <div id="nothing-to-display" v-if="!Object.keys(itemTotals).length">This item has no dependencies</div>
-        <!--<div id="tooltip" v-if="tooltipVisible"></div>-->
+        <!--<Tooltip id="tooltip" :config="tooltip"></Tooltip>-->
     </div>
 </template>
 
@@ -23,30 +23,63 @@
     import coseBilkent from "cytoscape-cose-bilkent";
     import {debounce} from "lodash";
     import {GraphUtil} from "./graph_util";
+    import Tooltip from "./Tooltip";
 
     cytoscape.use(coseBilkent);
 
     export default {
-        name: 'App',
+        name: "App",
         data() {
             return {
-                itemDropdown: [],
+                items: [],
+                tags: {},
                 itemTotals: {},
                 nodeSelected: "",
-                tooltipVisible: true,
+                tooltip: {
+                    visible: false,
+                    label: "",
+                    total: 0,
+                    tags: null,
+                },
                 cy: null
             }
         },
         async mounted() {
-            const graphArray = await (await fetch("http://localhost:3000/")).json();
-            this.itemDropdown = graphArray.filter(e => e.id.startsWith("n"));
-            // this.$nextTick(() => this.selectDropdownFromName("Extenders"));
+            // fetch the items and tags
+            [this.items, this.tags] = await Promise.all([
+                (await fetch("http://localhost:3000/items")).json(),
+                (await fetch("http://localhost:3000/tags")).json(),
+            ]);
+
+            // create the cytoscape object and add it to data
+            const cytoConfig = GraphUtil.generateCytoConfig(document.getElementById("cy"), []);
+            this.cy = cytoscape(cytoConfig);
+
+            // register the handler for node tooltip
+            // this.cy.on("tap", "node", (evt) => {
+            //     const node = evt.target;
+            //     this.tooltip.visible = true;
+            //     this.tooltip.tags = node.data("tags").reduce((map, tag) =>
+            //         Object.assign(map, {[tag]: this.tags[tag] }), {});
+            //     this.tooltip.label = this.items.find(item => "n" + item.id === node.data("id")).label;
+            //     if(node.data("tags").includes("selected")) return;
+            //     this.tooltip.total = this.itemTotals[node.data("id")].total;
+            // });
+
+            // handle redrawing the canvas on window resize
             window.addEventListener("resize", debounce(() =>
                 this.cy && this.redrawGraph(), 100));
+
+            // todo: debug - select extenders from the list
+            // this.$nextTick(() => this.selectDropdownFromName("Extenders"));
         },
         watch: {
             async nodeSelected(newNode) {
-                let graph = await (await fetch(`http://localhost:3000/tree/${newNode.substring(1)}`)).json();
+                let graph = await (await fetch(`http://localhost:3000/tree/${newNode}`)).json();
+
+                // add the selected tag to the selected node
+                graph.filter(e => e.id === "n" + newNode)
+                     .forEach(node => node.tags.push("selected"));
 
                 // generate the cytoscape graph config
                 graph = graph.map(e => e.id.startsWith("n")
@@ -54,16 +87,14 @@
                     : GraphUtil.createEdge(e)
                 );
 
-                // add the selected class to the selected node
-                graph.filter(elem => elem.data.id === newNode)
-                     .forEach(node => GraphUtil.addClass(node, "selected"));
-
                 // calculate the item totals for the totals pane
                 this.itemTotals = GraphUtil.getEdgeTotals(graph);
 
-                // merge the graph config with the cytoscape config and render it
-                const cytoConfig = GraphUtil.generateCytoConfig(document.getElementById("cy"), graph);
-                this.cy = cytoscape(cytoConfig);
+                // replace the contents of the graph with the new nodes
+                this.cy.elements().remove();
+                this.cy.add(graph);
+                this.cy.elements().layout(GraphUtil.defaultLayout).run();
+                this.redrawGraph();
             }
         },
         methods: {
@@ -75,13 +106,20 @@
             redrawGraph() {
                 this.cy.resize();
                 this.cy.fit();
-            }
+            },
+        },
+        components: {
+            Tooltip
         }
     }
 
 </script>
 
 <style>
+    * {
+        box-sizing: border-box;
+    }
+
     #app {
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -118,20 +156,6 @@
         font-size: 0.9em;
         padding: 10px;
         font-weight: 500;
-    }
-
-    #tooltip {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 3vh;
-        width: 5vw;
-        background: red;
-    }
-
-    h1 {
-        opacity: 0.5;
-        font-size: 1em;
     }
 
 </style>

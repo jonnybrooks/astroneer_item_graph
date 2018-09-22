@@ -4,14 +4,33 @@ const cors = require("cors");
 require("dotenv").config();
 
 api.use(cors());
-
 const pool = new Pool();
 
-api.get("/", async function(req, res) {
+// api.get("/", async function(req, res) {
+//     try {
+//         const nodes = await pool.query("SELECT * FROM v_node_data");
+//         const edges = await pool.query("SELECT * FROM v_edge_data");
+//         res.json(nodes.rows.concat(edges.rows));
+//     } catch(e) {
+//         console.error("Query failed", e);
+//     }
+// });
+
+api.get("/items", async function(req, res) {
     try {
-        const nodes = await pool.query("SELECT * FROM v_node_data");
-        const edges = await pool.query("SELECT * FROM v_edge_data");
-        res.json(nodes.rows.concat(edges.rows));
+        const items = await pool.query("SELECT * FROM items");
+        res.json(items.rows);
+    } catch(e) {
+        console.error("Query failed", e);
+    }
+});
+
+api.get("/tags", async function(req, res) {
+    try {
+        const tags = await pool.query("SELECT * FROM tags");
+        const tagMap = tags.rows.reduce((map, tag) =>
+            Object.assign(map, {[tag.name]: tag.description}), {});
+        res.json(tagMap);
     } catch(e) {
         console.error("Query failed", e);
     }
