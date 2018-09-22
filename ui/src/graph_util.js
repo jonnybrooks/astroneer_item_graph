@@ -6,7 +6,7 @@ export var GraphUtil;
     /*
     * Generate config object for cytoscape's rendering engine
     * */
-    function generateRenderConfig(container, graph) {
+    function generateCytoConfig(container, graph) {
         return {
             container: container,
             boxSelectionEnabled: false,
@@ -55,7 +55,7 @@ export var GraphUtil;
             elements: graph
         };
     }
-    GraphUtil.generateRenderConfig = generateRenderConfig;
+    GraphUtil.generateCytoConfig = generateCytoConfig;
     /*
     * Calculate the total amounts for each node by summing the edges
     * */

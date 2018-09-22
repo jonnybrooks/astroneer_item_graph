@@ -1,29 +1,11 @@
 <template>
-    <div id="app">
-        <div id="select-item-container">
-            <select name="select_item" id="select-item" v-model="nodeSelected">
-                <option value="">Select an item</option>
-                <option v-for="n in itemDropdown" :value="n.id">{{ n.label }}</option>
-            </select>
-            <ul id="item-totals" v-if="nodeSelected && Object.keys(itemTotals).length">
-                <li v-for="item in itemTotals">
-                    <span class="label">{{ item.label }}</span>:
-                    <span class="amount">{{ item.amount }}</span>
-                </li>
-            </ul>
-        </div>
-        <div id="cy"></div>
-        <div id="nothing-to-display" v-if="!Object.keys(itemTotals).length">This item has no dependencies</div>
-        <!--<div id="tooltip" v-if="tooltipVisible"></div>-->
-    </div>
+    <div class="cy-container"></div>
 </template>
 
 <script>
+    import {GraphUtil} from "./graph_util";
     import cytoscape from "cytoscape";
     import coseBilkent from "cytoscape-cose-bilkent";
-    import {debounce} from "lodash";
-    import {GraphUtil} from "./graph_util";
-
     cytoscape.use(coseBilkent);
 
     export default {
@@ -34,15 +16,12 @@
                 itemTotals: {},
                 nodeSelected: "",
                 tooltipVisible: true,
-                cy: null
             }
         },
         async mounted() {
             const graphArray = await (await fetch("http://localhost:3000/")).json();
             this.itemDropdown = graphArray.filter(e => e.id.startsWith("n"));
-            // this.$nextTick(() => this.selectDropdownFromName("Extenders"));
-            window.addEventListener("resize", debounce(() =>
-                this.cy && this.redrawGraph(), 100));
+            this.$nextTick(() => this.selectDropdownFromName("Extenders"));
         },
         watch: {
             async nodeSelected(newNode) {
@@ -62,8 +41,8 @@
                 this.itemTotals = GraphUtil.getEdgeTotals(graph);
 
                 // merge the graph config with the cytoscape config and render it
-                const cytoConfig = GraphUtil.generateCytoConfig(document.getElementById("cy"), graph);
-                this.cy = cytoscape(cytoConfig);
+                const renderConfig = GraphUtil.generateCytoConfig(document.getElementById("cy"), graph);
+                return cytoscape(renderConfig);
             }
         },
         methods: {
@@ -71,10 +50,6 @@
                 const option = Array.from(document.querySelectorAll(`#select-item option`))
                     .find(el => el.text === target);
                 if(option) this.nodeSelected = option.value;
-            },
-            redrawGraph() {
-                this.cy.resize();
-                this.cy.fit();
             }
         }
     }

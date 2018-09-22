@@ -5,7 +5,7 @@ export namespace GraphUtil {
     /*
     * Generate config object for cytoscape's rendering engine
     * */
-    export function generateRenderConfig(container, graph) {
+    export function generateCytoConfig(container, graph) {
         return {
             container: container,
             boxSelectionEnabled: false,
