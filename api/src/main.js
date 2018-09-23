@@ -1,8 +1,10 @@
 const { Pool } = require("pg");
 const api = require("express")();
 const cors = require("cors");
+const logger = require("morgan");
 require("dotenv").config();
 
+api.use(logger("combined"));
 api.use(cors());
 const pool = new Pool();
 
@@ -16,7 +18,7 @@ const pool = new Pool();
 //     }
 // });
 
-api.get("/items", async function(req, res) {
+api.get("/api/items", async function(req, res) {
     try {
         const items = await pool.query("SELECT * FROM items");
         res.json(items.rows);
@@ -25,7 +27,7 @@ api.get("/items", async function(req, res) {
     }
 });
 
-api.get("/tags", async function(req, res) {
+api.get("/api/tags", async function(req, res) {
     try {
         const tags = await pool.query("SELECT * FROM tags");
         const tagMap = tags.rows.reduce((map, tag) =>
@@ -36,7 +38,7 @@ api.get("/tags", async function(req, res) {
     }
 });
 
-api.get("/tree/:source", async function(req, res) {
+api.get("/api/tree/:source", async function(req, res) {
     const source = req.params.source;
     const getNodesSql = `
         WITH dependency_tree AS(SELECT * FROM sp_get_dependency_tree(${source}))

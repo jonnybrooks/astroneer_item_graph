@@ -13,7 +13,7 @@ api/node_modules
 api/dist
 
 # local env files
-*.env
+*.env*
 
 # Log files
 npm-debug.log*
