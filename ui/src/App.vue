@@ -23,6 +23,7 @@
     import coseBilkent from "cytoscape-cose-bilkent";
     import {debounce} from "lodash";
     import {GraphUtil} from "./graph_util";
+    import {Api} from "./api_util";
     import Tooltip from "./Tooltip";
 
     cytoscape.use(coseBilkent);
@@ -47,8 +48,8 @@
         async mounted() {
             // fetch the items and tags
             [this.items, this.tags] = await Promise.all([
-                (await fetch("http://localhost:3000/items")).json(),
-                (await fetch("http://localhost:3000/tags")).json(),
+                Api.get("/items"),
+                Api.get("/tags"),
             ]);
 
             // create the cytoscape object and add it to data
@@ -75,7 +76,7 @@
         },
         watch: {
             async nodeSelected(newNode) {
-                let graph = await (await fetch(`http://localhost:3000/tree/${newNode}`)).json();
+                let graph = await Api.get(`/tree/${newNode}`);
 
                 // add the selected tag to the selected node
                 graph.filter(e => e.id === "n" + newNode)
