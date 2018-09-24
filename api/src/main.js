@@ -64,23 +64,23 @@ api.get("/build_plan/:root_id", async function(req, res) {
         build_path AS (
           SELECT DISTINCT ON (dt.target_id)
             dt.target_id as id,
-            si.rank AS rank,
+            si.build_rank AS build_rank,
             ti.label AS label,
             sum(dt.amount) AS amount
           FROM dt
             INNER JOIN items si ON dt.target_id = si.id
             INNER JOIN items ti ON dt.target_id = ti.id
-          GROUP BY dt.target_id, si.rank, ti.label)
+          GROUP BY dt.target_id, si.build_rank, ti.label)
         SELECT
                id,
-               rank,
+               build_rank,
                label,
                (CASE WHEN exists(SELECT 1 FROM item_tags WHERE tag_name = 'fabricator' AND item_id = id)
                      THEN 1
                      ELSE amount
                END)
         FROM build_path
-        ORDER BY rank;`;
+        ORDER BY build_rank;`;
 
     const {rows} = await pool.query(sql, [rootId]);
     res.json(rows);

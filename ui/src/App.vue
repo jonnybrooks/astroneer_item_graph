@@ -21,6 +21,7 @@
     import cytoscape from "cytoscape";
     import coseBilkent from "cytoscape-cose-bilkent";
     import {debounce} from "lodash";
+
     import {GraphUtil} from "./graph_util";
     import {Api} from "./api_util";
     import Tooltip from "./Tooltip";
@@ -117,10 +118,11 @@
 </script>
 
 <style>
+    @import "fonts.css";
+
     * {
         box-sizing: border-box;
     }
-
     #app {
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
