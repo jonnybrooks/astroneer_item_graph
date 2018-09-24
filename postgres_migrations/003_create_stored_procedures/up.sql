@@ -1,5 +1,5 @@
 -- Create the recursive dependency tree function
-CREATE FUNCTION sp_get_dependency_tree(int)
+CREATE OR REPLACE FUNCTION sp_get_dependency_tree(int)
     RETURNS TABLE(id int, source_label text, target_label text, source_id int, target_id int, amount int)
 AS $$
     WITH RECURSIVE dependency_tree AS (
@@ -18,3 +18,20 @@ AS $$
     SELECT * FROM dependency_tree;
 $$
 LANGUAGE SQL;
+
+create or replace function fn_get_dependency_tree(root integer)
+    returns TABLE(id integer, source_id integer, target_id integer, amount integer, path integer[])
+stable
+language sql
+as $$
+WITH RECURSIVE dependency_tree AS (
+    -- the initial part
+    SELECT id, source_id, target_id, amount, array[target_id] AS path
+    FROM dependencies WHERE source_id = $1
+        -- union the two parts
+        UNION ALL
+        -- the recursive part
+        SELECT d.id, d.source_id, d.target_id, d.amount, array_append(dt.path, d.target_id)
+        FROM dependencies d INNER JOIN dependency_tree dt ON dt.target_id = d.source_id)
+SELECT * FROM dependency_tree;
+$$;

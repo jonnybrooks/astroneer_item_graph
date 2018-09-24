@@ -5,15 +5,14 @@
                 <option value="">Select an item</option>
                 <option v-for="n in items" :value="n.id">{{ n.label }}</option>
             </select>
-            <ul id="item-totals" v-if="nodeSelected && Object.keys(itemTotals).length">
-                <li v-for="item in itemTotals">
-                    <span class="label">{{ item.label }}</span>:
-                    <span class="amount">{{ item.total }}</span>
+            <ul id="build-plan" v-if="buildPlan.length > 0">
+                <li v-for="step in buildPlan">
+                    <span class="label">Create {{ step.amount }} {{ step.label }}</span>
                 </li>
             </ul>
         </div>
         <div id="cy"></div>
-        <div id="nothing-to-display" v-if="!Object.keys(itemTotals).length">This item has no dependencies</div>
+        <div id="nothing-to-display" v-if="buildPlan.length === 0">This item has no dependencies</div>
         <!--<Tooltip id="tooltip" :config="tooltip"></Tooltip>-->
     </div>
 </template>
@@ -22,6 +21,7 @@
     import cytoscape from "cytoscape";
     import coseBilkent from "cytoscape-cose-bilkent";
     import {debounce} from "lodash";
+
     import {GraphUtil} from "./graph_util";
     import {Api} from "./api_util";
     import Tooltip from "./Tooltip";
@@ -34,13 +34,13 @@
             return {
                 items: [],
                 tags: {},
-                itemTotals: {},
+                buildPlan: [],
                 nodeSelected: "",
                 tooltip: {
                     visible: false,
                     label: "",
                     total: 0,
-                    tags: null,
+                    tags: [],
                 },
                 cy: null
             }
@@ -76,6 +76,10 @@
         },
         watch: {
             async nodeSelected(newNode) {
+                // get and update the build plan
+                this.buildPlan = await Api.get(`/build_plan/${newNode}`);
+
+                // get the graph config
                 let graph = await Api.get(`/tree/${newNode}`);
 
                 // add the selected tag to the selected node
@@ -87,9 +91,6 @@
                     ? GraphUtil.createNode(e)
                     : GraphUtil.createEdge(e)
                 );
-
-                // calculate the item totals for the totals pane
-                this.itemTotals = GraphUtil.getEdgeTotals(graph);
 
                 // replace the contents of the graph with the new nodes
                 this.cy.elements().remove();
@@ -117,10 +118,11 @@
 </script>
 
 <style>
+    @import "fonts.css";
+
     * {
         box-sizing: border-box;
     }
-
     #app {
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -151,7 +153,7 @@
         top: 5px;
     }
 
-    #item-totals {
+    #build-plan {
         list-style: none;
         background: rgba(0,0,0,0.1);
         font-size: 0.9em;

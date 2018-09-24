@@ -62,26 +62,6 @@ export var GraphUtil;
     }
     GraphUtil.generateCytoConfig = generateCytoConfig;
     /*
-    * Calculate the total amounts for each node by summing the edges
-    * */
-    function getEdgeTotals(graph) {
-        let totals = {};
-        const edges = graph.filter(elem => elem.group === "edges");
-        edges.forEach(e => {
-            if (!totals[e.data.target])
-                totals[e.data.target] = { label: e.data.target_label, total: 0 };
-            totals[e.data.target].total += e.data.weight || e.data.amount;
-        });
-        return totals;
-    }
-    GraphUtil.getEdgeTotals = getEdgeTotals;
-    /*
-    * Make a deep copy of the graph
-    * */
-    // export function clone(graph) {
-    //     return JSON.parse(JSON.stringify(graph));
-    // }
-    /*
     * Configuration and functions for creating new graph elements
     * */
     const cytoscapeBaseConf = {
@@ -105,9 +85,5 @@ export var GraphUtil;
         return Object.assign({}, cytoscapeBaseConf, edgeConf);
     }
     GraphUtil.createEdge = createEdge;
-    function addClass(elem, tag) {
-        elem.classes += ` ${tag}`;
-    }
-    GraphUtil.addClass = addClass;
 })(GraphUtil || (GraphUtil = {}));
 //# sourceMappingURL=graph_util.js.map
