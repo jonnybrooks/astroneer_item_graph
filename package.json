@@ -3,9 +3,10 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "serve": "cd ui && vue-cli-service serve",
-        "build": "cd ui && vue-cli-service build",
-        "api": "cd api && npx nodemon ./src/main"
+        "ui": "cd ui && vue-cli-service serve",
+        "api": "cd api && npx nodemon ./src/main",
+        "dev": "node bin/start",
+        "build": "cd ui && vue-cli-service build"
     },
     "dependencies": {
         "cors": "^2.8.4",
