@@ -18,7 +18,7 @@ const pool = new Pool();
 
     api.get("/items", async function(req, res) {
         try {
-            const items = await pool.query("SELECT * FROM items");
+            const items = await pool.query("SELECT * FROM items ORDER BY label");
             res.json(items.rows);
         } catch(e) {
             console.error("Query failed", e);
@@ -27,11 +27,11 @@ const pool = new Pool();
 
     api.get("/tree/:root_id", async function(req, res) {
         const source = req.params.root_id;
-        const { get_node_data, get_edge_data } = queries;
+        const { getNodeData, getEdgeData } = queries;
 
         try {
-            const nodes = await pool.query(get_node_data, [source]);
-            const edges = await pool.query(get_edge_data, [source]);
+            const nodes = await pool.query(getNodeData, [source]);
+            const edges = await pool.query(getEdgeData, [source]);
 
             nodes.rows.forEach(node => {
                 node.tag_map = node.tags.reduce((map, fullTag) => {
@@ -42,6 +42,17 @@ const pool = new Pool();
             });
 
             res.json(nodes.rows.concat(edges.rows));
+        } catch(e) {
+            console.error("Query failed", e);
+        }
+    });
+
+    api.get("/local_dependencies/:root_id", async function(req, res) {
+        const source = req.params.root_id;
+        const { getLocalDependencies } = queries;
+        try {
+            const edges = await pool.query(getLocalDependencies, [source]);
+            res.json(edges.rows);
         } catch(e) {
             console.error("Query failed", e);
         }

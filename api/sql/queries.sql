@@ -1,4 +1,4 @@
--- @query get_node_data
+-- @query getNodeData
 -- first get the distinct dependencies for the root node
 WITH dt AS (
     SELECT DISTINCT ON(tree.id) tree.source_id, tree.target_id, tree.amount
@@ -16,7 +16,12 @@ UNION
 SELECT *, 1 FROM vw_node_data WHERE real_id = $1
 ORDER BY build_rank;
 
--- @query get_edge_data
+-- @query getEdgeData
 WITH dt AS(SELECT * FROM fn_get_dependency_tree($1))
 SELECT * FROM vw_edge_data
     WHERE real_id IN (SELECT id FROM dt);
+
+-- @query getLocalDependencies
+SELECT nd.*, dp.amount FROM vw_node_data nd
+INNER JOIN dependencies dp ON dp.target_id = nd.real_id
+WHERE source_id = $1

@@ -1,23 +1,27 @@
 <template>
     <div id="app">
-        <div id="select-item-container">
+        <div id="left-pane">
             <select name="select_item" id="select-item" v-model="nodeSelected">
                 <option value="">Select an item</option>
                 <option v-for="n in items" :value="n.id">{{ n.label }}</option>
             </select>
-            <ul id="build-plan" v-if="nodes.length > 0">
-                <li v-for="step in nodes">
-                    <span class="label">
-                        {{ capitalise(step.tag_map.verb) }}
+            <section id="build-plan" v-if="this.graph.length > 0">
+                <h3>
+                    Build Plan
+                    <a href="#" @click.prevent="plan = !plan" id="hide-build-plan">{{ plan ? "▴" : "▾" }}</a>
+                </h3>
+                <ul v-if="plan">
+                    <li v-for="step in nodes">
+                        {{ capitalise(step.tag_map.verb || "create") }}
                         {{ +step.total ? step.total : "a" }}
-                        {{ step.label }}
-                    </span>
-                </li>
-            </ul>
+                        <a href="#"  @click.prevent="updateTooltip(step.real_id)"> {{ step.label }} </a>
+                    </li>
+                </ul>
+            </section>
         </div>
         <div id="cy"></div>
-        <div id="nothing-to-display" v-if="graph.length === 0">This item has no dependencies</div>
-        <!--<Tooltip id="tooltip" :config="tooltip"></Tooltip>-->
+        <div id="nothing-to-display" v-if="nodes.length < 2">This item has no dependencies</div>
+        <Tooltip id="tooltip" :config="tooltip"></Tooltip>
     </div>
 </template>
 
@@ -41,16 +45,17 @@
                 nodeSelected: "",
                 tooltip: {
                     visible: false,
-                    label: "",
-                    total: 0,
-                    tagMap: {},
+                    position: { x: 0, y: 0 },
+                    node: {}
                 },
-                cy: null
+                plan: true,
+                cy: {}
             }
         },
         computed: {
             nodes() { return this.graph.filter(elem => elem.id.startsWith("n")) },
             edges() { return this.graph.filter(elem => elem.id.startsWith("e")) },
+            capitalise() { return GraphUtil.capitalise }
         },
         async mounted() {
             // fetch the items and tags
@@ -63,13 +68,11 @@
             this.cy = cytoscape(cytoConfig);
 
             // register the handler for node tooltip
-            // this.cy.on("tap", "node", (evt) => {
-            //     const node = evt.target;
-            //     this.tooltip.visible = true;
-            //     this.tooltip.tags = node.data("tag_map");
-            //     this.tooltip.label = node.data("label");
-            //     this.tooltip.total = node.data("total");
-            // });
+            this.cy.on("tap", "node", (evt) => {
+                const node = evt.target;
+                this.tooltip.visible = true;
+                this.tooltip.node = node.data();
+            });
 
             // handle redrawing the canvas on window resize
             window.addEventListener("resize", debounce(() =>
@@ -80,6 +83,14 @@
         },
         watch: {
             async nodeSelected(newNode) {
+                this.tooltip.visible = false;
+
+                // if the placeholder was selected reset everything
+                if(!newNode) {
+                    this.graph = [];
+                    return this.cy.elements().remove();
+                }
+
                 this.graph = await Api.get(`/tree/${newNode}`);
 
                 // add the selected tag to the selected node
@@ -92,8 +103,10 @@
 
                 // replace the contents of the graph with the new array
                 this.cy.elements().remove();
-                this.cy.add(cytoGraph);
-                this.cy.elements().layout(GraphUtil.defaultLayout).run();
+                if(this.nodes.length > 1)  {
+                    this.cy.add(cytoGraph);
+                    this.cy.elements().layout(GraphUtil.defaultLayout).run();
+                }
                 this.redrawGraph();
             }
         },
@@ -107,8 +120,9 @@
                 this.cy.resize();
                 this.cy.fit();
             },
-            capitalise(word) {
-                return word.charAt(0).toUpperCase() + word.slice(1);
+            updateTooltip(nodeId) {
+                this.tooltip.node = this.nodes.find(n => n.real_id === nodeId);
+                this.tooltip.visible = true;
             }
         },
         components: {
@@ -124,10 +138,24 @@
     * {
         box-sizing: border-box;
     }
+
+    html, body, #app {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
     #app {
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        padding: 5px;
+    }
+
+    select {
+        font-size: 1em;
     }
 
     #cy {
@@ -136,7 +164,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        z-index: -999;
+        z-index: 50;
         box-sizing: border-box;
     }
 
@@ -148,18 +176,64 @@
         color: darkgrey;
     }
 
-    #select-item-container {
+    #left-pane {
         position: absolute;
-        left: 5px;
-        top: 5px;
+        left: 0;
+        top: 0;
+        max-width: 50%;
+        padding: inherit;
+        z-index: 100;
     }
 
     #build-plan {
-        list-style: none;
-        background: rgba(0,0,0,0.1);
-        font-size: 0.9em;
-        padding: 10px;
+        position: relative;
+        padding: 10px 25px 0 10px;
         font-weight: 500;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border-radius: 5px;
+        max-height: 93vh;
+        overflow: auto;
+        margin-top: 10px;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    #hide-build-plan {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    #build-plan h3 {
+        margin: 0 0 15px 0;
+    }
+
+    #build-plan ul {
+        list-style: none;
+        font-size: 0.9em;
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+
+    #build-plan li {
+        margin: 3px 0;
+    }
+
+    #build-plan a {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    @media screen and (max-width: 450px) {
+        select {
+            width: 100%;
+        }
+        #left-pane {
+            min-width: 100%;
+        }
     }
 
 </style>

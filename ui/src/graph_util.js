@@ -91,5 +91,13 @@ export var GraphUtil;
         node.tag_map[tag] = val;
     }
     GraphUtil.addTag = addTag;
+    function capitalise(word) {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+    }
+    GraphUtil.capitalise = capitalise;
+    function makeTagReadable(tag) {
+        return tag.split("_").map(capitalise).join(" ");
+    }
+    GraphUtil.makeTagReadable = makeTagReadable;
 })(GraphUtil || (GraphUtil = {}));
 //# sourceMappingURL=graph_util.js.map
