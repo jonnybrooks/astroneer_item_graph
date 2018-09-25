@@ -6,9 +6,9 @@
                 <option v-for="n in items" :value="n.id">{{ n.label }}</option>
             </select>
             <section id="build-plan" v-if="this.graph.length > 0">
-                <h3>
+                <h3 @click.prevent="plan = !plan">
                     Build Plan
-                    <a href="#" @click.prevent="plan = !plan" id="hide-build-plan">{{ plan ? "▴" : "▾" }}</a>
+                    <span id="hide-build-plan"> {{ plan ? "▴" : "▾" }} </span>
                 </h3>
                 <ul v-if="plan">
                     <li v-for="step in nodes">
@@ -201,7 +201,7 @@
 
     #hide-build-plan {
         position: absolute;
-        top: 0;
+        top: 4px;
         right: 5px;
         text-decoration: none;
         padding: 5px;
@@ -209,6 +209,7 @@
 
     #build-plan h3 {
         margin: 0 0 15px 0;
+        cursor: pointer;
     }
 
     #build-plan ul {
