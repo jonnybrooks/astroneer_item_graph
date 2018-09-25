@@ -76,6 +76,7 @@ export var GraphUtil;
         classes: "",
     };
     function createNode(data) {
+        // build the node config object for cytoscape
         const nodeConf = { data, position: { x: 0, y: 0 }, group: "nodes", classes: data.tags.join(" ") };
         return Object.assign({}, cytoscapeBaseConf, nodeConf);
     }
@@ -85,5 +86,10 @@ export var GraphUtil;
         return Object.assign({}, cytoscapeBaseConf, edgeConf);
     }
     GraphUtil.createEdge = createEdge;
+    function addTag(node, tag, val) {
+        node.tags.push(tag);
+        node.tag_map[tag] = val;
+    }
+    GraphUtil.addTag = addTag;
 })(GraphUtil || (GraphUtil = {}));
 //# sourceMappingURL=graph_util.js.map

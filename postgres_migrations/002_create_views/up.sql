@@ -1,8 +1,8 @@
 -- Generate the view for getting vertex data
-CREATE VIEW v_node_data AS
-    select concat('n', i.id) as id,
+CREATE OR REPLACE VIEW vw_node_data AS
+    select 'n' || i.id as id,
+           i.id as real_id,
            i.label,
-           i.built_at,
            array_agg(t.name) as tags,
            i.colour,
            i.icon_url
@@ -13,7 +13,7 @@ CREATE VIEW v_node_data AS
     order by i.id;
 
 -- Generate the view for getting dependency data
-CREATE VIEW v_edge_data AS
+CREATE VIEW vw_edge_data AS
     select concat('e', id) as id,
         concat('n', source_id) as source,
         concat('n', target_id) as target,

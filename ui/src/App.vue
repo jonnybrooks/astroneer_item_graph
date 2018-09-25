@@ -5,14 +5,18 @@
                 <option value="">Select an item</option>
                 <option v-for="n in items" :value="n.id">{{ n.label }}</option>
             </select>
-            <ul id="build-plan" v-if="buildPlan.length > 0">
-                <li v-for="step in buildPlan">
-                    <span class="label">Create {{ step.amount }} {{ step.label }}</span>
+            <ul id="build-plan" v-if="nodes.length > 0">
+                <li v-for="step in nodes">
+                    <span class="label">
+                        {{ capitalise(step.tag_map.verb) }}
+                        {{ +step.total ? step.total : "a" }}
+                        {{ step.label }}
+                    </span>
                 </li>
             </ul>
         </div>
         <div id="cy"></div>
-        <div id="nothing-to-display" v-if="buildPlan.length === 0">This item has no dependencies</div>
+        <div id="nothing-to-display" v-if="graph.length === 0">This item has no dependencies</div>
         <!--<Tooltip id="tooltip" :config="tooltip"></Tooltip>-->
     </div>
 </template>
@@ -33,23 +37,25 @@
         data() {
             return {
                 items: [],
-                tags: {},
-                buildPlan: [],
+                graph: [],
                 nodeSelected: "",
                 tooltip: {
                     visible: false,
                     label: "",
                     total: 0,
-                    tags: [],
+                    tagMap: {},
                 },
                 cy: null
             }
         },
+        computed: {
+            nodes() { return this.graph.filter(elem => elem.id.startsWith("n")) },
+            edges() { return this.graph.filter(elem => elem.id.startsWith("e")) },
+        },
         async mounted() {
             // fetch the items and tags
-            [this.items, this.tags] = await Promise.all([
-                Api.get("/items"),
-                Api.get("/tags"),
+            [this.items] = await Promise.all([
+                Api.get("/items")
             ]);
 
             // create the cytoscape object and add it to data
@@ -60,11 +66,9 @@
             // this.cy.on("tap", "node", (evt) => {
             //     const node = evt.target;
             //     this.tooltip.visible = true;
-            //     this.tooltip.tags = node.data("tags").reduce((map, tag) =>
-            //         Object.assign(map, {[tag]: this.tags[tag] }), {});
-            //     this.tooltip.label = this.items.find(item => "n" + item.id === node.data("id")).label;
-            //     if(node.data("tags").includes("selected")) return;
-            //     this.tooltip.total = this.itemTotals[node.data("id")].total;
+            //     this.tooltip.tags = node.data("tag_map");
+            //     this.tooltip.label = node.data("label");
+            //     this.tooltip.total = node.data("total");
             // });
 
             // handle redrawing the canvas on window resize
@@ -76,25 +80,19 @@
         },
         watch: {
             async nodeSelected(newNode) {
-                // get and update the build plan
-                this.buildPlan = await Api.get(`/build_plan/${newNode}`);
-
-                // get the graph config
-                let graph = await Api.get(`/tree/${newNode}`);
+                this.graph = await Api.get(`/tree/${newNode}`);
 
                 // add the selected tag to the selected node
-                graph.filter(e => e.id === "n" + newNode)
-                     .forEach(node => node.tags.push("selected"));
+                const selected = this.nodes.find(n => n.real_id === +newNode);
+                if(selected) GraphUtil.addTag(selected, "selected", true);
 
-                // generate the cytoscape graph config
-                graph = graph.map(e => e.id.startsWith("n")
-                    ? GraphUtil.createNode(e)
-                    : GraphUtil.createEdge(e)
-                );
+                // construct the cytoscape graph array from the nodes and edges
+                const cytoGraph = this.nodes.map(GraphUtil.createNode)
+                    .concat(this.edges.map(GraphUtil.createEdge));
 
-                // replace the contents of the graph with the new nodes
+                // replace the contents of the graph with the new array
                 this.cy.elements().remove();
-                this.cy.add(graph);
+                this.cy.add(cytoGraph);
                 this.cy.elements().layout(GraphUtil.defaultLayout).run();
                 this.redrawGraph();
             }
@@ -109,6 +107,9 @@
                 this.cy.resize();
                 this.cy.fit();
             },
+            capitalise(word) {
+                return word.charAt(0).toUpperCase() + word.slice(1);
+            }
         },
         components: {
             Tooltip

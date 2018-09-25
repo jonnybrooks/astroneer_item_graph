@@ -79,6 +79,7 @@ export namespace GraphUtil {
     };
 
     export function createNode(data) {
+        // build the node config object for cytoscape
         const nodeConf = { data, position: {x: 0, y: 0}, group: "nodes", classes: data.tags.join(" ")};
         return Object.assign({}, cytoscapeBaseConf, nodeConf);
     }
@@ -86,6 +87,11 @@ export namespace GraphUtil {
     export function createEdge(data) {
         const edgeConf = { data, position: {}, group: "edges"};
         return Object.assign({}, cytoscapeBaseConf, edgeConf);
+    }
+
+    export function addTag(node, tag, val) {
+        node.tags.push(tag);
+        node.tag_map[tag] = val;
     }
 
 }
